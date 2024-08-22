@@ -1,0 +1,718 @@
+fileFormatVersion: 2
+guid: 62b34fe04eec02e438e44aa5cebc82da
+timeCreated: 1520812921
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Elvis
+    100004: Chest
+    100006: Cloth_Elvis
+    100008: Deco2_Elvis
+    100010: Deco3_Elvis
+    100012: Deco4_Elvis
+    100014: Deco5_Elvis
+    100016: Deco6_Elvis
+    100018: Deco_Elvis
+    100020: //RootNode
+    100022: Hair_Elvis
+    100024: HEAD
+    100026: Head1
+    100028: Head_Elvis
+    100030: HIps
+    100032: Inner_Collar_Elvis
+    100034: L_Arm_Elvis
+    100036: L_Calf
+    100038: L_Clavicle
+    100040: L_Ear_Elvis
+    100042: L_Foot
+    100044: L_Forearm
+    100046: L_Hand
+    100048: L_Leg_Elvis
+    100050: L_Thigh1
+    100052: L_Toe
+    100054: L_Upperarm
+    100056: Mic_Elvis
+    100058: Neck
+    100060: Neck_Elvis
+    100062: Nose_Elvis
+    100064: Out_Collar_Elvis
+    100066: Pelvis
+    100068: R_Arm_Elvis
+    100070: R_Calf
+    100072: R_Clavicle
+    100074: R_Ear_Elvis
+    100076: R_Foot
+    100078: R_Forearm
+    100080: R_Hand
+    100082: R_Leg_Elvis
+    100084: R_Thigh
+    100086: R_Toe
+    100088: R_Upperarm
+    100090: S_Hair_Elvis
+    100092: Spine
+    100094: Spine1
+    400000: BODY
+    400002: Body_Elvis
+    400004: Chest
+    400006: Cloth_Elvis
+    400008: Deco2_Elvis
+    400010: Deco3_Elvis
+    400012: Deco4_Elvis
+    400014: Deco5_Elvis
+    400016: Deco6_Elvis
+    400018: Deco_Elvis
+    400020: //RootNode
+    400022: Hair_Elvis
+    400024: HEAD
+    400026: Head1
+    400028: Head_Elvis
+    400030: HIps
+    400032: Inner_Collar_Elvis
+    400034: L_Arm_Elvis
+    400036: L_Calf
+    400038: L_Clavicle
+    400040: L_Ear_Elvis
+    400042: L_Foot
+    400044: L_Forearm
+    400046: L_Hand
+    400048: L_Leg_Elvis
+    400050: L_Thigh1
+    400052: L_Toe
+    400054: L_Upperarm
+    400056: Mic_Elvis
+    400058: Neck
+    400060: Neck_Elvis
+    400062: Nose_Elvis
+    400064: Out_Collar_Elvis
+    400066: Pelvis
+    400068: R_Arm_Elvis
+    400070: R_Calf
+    400072: R_Clavicle
+    400074: R_Ear_Elvis
+    400076: R_Foot
+    400078: R_Forearm
+    400080: R_Hand
+    400082: R_Leg_Elvis
+    400084: R_Thigh
+    400086: R_Toe
+    400088: R_Upperarm
+    400090: S_Hair_Elvis
+    400092: Spine
+    400094: Spine1
+    4300000: L_Arm_Elvis
+    4300002: R_Arm_Elvis
+    4300004: Cloth_Elvis
+    4300006: Deco_Elvis
+    4300008: Deco2_Elvis
+    4300010: Deco3_Elvis
+    4300012: Deco4_Elvis
+    4300014: Deco5_Elvis
+    4300016: Deco6_Elvis
+    4300018: Neck_Elvis
+    4300020: R_Leg_Elvis
+    4300022: Body_Elvis
+    4300024: L_Leg_Elvis
+    4300026: Inner_Collar_Elvis
+    4300028: Out_Collar_Elvis
+    4300030: Mic_Elvis
+    4300032: Nose_Elvis
+    4300034: L_Ear_Elvis
+    4300036: R_Ear_Elvis
+    4300038: Head_Elvis
+    4300040: Hair_Elvis
+    4300042: S_Hair_Elvis
+    7400000: Elvis_Walk
+    7400002: Elvis_Idle2
+    7400004: Elvis_Idle1
+    7400006: Elvis_Idle3
+    9500000: //RootNode
+    13700000: Body_Elvis
+    13700002: Cloth_Elvis
+    13700004: Deco2_Elvis
+    13700006: Deco3_Elvis
+    13700008: Deco4_Elvis
+    13700010: Deco5_Elvis
+    13700012: Deco6_Elvis
+    13700014: Deco_Elvis
+    13700016: Hair_Elvis
+    13700018: Head_Elvis
+    13700020: Inner_Collar_Elvis
+    13700022: L_Arm_Elvis
+    13700024: L_Ear_Elvis
+    13700026: L_Leg_Elvis
+    13700028: Mic_Elvis
+    13700030: Neck_Elvis
+    13700032: Nose_Elvis
+    13700034: Out_Collar_Elvis
+    13700036: R_Arm_Elvis
+    13700038: R_Ear_Elvis
+    13700040: R_Leg_Elvis
+    13700042: S_Hair_Elvis
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Elvis_Walk
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Elvis
+        weight: 1
+      - path: BODY/Cloth_Elvis
+        weight: 1
+      - path: BODY/Deco2_Elvis
+        weight: 1
+      - path: BODY/Deco3_Elvis
+        weight: 1
+      - path: BODY/Deco4_Elvis
+        weight: 1
+      - path: BODY/Deco5_Elvis
+        weight: 1
+      - path: BODY/Deco6_Elvis
+        weight: 1
+      - path: BODY/Deco_Elvis
+        weight: 1
+      - path: BODY/Inner_Collar_Elvis
+        weight: 1
+      - path: BODY/L_Arm_Elvis
+        weight: 1
+      - path: BODY/L_Leg_Elvis
+        weight: 1
+      - path: BODY/Mic_Elvis
+        weight: 1
+      - path: BODY/Neck_Elvis
+        weight: 1
+      - path: BODY/Out_Collar_Elvis
+        weight: 1
+      - path: BODY/R_Arm_Elvis
+        weight: 1
+      - path: BODY/R_Leg_Elvis
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Hair_Elvis
+        weight: 1
+      - path: HEAD/Head_Elvis
+        weight: 1
+      - path: HEAD/L_Ear_Elvis
+        weight: 1
+      - path: HEAD/Nose_Elvis
+        weight: 1
+      - path: HEAD/R_Ear_Elvis
+        weight: 1
+      - path: HEAD/S_Hair_Elvis
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elvis_Idle2
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Elvis
+        weight: 1
+      - path: BODY/Cloth_Elvis
+        weight: 1
+      - path: BODY/Deco2_Elvis
+        weight: 1
+      - path: BODY/Deco3_Elvis
+        weight: 1
+      - path: BODY/Deco4_Elvis
+        weight: 1
+      - path: BODY/Deco5_Elvis
+        weight: 1
+      - path: BODY/Deco6_Elvis
+        weight: 1
+      - path: BODY/Deco_Elvis
+        weight: 1
+      - path: BODY/Inner_Collar_Elvis
+        weight: 1
+      - path: BODY/L_Arm_Elvis
+        weight: 1
+      - path: BODY/L_Leg_Elvis
+        weight: 1
+      - path: BODY/Mic_Elvis
+        weight: 1
+      - path: BODY/Neck_Elvis
+        weight: 1
+      - path: BODY/Out_Collar_Elvis
+        weight: 1
+      - path: BODY/R_Arm_Elvis
+        weight: 1
+      - path: BODY/R_Leg_Elvis
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Hair_Elvis
+        weight: 1
+      - path: HEAD/Head_Elvis
+        weight: 1
+      - path: HEAD/L_Ear_Elvis
+        weight: 1
+      - path: HEAD/Nose_Elvis
+        weight: 1
+      - path: HEAD/R_Ear_Elvis
+        weight: 1
+      - path: HEAD/S_Hair_Elvis
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elvis_Idle1
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Elvis
+        weight: 1
+      - path: BODY/Cloth_Elvis
+        weight: 1
+      - path: BODY/Deco2_Elvis
+        weight: 1
+      - path: BODY/Deco3_Elvis
+        weight: 1
+      - path: BODY/Deco4_Elvis
+        weight: 1
+      - path: BODY/Deco5_Elvis
+        weight: 1
+      - path: BODY/Deco6_Elvis
+        weight: 1
+      - path: BODY/Deco_Elvis
+        weight: 1
+      - path: BODY/Inner_Collar_Elvis
+        weight: 1
+      - path: BODY/L_Arm_Elvis
+        weight: 1
+      - path: BODY/L_Leg_Elvis
+        weight: 1
+      - path: BODY/Mic_Elvis
+        weight: 1
+      - path: BODY/Neck_Elvis
+        weight: 1
+      - path: BODY/Out_Collar_Elvis
+        weight: 1
+      - path: BODY/R_Arm_Elvis
+        weight: 1
+      - path: BODY/R_Leg_Elvis
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Hair_Elvis
+        weight: 1
+      - path: HEAD/Head_Elvis
+        weight: 1
+      - path: HEAD/L_Ear_Elvis
+        weight: 1
+      - path: HEAD/Nose_Elvis
+        weight: 1
+      - path: HEAD/R_Ear_Elvis
+        weight: 1
+      - path: HEAD/S_Hair_Elvis
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elvis_Idle3
+      takeName: Take 001
+      firstFrame: 251
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Elvis
+        weight: 1
+      - path: BODY/Cloth_Elvis
+        weight: 1
+      - path: BODY/Deco2_Elvis
+        weight: 1
+      - path: BODY/Deco3_Elvis
+        weight: 1
+      - path: BODY/Deco4_Elvis
+        weight: 1
+      - path: BODY/Deco5_Elvis
+        weight: 1
+      - path: BODY/Deco6_Elvis
+        weight: 1
+      - path: BODY/Deco_Elvis
+        weight: 1
+      - path: BODY/Inner_Collar_Elvis
+        weight: 1
+      - path: BODY/L_Arm_Elvis
+        weight: 1
+      - path: BODY/L_Leg_Elvis
+        weight: 1
+      - path: BODY/Mic_Elvis
+        weight: 1
+      - path: BODY/Neck_Elvis
+        weight: 1
+      - path: BODY/Out_Collar_Elvis
+        weight: 1
+      - path: BODY/R_Arm_Elvis
+        weight: 1
+      - path: BODY/R_Leg_Elvis
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Hair_Elvis
+        weight: 1
+      - path: HEAD/Head_Elvis
+        weight: 1
+      - path: HEAD/L_Ear_Elvis
+        weight: 1
+      - path: HEAD/Nose_Elvis
+        weight: 1
+      - path: HEAD/R_Ear_Elvis
+        weight: 1
+      - path: HEAD/S_Hair_Elvis
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 2191c5452fb45594b96d66e7c71ad072
+timeCreated: 1516068152
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Board_Editor
+    100002: BODY
+    100004: Body_Editor
+    100006: //RootNode
+    100008: Collar_Editor
+    100010: Hair_Editor
+    100012: HEAD
+    100014: Head_Editor
+    100016: Headset_Editor
+    100018: L_Arm_Editor
+    100020: L_Ear_Editor
+    100022: L_Leg_Editor
+    100024: Neck_Editor
+    100026: Nose_Editor
+    100028: R_Arm_Editor
+    100030: R_Ear_Editor
+    100032: R_Leg_Editor
+    400000: Board_Editor
+    400002: BODY
+    400004: Body_Editor
+    400006: //RootNode
+    400008: Collar_Editor
+    400010: Hair_Editor
+    400012: HEAD
+    400014: Head_Editor
+    400016: Headset_Editor
+    400018: L_Arm_Editor
+    400020: L_Ear_Editor
+    400022: L_Leg_Editor
+    400024: Neck_Editor
+    400026: Nose_Editor
+    400028: R_Arm_Editor
+    400030: R_Ear_Editor
+    400032: R_Leg_Editor
+    2300000: Board_Editor
+    2300002: Body_Editor
+    2300004: Collar_Editor
+    2300006: Hair_Editor
+    2300008: Head_Editor
+    2300010: Headset_Editor
+    2300012: L_Arm_Editor
+    2300014: L_Ear_Editor
+    2300016: L_Leg_Editor
+    2300018: Neck_Editor
+    2300020: Nose_Editor
+    2300022: R_Arm_Editor
+    2300024: R_Ear_Editor
+    2300026: R_Leg_Editor
+    3300000: Board_Editor
+    3300002: Body_Editor
+    3300004: Collar_Editor
+    3300006: Hair_Editor
+    3300008: Head_Editor
+    3300010: Headset_Editor
+    3300012: L_Arm_Editor
+    3300014: L_Ear_Editor
+    3300016: L_Leg_Editor
+    3300018: Neck_Editor
+    3300020: Nose_Editor
+    3300022: R_Arm_Editor
+    3300024: R_Ear_Editor
+    3300026: R_Leg_Editor
+    4300000: Head_Editor
+    4300002: Nose_Editor
+    4300004: L_Ear_Editor
+    4300006: R_Ear_Editor
+    4300008: Headset_Editor
+    4300010: Hair_Editor
+    4300012: Body_Editor
+    4300014: L_Leg_Editor
+    4300016: Neck_Editor
+    4300018: R_Leg_Editor
+    4300020: L_Arm_Editor
+    4300022: R_Arm_Editor
+    4300024: Collar_Editor
+    4300026: Board_Editor
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

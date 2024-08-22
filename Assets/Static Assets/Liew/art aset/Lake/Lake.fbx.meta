@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: c324c838e307df540adf5f0015af23dc
+timeCreated: 1510043363
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Birds
+    100002: BlackBird
+    100004: BrownBird
+    100006: BrownBird1
+    100008: //RootNode
+    100010: THE_LAKE_AH
+    100012: WhiteBird
+    100014: WhiteBird1
+    100016: WhiteBird2
+    100018: lake1
+    100020: rocks
+    400000: Birds
+    400002: BlackBird
+    400004: BrownBird
+    400006: BrownBird1
+    400008: //RootNode
+    400010: THE_LAKE_AH
+    400012: WhiteBird
+    400014: WhiteBird1
+    400016: WhiteBird2
+    400018: lake1
+    400020: rocks
+    2300000: BlackBird
+    2300002: BrownBird
+    2300004: BrownBird1
+    2300006: THE_LAKE_AH
+    2300008: WhiteBird
+    2300010: WhiteBird1
+    2300012: WhiteBird2
+    2300014: lake1
+    2300016: rocks
+    3300000: BlackBird
+    3300002: BrownBird
+    3300004: BrownBird1
+    3300006: THE_LAKE_AH
+    3300008: WhiteBird
+    3300010: WhiteBird1
+    3300012: WhiteBird2
+    3300014: lake1
+    3300016: rocks
+    4300000: THE_LAKE_AH
+    4300002: WhiteBird2
+    4300004: WhiteBird1
+    4300006: BrownBird1
+    4300008: BrownBird
+    4300010: WhiteBird
+    4300012: BlackBird
+    4300014: rocks
+    4300016: lake1
+    7400000: Idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Birds
+        weight: 1
+      - path: Birds/BlackBird
+        weight: 1
+      - path: Birds/BrownBird
+        weight: 1
+      - path: Birds/BrownBird1
+        weight: 1
+      - path: Birds/WhiteBird
+        weight: 1
+      - path: Birds/WhiteBird1
+        weight: 1
+      - path: Birds/WhiteBird2
+        weight: 1
+      - path: THE_LAKE_AH
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 100
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

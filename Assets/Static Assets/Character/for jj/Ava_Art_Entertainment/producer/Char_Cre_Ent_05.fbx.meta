@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 229d0da74f798d85bb9cb14c3c419505
+timeCreated: 1516068152
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Board_Producer
+    100002: BODY
+    100004: Body_Producer
+    100006: //RootNode
+    100008: Hair_Producer
+    100010: HEAD
+    100012: Head_Producer
+    100014: Jacket_Producer
+    100016: L_Arm_Producer
+    100018: L_Ear_Producer
+    100020: L_Leg_Producer
+    100022: Nametag_Producer
+    100024: Neck_Producer
+    100026: Nose_Producer
+    100028: R_Arm_Producer
+    100030: R_Ear_Producer
+    100032: R_Leg_Producer
+    100034: Spectacle_Producer
+    100036: String_Producer
+    400000: Board_Producer
+    400002: BODY
+    400004: Body_Producer
+    400006: //RootNode
+    400008: Hair_Producer
+    400010: HEAD
+    400012: Head_Producer
+    400014: Jacket_Producer
+    400016: L_Arm_Producer
+    400018: L_Ear_Producer
+    400020: L_Leg_Producer
+    400022: Nametag_Producer
+    400024: Neck_Producer
+    400026: Nose_Producer
+    400028: R_Arm_Producer
+    400030: R_Ear_Producer
+    400032: R_Leg_Producer
+    400034: Spectacle_Producer
+    400036: String_Producer
+    2300000: Board_Producer
+    2300002: Body_Producer
+    2300004: Hair_Producer
+    2300006: Head_Producer
+    2300008: Jacket_Producer
+    2300010: L_Arm_Producer
+    2300012: L_Ear_Producer
+    2300014: L_Leg_Producer
+    2300016: Nametag_Producer
+    2300018: Neck_Producer
+    2300020: Nose_Producer
+    2300022: R_Arm_Producer
+    2300024: R_Ear_Producer
+    2300026: R_Leg_Producer
+    2300028: Spectacle_Producer
+    2300030: String_Producer
+    3300000: Board_Producer
+    3300002: Body_Producer
+    3300004: Hair_Producer
+    3300006: Head_Producer
+    3300008: Jacket_Producer
+    3300010: L_Arm_Producer
+    3300012: L_Ear_Producer
+    3300014: L_Leg_Producer
+    3300016: Nametag_Producer
+    3300018: Neck_Producer
+    3300020: Nose_Producer
+    3300022: R_Arm_Producer
+    3300024: R_Ear_Producer
+    3300026: R_Leg_Producer
+    3300028: Spectacle_Producer
+    3300030: String_Producer
+    4300000: Head_Producer
+    4300002: Nose_Producer
+    4300004: L_Ear_Producer
+    4300006: R_Ear_Producer
+    4300008: Spectacle_Producer
+    4300010: Hair_Producer
+    4300012: Body_Producer
+    4300014: L_Leg_Producer
+    4300016: Neck_Producer
+    4300018: R_Leg_Producer
+    4300020: Jacket_Producer
+    4300022: R_Arm_Producer
+    4300024: L_Arm_Producer
+    4300026: Nametag_Producer
+    4300028: String_Producer
+    4300030: Board_Producer
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

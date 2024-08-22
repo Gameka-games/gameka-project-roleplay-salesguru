@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 09b560533cf673e46b9779a3faaa303c
+timeCreated: 1511674879
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bottom_Building
+    100002: Bottom_Building 1
+    100004: Bottom_Building_Door_Frame
+    100006: Bottom_Building_Door_Window
+    100008: Bottom_Building_Door_Window1
+    100010: Bottom_Building_Roof
+    100012: Bottom_Building_Roof_Handle
+    100014: Top_Building
+    100016: Top_Building_Left
+    100018: Top_Building_Left_Door_Frame
+    100020: Top_Building_Left_Door_Window
+    100022: Top_Building_Left_Door_Window1
+    100024: Top_Building_Left_Roof_Handle
+    100026: Top_Building_Middle
+    100028: Top_Building_Right
+    100030: Top_Building_Title
+    100032: //RootNode
+    400000: Bottom_Building
+    400002: Bottom_Building 1
+    400004: Bottom_Building_Door_Frame
+    400006: Bottom_Building_Door_Window
+    400008: Bottom_Building_Door_Window1
+    400010: Bottom_Building_Roof
+    400012: Bottom_Building_Roof_Handle
+    400014: Top_Building
+    400016: Top_Building_Left
+    400018: Top_Building_Left_Door_Frame
+    400020: Top_Building_Left_Door_Window
+    400022: Top_Building_Left_Door_Window1
+    400024: Top_Building_Left_Roof_Handle
+    400026: Top_Building_Middle
+    400028: Top_Building_Right
+    400030: Top_Building_Title
+    400032: //RootNode
+    2300000: Bottom_Building 1
+    2300002: Bottom_Building_Door_Frame
+    2300004: Bottom_Building_Door_Window
+    2300006: Bottom_Building_Door_Window1
+    2300008: Bottom_Building_Roof
+    2300010: Bottom_Building_Roof_Handle
+    2300012: Top_Building_Left
+    2300014: Top_Building_Left_Door_Frame
+    2300016: Top_Building_Left_Door_Window
+    2300018: Top_Building_Left_Door_Window1
+    2300020: Top_Building_Left_Roof_Handle
+    2300022: Top_Building_Middle
+    2300024: Top_Building_Right
+    2300026: Top_Building_Title
+    3300000: Bottom_Building 1
+    3300002: Bottom_Building_Door_Frame
+    3300004: Bottom_Building_Door_Window
+    3300006: Bottom_Building_Door_Window1
+    3300008: Bottom_Building_Roof
+    3300010: Bottom_Building_Roof_Handle
+    3300012: Top_Building_Left
+    3300014: Top_Building_Left_Door_Frame
+    3300016: Top_Building_Left_Door_Window
+    3300018: Top_Building_Left_Door_Window1
+    3300020: Top_Building_Left_Roof_Handle
+    3300022: Top_Building_Middle
+    3300024: Top_Building_Right
+    3300026: Top_Building_Title
+    4300000: Top_Building_Middle
+    4300002: Top_Building_Left_Roof_Handle
+    4300004: Top_Building_Title
+    4300006: Top_Building_Left
+    4300008: Top_Building_Left_Door_Frame
+    4300010: Top_Building_Left_Door_Window
+    4300012: Top_Building_Left_Door_Window1
+    4300014: Top_Building_Right
+    4300016: Bottom_Building_Door_Window1
+    4300018: Bottom_Building_Door_Window
+    4300020: Bottom_Building_Door_Frame
+    4300022: Bottom_Building
+    4300024: Bottom_Building_Roof_Handle
+    4300026: Bottom_Building_Roof
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

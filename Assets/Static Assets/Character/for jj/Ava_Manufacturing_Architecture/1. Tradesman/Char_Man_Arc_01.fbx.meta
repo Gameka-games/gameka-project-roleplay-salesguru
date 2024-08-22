@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 9e67a778e9be76ee58cb542579b3c0dc
+timeCreated: 1516068191
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Tradesman
+    100004: //RootNode
+    100006: Collar_Tradesman
+    100008: Hair_Tradesman
+    100010: Hammer_Tradesman
+    100012: Hat_Tradesman
+    100014: HEAD
+    100016: Head_Tradesman
+    100018: L_Arm_Tradesman
+    100020: L_Ear_Tradesman
+    100022: L_Leg_Tradesman
+    100024: Neck_Tradesman
+    100026: Nose_Tradesman
+    100028: R_Arm_Tradesman
+    100030: R_Ear
+    100032: R_Leg_Tradesman
+    100034: Vest_Tradesman
+    400000: BODY
+    400002: Body_Tradesman
+    400004: //RootNode
+    400006: Collar_Tradesman
+    400008: Hair_Tradesman
+    400010: Hammer_Tradesman
+    400012: Hat_Tradesman
+    400014: HEAD
+    400016: Head_Tradesman
+    400018: L_Arm_Tradesman
+    400020: L_Ear_Tradesman
+    400022: L_Leg_Tradesman
+    400024: Neck_Tradesman
+    400026: Nose_Tradesman
+    400028: R_Arm_Tradesman
+    400030: R_Ear
+    400032: R_Leg_Tradesman
+    400034: Vest_Tradesman
+    2300000: Body_Tradesman
+    2300002: Collar_Tradesman
+    2300004: Hair_Tradesman
+    2300006: Hammer_Tradesman
+    2300008: Hat_Tradesman
+    2300010: Head_Tradesman
+    2300012: L_Arm_Tradesman
+    2300014: L_Ear_Tradesman
+    2300016: L_Leg_Tradesman
+    2300018: Neck_Tradesman
+    2300020: Nose_Tradesman
+    2300022: R_Arm_Tradesman
+    2300024: R_Ear
+    2300026: R_Leg_Tradesman
+    2300028: Vest_Tradesman
+    3300000: Body_Tradesman
+    3300002: Collar_Tradesman
+    3300004: Hair_Tradesman
+    3300006: Hammer_Tradesman
+    3300008: Hat_Tradesman
+    3300010: Head_Tradesman
+    3300012: L_Arm_Tradesman
+    3300014: L_Ear_Tradesman
+    3300016: L_Leg_Tradesman
+    3300018: Neck_Tradesman
+    3300020: Nose_Tradesman
+    3300022: R_Arm_Tradesman
+    3300024: R_Ear
+    3300026: R_Leg_Tradesman
+    3300028: Vest_Tradesman
+    4300000: Head_Tradesman
+    4300002: Nose_Tradesman
+    4300004: L_Ear_Tradesman
+    4300006: R_Ear
+    4300008: Hat_Tradesman
+    4300010: Hair_Tradesman
+    4300012: Hammer_Tradesman
+    4300014: Vest_Tradesman
+    4300016: Collar_Tradesman
+    4300018: Body_Tradesman
+    4300020: L_Leg_Tradesman
+    4300022: Neck_Tradesman
+    4300024: R_Leg_Tradesman
+    4300026: L_Arm_Tradesman
+    4300028: R_Arm_Tradesman
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

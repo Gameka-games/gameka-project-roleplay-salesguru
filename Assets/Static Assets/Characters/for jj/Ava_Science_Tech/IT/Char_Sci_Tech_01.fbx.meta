@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 51c09986acc4b79488e06d186f08faf1
+timeCreated: 1516068167
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_IT
+    100004: Butt_IT
+    100006: //RootNode
+    100008: Collar_IT
+    100010: Hair_IT
+    100012: HEAD
+    100014: Head_IT
+    100016: L_Arm_IT
+    100018: L_Ear_IT
+    100020: L_Leg_IT
+    100022: Nametag_IT
+    100024: Neck_IT
+    100026: Nose_IT
+    100028: Ponytail_IT
+    100030: R_Arm_IT
+    100032: R_Ear_IT
+    100034: R_Leg_IT
+    100036: Spectacle_IT
+    400000: BODY
+    400002: Body_IT
+    400004: Butt_IT
+    400006: //RootNode
+    400008: Collar_IT
+    400010: Hair_IT
+    400012: HEAD
+    400014: Head_IT
+    400016: L_Arm_IT
+    400018: L_Ear_IT
+    400020: L_Leg_IT
+    400022: Nametag_IT
+    400024: Neck_IT
+    400026: Nose_IT
+    400028: Ponytail_IT
+    400030: R_Arm_IT
+    400032: R_Ear_IT
+    400034: R_Leg_IT
+    400036: Spectacle_IT
+    2300000: Body_IT
+    2300002: Butt_IT
+    2300004: Collar_IT
+    2300006: Hair_IT
+    2300008: Head_IT
+    2300010: L_Arm_IT
+    2300012: L_Ear_IT
+    2300014: L_Leg_IT
+    2300016: Nametag_IT
+    2300018: Neck_IT
+    2300020: Nose_IT
+    2300022: Ponytail_IT
+    2300024: R_Arm_IT
+    2300026: R_Ear_IT
+    2300028: R_Leg_IT
+    2300030: Spectacle_IT
+    3300000: Body_IT
+    3300002: Butt_IT
+    3300004: Collar_IT
+    3300006: Hair_IT
+    3300008: Head_IT
+    3300010: L_Arm_IT
+    3300012: L_Ear_IT
+    3300014: L_Leg_IT
+    3300016: Nametag_IT
+    3300018: Neck_IT
+    3300020: Nose_IT
+    3300022: Ponytail_IT
+    3300024: R_Arm_IT
+    3300026: R_Ear_IT
+    3300028: R_Leg_IT
+    3300030: Spectacle_IT
+    4300000: Head_IT
+    4300002: Nose_IT
+    4300004: L_Ear_IT
+    4300006: R_Ear_IT
+    4300008: Hair_IT
+    4300010: Ponytail_IT
+    4300012: Spectacle_IT
+    4300014: Nametag_IT
+    4300016: Collar_IT
+    4300018: Butt_IT
+    4300020: R_Leg_IT
+    4300022: L_Leg_IT
+    4300024: L_Arm_IT
+    4300026: Neck_IT
+    4300028: R_Arm_IT
+    4300030: Body_IT
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: b28e0eaf342a06a25b7a0c6f4844748e
+timeCreated: 1516068174
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_DOT
+    100004: //RootNode
+    100006: Hair_DOT
+    100008: Hair_Siber_DOT
+    100010: HEAD
+    100012: Head_DOT
+    100014: Jacket_DOT
+    100016: L_Ear_DOT
+    100018: L_Hand_DOT
+    100020: L_Leg_DOT
+    100022: Nametag_DOT
+    100024: Neck_DOT
+    100026: Nose_DOT
+    100028: R_Ear_DOT
+    100030: R_Hand_DOT
+    100032: R_Leg_DOT
+    100034: Spectacle_DOT
+    100036: String_DOT
+    400000: BODY
+    400002: Body_DOT
+    400004: //RootNode
+    400006: Hair_DOT
+    400008: Hair_Siber_DOT
+    400010: HEAD
+    400012: Head_DOT
+    400014: Jacket_DOT
+    400016: L_Ear_DOT
+    400018: L_Hand_DOT
+    400020: L_Leg_DOT
+    400022: Nametag_DOT
+    400024: Neck_DOT
+    400026: Nose_DOT
+    400028: R_Ear_DOT
+    400030: R_Hand_DOT
+    400032: R_Leg_DOT
+    400034: Spectacle_DOT
+    400036: String_DOT
+    2300000: Body_DOT
+    2300002: Hair_DOT
+    2300004: Hair_Siber_DOT
+    2300006: Head_DOT
+    2300008: Jacket_DOT
+    2300010: L_Ear_DOT
+    2300012: L_Hand_DOT
+    2300014: L_Leg_DOT
+    2300016: Nametag_DOT
+    2300018: Neck_DOT
+    2300020: Nose_DOT
+    2300022: R_Ear_DOT
+    2300024: R_Hand_DOT
+    2300026: R_Leg_DOT
+    2300028: Spectacle_DOT
+    2300030: String_DOT
+    3300000: Body_DOT
+    3300002: Hair_DOT
+    3300004: Hair_Siber_DOT
+    3300006: Head_DOT
+    3300008: Jacket_DOT
+    3300010: L_Ear_DOT
+    3300012: L_Hand_DOT
+    3300014: L_Leg_DOT
+    3300016: Nametag_DOT
+    3300018: Neck_DOT
+    3300020: Nose_DOT
+    3300022: R_Ear_DOT
+    3300024: R_Hand_DOT
+    3300026: R_Leg_DOT
+    3300028: Spectacle_DOT
+    3300030: String_DOT
+    4300000: L_Ear_DOT
+    4300002: R_Ear_DOT
+    4300004: Nose_DOT
+    4300006: Head_DOT
+    4300008: Hair_Siber_DOT
+    4300010: Hair_DOT
+    4300012: Spectacle_DOT
+    4300014: R_Hand_DOT
+    4300016: Body_DOT
+    4300018: L_Leg_DOT
+    4300020: Neck_DOT
+    4300022: R_Leg_DOT
+    4300024: Nametag_DOT
+    4300026: String_DOT
+    4300028: L_Hand_DOT
+    4300030: Jacket_DOT
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

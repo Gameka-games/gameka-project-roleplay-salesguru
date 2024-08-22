@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: 5d18e8ff172956c43aa1fda9058c2505
+timeCreated: 1501835967
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: flat
+    100002: flat1
+    100004: Front
+    100006: mainbody1
+    100008: polySurface147
+    100010: polySurface148
+    100012: polySurface149
+    100014: polySurface151
+    100016: polySurface152
+    100018: Road:over_world_mockup_23_mlt:pasted__Tx_Exterior_Business_Hospital1
+    100020: stair
+    100022: //RootNode
+    100024: flat2
+    100026: MainBuilding
+    100028: pillar
+    100030: pillar1
+    100032: sign
+    100034: group1
+    400000: flat
+    400002: flat1
+    400004: Front
+    400006: mainbody1
+    400008: polySurface147
+    400010: polySurface148
+    400012: polySurface149
+    400014: polySurface151
+    400016: polySurface152
+    400018: Road:over_world_mockup_23_mlt:pasted__Tx_Exterior_Business_Hospital1
+    400020: stair
+    400022: //RootNode
+    400024: flat2
+    400026: MainBuilding
+    400028: pillar
+    400030: pillar1
+    400032: sign
+    400034: group1
+    2300000: flat
+    2300002: flat1
+    2300004: Front
+    2300006: mainbody1
+    2300008: polySurface147
+    2300010: polySurface148
+    2300012: polySurface149
+    2300014: polySurface151
+    2300016: polySurface152
+    2300018: Road:over_world_mockup_23_mlt:pasted__Tx_Exterior_Business_Hospital1
+    2300020: stair
+    2300022: flat2
+    2300024: MainBuilding
+    2300026: pillar
+    2300028: pillar1
+    2300030: sign
+    3300000: flat
+    3300002: flat1
+    3300004: Front
+    3300006: mainbody1
+    3300008: polySurface147
+    3300010: polySurface148
+    3300012: polySurface149
+    3300014: polySurface151
+    3300016: polySurface152
+    3300018: Road:over_world_mockup_23_mlt:pasted__Tx_Exterior_Business_Hospital1
+    3300020: stair
+    3300022: flat2
+    3300024: MainBuilding
+    3300026: pillar
+    3300028: pillar1
+    3300030: sign
+    4300000: flat1
+    4300002: mainbody1
+    4300004: polySurface152
+    4300006: Road:over_world_mockup_23_mlt:pasted__Tx_Exterior_Business_Hospital1
+    4300008: polySurface149
+    4300010: stair
+    4300012: Front
+    4300014: flat
+    4300016: polySurface151
+    4300018: polySurface147
+    4300020: polySurface148
+    4300022: MainBuilding
+    4300024: pillar
+    4300026: pillar1
+    4300028: flat2
+    4300030: sign
+    7400000: Approached
+    7400002: OnClick
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Approached
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flat1
+        weight: 1
+      - path: flat2
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/Front
+        weight: 1
+      - path: group1/MainBuilding
+        weight: 1
+      - path: group1/pillar
+        weight: 1
+      - path: group1/pillar1
+        weight: 1
+      - path: group1/stair
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: OnClick
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flat1
+        weight: 1
+      - path: flat2
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/Front
+        weight: 1
+      - path: group1/MainBuilding
+        weight: 1
+      - path: group1/pillar
+        weight: 1
+      - path: group1/pillar1
+        weight: 1
+      - path: group1/stair
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: c477f0c5675d7c246a5226f8bed82f62
+timeCreated: 1516783107
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base_Male_Body
+    100002: Base_Male_Leg
+    100004: Base_Male_Leg1
+    100006: Base_Male_Neck
+    100008: Basic_Male_Body
+    100010: Body
+    100012: //RootNode
+    100014: Chest
+    100016: collor
+    100018: Ear_L_M
+    100020: Ear_R_M
+    100022: Hair
+    100024: Hair_
+    100026: Head1
+    100028: HIps
+    100030: L_Calf
+    100032: L_Clavicle
+    100034: L_Foot
+    100036: L_Forearm
+    100038: L_Hand
+    100040: L_Thigh1
+    100042: L_Toe
+    100044: L_Upperarm
+    100046: Male_Head
+    100048: Neck
+    100050: Normal_Male_2_Body
+    100052: Nose_M
+    100054: Papers
+    100056: Pelvis
+    100058: polySurface33_1
+    100060: polySurface33_2
+    100062: polySurface37
+    100064: polySurface41
+    100066: pPlane1
+    100068: R_Calf
+    100070: R_Clavicle
+    100072: R_Foot
+    100074: R_Forearm
+    100076: R_Hand
+    100078: R_Thigh
+    100080: R_Toe
+    100082: R_Upperarm
+    100084: Ruler
+    100086: Spine
+    100088: Spine1
+    100090: Sponsor_Face_M
+    400000: Base_Male_Body
+    400002: Base_Male_Leg
+    400004: Base_Male_Leg1
+    400006: Base_Male_Neck
+    400008: Basic_Male_Body
+    400010: Body
+    400012: //RootNode
+    400014: Chest
+    400016: collor
+    400018: Ear_L_M
+    400020: Ear_R_M
+    400022: Hair
+    400024: Hair_
+    400026: Head1
+    400028: HIps
+    400030: L_Calf
+    400032: L_Clavicle
+    400034: L_Foot
+    400036: L_Forearm
+    400038: L_Hand
+    400040: L_Thigh1
+    400042: L_Toe
+    400044: L_Upperarm
+    400046: Male_Head
+    400048: Neck
+    400050: Normal_Male_2_Body
+    400052: Nose_M
+    400054: Papers
+    400056: Pelvis
+    400058: polySurface33_1
+    400060: polySurface33_2
+    400062: polySurface37
+    400064: polySurface41
+    400066: pPlane1
+    400068: R_Calf
+    400070: R_Clavicle
+    400072: R_Foot
+    400074: R_Forearm
+    400076: R_Hand
+    400078: R_Thigh
+    400080: R_Toe
+    400082: R_Upperarm
+    400084: Ruler
+    400086: Spine
+    400088: Spine1
+    400090: Sponsor_Face_M
+    2300000: Base_Male_Body
+    2300002: Base_Male_Leg
+    2300004: Base_Male_Leg1
+    2300006: Base_Male_Neck
+    2300008: collor
+    2300010: Ear_L_M
+    2300012: Ear_R_M
+    2300014: Hair_
+    2300016: Nose_M
+    2300018: Papers
+    2300020: polySurface33_1
+    2300022: polySurface33_2
+    2300024: polySurface37
+    2300026: polySurface41
+    2300028: pPlane1
+    2300030: Ruler
+    2300032: Sponsor_Face_M
+    3300000: Base_Male_Body
+    3300002: Base_Male_Leg
+    3300004: Base_Male_Leg1
+    3300006: Base_Male_Neck
+    3300008: collor
+    3300010: Ear_L_M
+    3300012: Ear_R_M
+    3300014: Hair_
+    3300016: Nose_M
+    3300018: Papers
+    3300020: polySurface33_1
+    3300022: polySurface33_2
+    3300024: polySurface37
+    3300026: polySurface41
+    3300028: pPlane1
+    3300030: Ruler
+    3300032: Sponsor_Face_M
+    4300000: Ear_L_M
+    4300002: Ear_R_M
+    4300004: Nose_M
+    4300006: Sponsor_Face_M
+    4300008: Base_Male_Body
+    4300010: Base_Male_Leg
+    4300012: Base_Male_Neck
+    4300014: Base_Male_Leg1
+    4300016: collor
+    4300018: polySurface33_1
+    4300020: polySurface33_2
+    4300022: polySurface37
+    4300024: Papers
+    4300026: Ruler
+    4300028: polySurface41
+    4300030: pPlane1
+    4300032: Hair_
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

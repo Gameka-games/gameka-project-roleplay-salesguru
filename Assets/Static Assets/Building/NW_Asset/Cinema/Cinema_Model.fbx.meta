@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: cdb908ff726258244813b7255c724b4d
+timeCreated: 1541125998
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: board_bar
+    100002: board_joint
+    100004: board_main
+    100006: //RootNode
+    100008: cinema_title
+    100010: Flim_big
+    100012: flim_main
+    100014: Flim_small
+    100016: flim_strip
+    100018: flim_strip_001
+    100020: flim_strip_002
+    100022: ground_glass_001
+    100024: ground_main
+    100026: ground_platform
+    100028: lamp
+    100030: lamp_stick
+    100032: main_bottom
+    100034: main_bottom1
+    100036: main_side_glass
+    100038: main_top2
+    100040: small_bottom
+    100042: small_deco
+    100044: small_top
+    100046: take_board
+    100048: Cinema_building
+    100050: cinema_fake_shadow
+    100052: main
+    100054: polySurface2
+    100056: Posters
+    100058: SpotlightsGlow
+    400000: board_bar
+    400002: board_joint
+    400004: board_main
+    400006: //RootNode
+    400008: cinema_title
+    400010: Flim_big
+    400012: flim_main
+    400014: Flim_small
+    400016: flim_strip
+    400018: flim_strip_001
+    400020: flim_strip_002
+    400022: ground_glass_001
+    400024: ground_main
+    400026: ground_platform
+    400028: lamp
+    400030: lamp_stick
+    400032: main_bottom
+    400034: main_bottom1
+    400036: main_side_glass
+    400038: main_top2
+    400040: small_bottom
+    400042: small_deco
+    400044: small_top
+    400046: take_board
+    400048: Cinema_building
+    400050: cinema_fake_shadow
+    400052: main
+    400054: polySurface2
+    400056: Posters
+    400058: SpotlightsGlow
+    2300000: board_bar
+    2300002: board_joint
+    2300004: board_main
+    2300006: cinema_title
+    2300008: Flim_big
+    2300010: flim_main
+    2300012: Flim_small
+    2300014: flim_strip_001
+    2300016: flim_strip_002
+    2300018: ground_glass_001
+    2300020: ground_main
+    2300022: ground_platform
+    2300024: lamp
+    2300026: lamp_stick
+    2300028: main_bottom
+    2300030: main_bottom1
+    2300032: main_side_glass
+    2300034: main_top2
+    2300036: small_bottom
+    2300038: small_top
+    2300040: cinema_fake_shadow
+    2300042: main
+    2300044: polySurface2
+    2300046: Posters
+    2300048: SpotlightsGlow
+    3300000: board_bar
+    3300002: board_joint
+    3300004: board_main
+    3300006: cinema_title
+    3300008: Flim_big
+    3300010: flim_main
+    3300012: Flim_small
+    3300014: flim_strip_001
+    3300016: flim_strip_002
+    3300018: ground_glass_001
+    3300020: ground_main
+    3300022: ground_platform
+    3300024: lamp
+    3300026: lamp_stick
+    3300028: main_bottom
+    3300030: main_bottom1
+    3300032: main_side_glass
+    3300034: main_top2
+    3300036: small_bottom
+    3300038: small_top
+    3300040: cinema_fake_shadow
+    3300042: main
+    3300044: polySurface2
+    3300046: Posters
+    3300048: SpotlightsGlow
+    4300000: main_bottom
+    4300002: small_bottom
+    4300004: small_top
+    4300006: Flim_big
+    4300008: main_side_glass
+    4300010: ground_platform
+    4300012: ground_glass_001
+    4300014: ground_main
+    4300016: Flim_small
+    4300018: board_main
+    4300020: board_joint
+    4300022: board_bar
+    4300024: flim_main
+    4300026: flim_strip_001
+    4300028: flim_strip_002
+    4300030: cinema_title
+    4300032: lamp_stick
+    4300034: lamp
+    4300036: main_bottom1
+    4300038: main_top2
+    4300040: cinema_fake_shadow
+    4300042: main
+    4300044: polySurface2
+    4300046: Posters
+    4300048: SpotlightsGlow
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

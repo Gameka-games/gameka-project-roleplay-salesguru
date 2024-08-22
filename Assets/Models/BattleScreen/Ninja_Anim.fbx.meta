@@ -1,0 +1,622 @@
+fileFormatVersion: 2
+guid: c19f6e0f5ea41ac4ab45a94c078a68cc
+timeCreated: 1520812923
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Ninja
+    100004: Chest
+    100006: HEAD
+    100008: Head1
+    100010: Head_Ninja
+    100012: Headbadge1_Ninja
+    100014: Headbadge_Ninja
+    100016: HIps
+    100018: L_Arm_Ninja
+    100020: L_Calf
+    100022: L_Clavicle
+    100024: L_Foot
+    100026: L_Forearm
+    100028: L_Hand
+    100030: L_Leg_Ninja
+    100032: L_Shoulder_Ninja
+    100034: L_Thigh1
+    100036: L_Toe
+    100038: L_Upperarm
+    100040: Neck
+    100042: Neck_Ninja
+    100044: //RootNode
+    100046: Nose_Ninja
+    100048: Pelvis
+    100050: R_Arm_Ninja
+    100052: R_Calf
+    100054: R_Clavicle
+    100056: R_Foot
+    100058: R_Forearm
+    100060: R_Hand
+    100062: R_Leg_Ninja
+    100064: R_Shoulder_Ninja
+    100066: R_Thigh
+    100068: R_Toe
+    100070: R_Upperarm
+    100072: Shuriken_Ninja
+    100074: Spine
+    100076: Spine1
+    100078: Sword_Ninja
+    400000: BODY
+    400002: Body_Ninja
+    400004: Chest
+    400006: HEAD
+    400008: Head1
+    400010: Head_Ninja
+    400012: Headbadge1_Ninja
+    400014: Headbadge_Ninja
+    400016: HIps
+    400018: L_Arm_Ninja
+    400020: L_Calf
+    400022: L_Clavicle
+    400024: L_Foot
+    400026: L_Forearm
+    400028: L_Hand
+    400030: L_Leg_Ninja
+    400032: L_Shoulder_Ninja
+    400034: L_Thigh1
+    400036: L_Toe
+    400038: L_Upperarm
+    400040: Neck
+    400042: Neck_Ninja
+    400044: //RootNode
+    400046: Nose_Ninja
+    400048: Pelvis
+    400050: R_Arm_Ninja
+    400052: R_Calf
+    400054: R_Clavicle
+    400056: R_Foot
+    400058: R_Forearm
+    400060: R_Hand
+    400062: R_Leg_Ninja
+    400064: R_Shoulder_Ninja
+    400066: R_Thigh
+    400068: R_Toe
+    400070: R_Upperarm
+    400072: Shuriken_Ninja
+    400074: Spine
+    400076: Spine1
+    400078: Sword_Ninja
+    4300000: Shuriken_Ninja
+    4300002: Sword_Ninja
+    4300004: L_Arm_Ninja
+    4300006: R_Arm_Ninja
+    4300008: L_Shoulder_Ninja
+    4300010: L_Leg_Ninja
+    4300012: Neck_Ninja
+    4300014: R_Leg_Ninja
+    4300016: Body_Ninja
+    4300018: R_Shoulder_Ninja
+    4300020: Nose_Ninja
+    4300022: Head_Ninja
+    4300024: Headbadge_Ninja
+    4300026: Headbadge1_Ninja
+    7400000: Ninja_Walk
+    7400002: Ninja_Idle1
+    7400004: Ninja_Idle2
+    7400006: Ninja_Idle3
+    9500000: //RootNode
+    13700000: Body_Ninja
+    13700002: Head_Ninja
+    13700004: Headbadge1_Ninja
+    13700006: Headbadge_Ninja
+    13700008: L_Arm_Ninja
+    13700010: L_Leg_Ninja
+    13700012: L_Shoulder_Ninja
+    13700014: Neck_Ninja
+    13700016: Nose_Ninja
+    13700018: R_Arm_Ninja
+    13700020: R_Leg_Ninja
+    13700022: R_Shoulder_Ninja
+    13700024: Shuriken_Ninja
+    13700026: Sword_Ninja
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Ninja_Walk
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Ninja
+        weight: 1
+      - path: BODY/L_Arm_Ninja
+        weight: 1
+      - path: BODY/L_Leg_Ninja
+        weight: 1
+      - path: BODY/L_Shoulder_Ninja
+        weight: 1
+      - path: BODY/Neck_Ninja
+        weight: 1
+      - path: BODY/R_Arm_Ninja
+        weight: 1
+      - path: BODY/R_Leg_Ninja
+        weight: 1
+      - path: BODY/R_Shoulder_Ninja
+        weight: 1
+      - path: BODY/Shuriken_Ninja
+        weight: 1
+      - path: BODY/Sword_Ninja
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Head_Ninja
+        weight: 1
+      - path: HEAD/Headbadge1_Ninja
+        weight: 1
+      - path: HEAD/Headbadge_Ninja
+        weight: 1
+      - path: HEAD/Nose_Ninja
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ninja_Idle1
+      takeName: Take 001
+      firstFrame: 16
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Ninja
+        weight: 1
+      - path: BODY/L_Arm_Ninja
+        weight: 1
+      - path: BODY/L_Leg_Ninja
+        weight: 1
+      - path: BODY/L_Shoulder_Ninja
+        weight: 1
+      - path: BODY/Neck_Ninja
+        weight: 1
+      - path: BODY/R_Arm_Ninja
+        weight: 1
+      - path: BODY/R_Leg_Ninja
+        weight: 1
+      - path: BODY/R_Shoulder_Ninja
+        weight: 1
+      - path: BODY/Shuriken_Ninja
+        weight: 1
+      - path: BODY/Sword_Ninja
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Head_Ninja
+        weight: 1
+      - path: HEAD/Headbadge1_Ninja
+        weight: 1
+      - path: HEAD/Headbadge_Ninja
+        weight: 1
+      - path: HEAD/Nose_Ninja
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ninja_Idle2
+      takeName: Take 001
+      firstFrame: 136
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Ninja
+        weight: 1
+      - path: BODY/L_Arm_Ninja
+        weight: 1
+      - path: BODY/L_Leg_Ninja
+        weight: 1
+      - path: BODY/L_Shoulder_Ninja
+        weight: 1
+      - path: BODY/Neck_Ninja
+        weight: 1
+      - path: BODY/R_Arm_Ninja
+        weight: 1
+      - path: BODY/R_Leg_Ninja
+        weight: 1
+      - path: BODY/R_Shoulder_Ninja
+        weight: 1
+      - path: BODY/Shuriken_Ninja
+        weight: 1
+      - path: BODY/Sword_Ninja
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Head_Ninja
+        weight: 1
+      - path: HEAD/Headbadge1_Ninja
+        weight: 1
+      - path: HEAD/Headbadge_Ninja
+        weight: 1
+      - path: HEAD/Nose_Ninja
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ninja_Idle3
+      takeName: Take 001
+      firstFrame: 201
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Ninja
+        weight: 1
+      - path: BODY/L_Arm_Ninja
+        weight: 1
+      - path: BODY/L_Leg_Ninja
+        weight: 1
+      - path: BODY/L_Shoulder_Ninja
+        weight: 1
+      - path: BODY/Neck_Ninja
+        weight: 1
+      - path: BODY/R_Arm_Ninja
+        weight: 1
+      - path: BODY/R_Leg_Ninja
+        weight: 1
+      - path: BODY/R_Shoulder_Ninja
+        weight: 1
+      - path: BODY/Shuriken_Ninja
+        weight: 1
+      - path: BODY/Sword_Ninja
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Head_Ninja
+        weight: 1
+      - path: HEAD/Headbadge1_Ninja
+        weight: 1
+      - path: HEAD/Headbadge_Ninja
+        weight: 1
+      - path: HEAD/Nose_Ninja
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

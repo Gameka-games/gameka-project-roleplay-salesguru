@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: e289cde2b83cda1448944d523da6aa5c
+timeCreated: 1516068193
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: B_Hair_Band_Dancer
+    100002: Badge_Dancer
+    100004: BODY
+    100006: Body_Dancer
+    100008: Butt_Dancer
+    100010: //RootNode
+    100012: Chest
+    100014: Hair_Dancer
+    100016: HEAD1
+    100018: Head1
+    100020: Head_Dancer
+    100022: HIps
+    100024: L_Arm_Dancer
+    100026: L_Calf
+    100028: L_Clavicle
+    100030: L_Ear_Dancer
+    100032: L_Foot
+    100034: L_Forearm
+    100036: L_Hand
+    100038: L_Leg_Dancer
+    100040: L_Thigh1
+    100042: L_Toe
+    100044: L_Upperarm
+    100046: Neck
+    100048: Neck_Dancer
+    100050: Nose_Dancer
+    100052: Pelvis
+    100054: R_Arm_Dancer
+    100056: R_Calf
+    100058: R_Clavicle
+    100060: R_Ear_Dancer
+    100062: R_Foot
+    100064: R_Forearm
+    100066: R_Hand
+    100068: R_Leg_Dancer
+    100070: R_Thigh
+    100072: R_Toe
+    100074: R_Upperarm
+    100076: Round_Hair_Dancer
+    100078: S_Hair_Band_Dancer
+    100080: Skirt_Dancer
+    100082: Spine
+    100084: Spine1
+    100086: body_part
+    400000: B_Hair_Band_Dancer
+    400002: Badge_Dancer
+    400004: BODY
+    400006: Body_Dancer
+    400008: Butt_Dancer
+    400010: //RootNode
+    400012: Chest
+    400014: Hair_Dancer
+    400016: HEAD1
+    400018: Head1
+    400020: Head_Dancer
+    400022: HIps
+    400024: L_Arm_Dancer
+    400026: L_Calf
+    400028: L_Clavicle
+    400030: L_Ear_Dancer
+    400032: L_Foot
+    400034: L_Forearm
+    400036: L_Hand
+    400038: L_Leg_Dancer
+    400040: L_Thigh1
+    400042: L_Toe
+    400044: L_Upperarm
+    400046: Neck
+    400048: Neck_Dancer
+    400050: Nose_Dancer
+    400052: Pelvis
+    400054: R_Arm_Dancer
+    400056: R_Calf
+    400058: R_Clavicle
+    400060: R_Ear_Dancer
+    400062: R_Foot
+    400064: R_Forearm
+    400066: R_Hand
+    400068: R_Leg_Dancer
+    400070: R_Thigh
+    400072: R_Toe
+    400074: R_Upperarm
+    400076: Round_Hair_Dancer
+    400078: S_Hair_Band_Dancer
+    400080: Skirt_Dancer
+    400082: Spine
+    400084: Spine1
+    400086: body_part
+    4300000: B_Hair_Band_Dancer
+    4300002: S_Hair_Band_Dancer
+    4300004: Round_Hair_Dancer
+    4300006: Hair_Dancer
+    4300008: Head_Dancer
+    4300010: R_Ear_Dancer
+    4300012: L_Ear_Dancer
+    4300014: Nose_Dancer
+    4300016: Skirt_Dancer
+    4300018: Badge_Dancer
+    4300020: L_Leg_Dancer
+    4300022: Body_Dancer
+    4300024: R_Leg_Dancer
+    4300026: Neck_Dancer
+    4300028: Butt_Dancer
+    4300030: L_Arm_Dancer
+    4300032: R_Arm_Dancer
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: B_Hair_Band_Dancer
+    13700002: Badge_Dancer
+    13700004: Body_Dancer
+    13700006: Butt_Dancer
+    13700008: Hair_Dancer
+    13700010: Head_Dancer
+    13700012: L_Arm_Dancer
+    13700014: L_Ear_Dancer
+    13700016: L_Leg_Dancer
+    13700018: Neck_Dancer
+    13700020: Nose_Dancer
+    13700022: R_Arm_Dancer
+    13700024: R_Ear_Dancer
+    13700026: R_Leg_Dancer
+    13700028: Round_Hair_Dancer
+    13700030: S_Hair_Band_Dancer
+    13700032: Skirt_Dancer
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftLowerLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Thigh1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head1
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Upperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Upperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Char_Cre_Ent_01_Rigged(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BODY
+      parentName: Char_Cre_Ent_01_Rigged(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Badge_Dancer
+      parentName: BODY
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Dancer
+      parentName: BODY
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Butt_Dancer
+      parentName: BODY
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Arm_Dancer
+      parentName: BODY
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Leg_Dancer
+      parentName: BODY
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck_Dancer
+      parentName: BODY
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Arm_Dancer
+      parentName: BODY
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Leg_Dancer
+      parentName: BODY
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skirt_Dancer
+      parentName: BODY
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HEAD1
+      parentName: Char_Cre_Ent_01_Rigged(Clone)
+      position: {x: -0, y: 0.033, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: B_Hair_Band_Dancer
+      parentName: HEAD1
+      position: {x: -0, y: -0.033, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair_Dancer
+      parentName: HEAD1
+      position: {x: -0, y: -0.033, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_Dancer
+      parentName: HEAD1
+      position: {x: -0, y: -0.033, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Ear_Dancer
+      parentName: HEAD1
+      position: {x: -0, y: -0.033, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nose_Dancer
+      parentName: HEAD1
+      position: {x: -0, y: -0.033, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Ear_Dancer
+      parentName: HEAD1
+      position: {x: -0, y: -0.033, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Round_Hair_Dancer
+      parentName: HEAD1
+      position: {x: -0, y: -0.033, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: S_Hair_Band_Dancer
+      parentName: HEAD1
+      position: {x: -0, y: -0.033, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIps
+      parentName: Char_Cre_Ent_01_Rigged(Clone)
+      position: {x: -0, y: 0.01504811, z: 0}
+      rotation: {x: -0.008875028, y: -0.008656588, z: -0.69818854, w: 0.7158066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis
+      parentName: HIps
+      position: {x: -0.0007445128, y: 0.000016935177, z: 0.002465987}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Thigh
+      parentName: Pelvis
+      position: {x: 0.0015077651, y: 0.0034409845, z: -0.0000000032207015}
+      rotation: {x: 8.8915795e-17, y: -4.706114e-19, z: -0.057411615, w: 0.9983506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Calf
+      parentName: R_Thigh
+      position: {x: 0.0063664224, y: -0.000000003195708, z: 0.0010779508}
+      rotation: {x: -2.9118157e-17, y: -8.3149314e-17, z: 0.037978232, w: 0.99927855}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Foot
+      parentName: R_Calf
+      position: {x: 0.006507303, y: -0.0000068587888, z: -0.0015457409}
+      rotation: {x: -0.45399567, y: 0.5421143, z: 0.548472, w: 0.44629416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Toe
+      parentName: R_Foot
+      position: {x: -0.0043219333, y: 8.326672e-18, z: -1.110223e-18}
+      rotation: {x: 0.550844, y: 0.44336313, z: 0.45688, w: 0.5396857}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Thigh1
+      parentName: Pelvis
+      position: {x: 0.00133539, y: -0.003511479, z: -0.000000007341407}
+      rotation: {x: -0.032649085, y: 0.9994669, z: 5.070901e-16, w: 4.5887987e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Calf
+      parentName: L_Thigh1
+      position: {x: -0.0063664224, y: 0.000000003195708, z: -0.00107796}
+      rotation: {x: 2.0708152e-17, y: 3.9626268e-19, z: 0.037978232, w: 0.99927855}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Foot
+      parentName: L_Calf
+      position: {x: -0.006507306, y: 0.0000068587506, z: 0.0015457501}
+      rotation: {x: -0.45399567, y: 0.5421143, z: 0.548472, w: 0.44629416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Toe
+      parentName: L_Foot
+      position: {x: 0.004321938, y: -0.000000003416371, z: 2.7755574e-18}
+      rotation: {x: 0.550844, y: 0.44336313, z: 0.45688, w: 0.5396857}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Pelvis
+      position: {x: -0.006334958, y: 0.00015750015, z: -0.0007040438}
+      rotation: {x: 2.5089412e-17, y: -1.1904872e-16, z: -0.012393839, w: 0.9999232}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine1
+      parentName: Spine
+      position: {x: -0.005498976, y: 0.0000003558259, z: -0.000575964}
+      rotation: {x: 8.4495414e-17, y: 6.611565e-17, z: 0.007691625, w: 0.99997044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: Spine1
+      position: {x: -0.003403737, y: 0.000051614636, z: 0.0012148501}
+      rotation: {x: 0.9998392, y: -0.017935209, z: -1.8897818e-10, w: 0.000000010535018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: -0.00246399, y: 0.000050609353, z: -0.000190593}
+      rotation: {x: -0.45827642, y: 0.5385005, z: -0.5289985, w: -0.46921277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head1
+      parentName: Neck
+      position: {x: 0.00038397437, y: 0.013047884, z: -0.000000890905}
+      rotation: {x: -6.7762636e-21, y: -2.1684043e-19, z: -2.822499e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Clavicle
+      parentName: Chest
+      position: {x: -0.0006063467, y: 0.0025696885, z: 0.00050856033}
+      rotation: {x: 0.5908746, y: 0.8067346, z: -0.0037576207, w: 0.005691271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Upperarm
+      parentName: L_Clavicle
+      position: {x: 0.0013948319, y: -0.00000003298099, z: 2.816106e-11}
+      rotation: {x: 0.0036021522, y: -0.03719871, z: 0.18720402, w: 0.98160994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Forearm
+      parentName: L_Upperarm
+      position: {x: 0.006024568, y: 0.000007081379, z: -0.0008937587}
+      rotation: {x: 0.0027896853, y: 0.060781993, z: -0.012124812, w: 0.9980736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Hand
+      parentName: L_Forearm
+      position: {x: 0.0061082602, y: -0.000012618382, z: 0.00066140486}
+      rotation: {x: -2.1736728e-17, y: 1.4929856e-16, z: 0.67270666, w: 0.7399093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Clavicle
+      parentName: Chest
+      position: {x: -0.0007111273, y: -0.0025426906, z: 0.00050855876}
+      rotation: {x: 0.0036354768, y: -0.0057662153, z: 0.5743254, w: 0.81859875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Upperarm
+      parentName: R_Clavicle
+      position: {x: -0.0013948441, y: 4.440892e-18, z: -2.8162474e-11}
+      rotation: {x: 0.003584989, y: -0.037049234, z: 0.18708614, w: 0.9816381}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Forearm
+      parentName: R_Upperarm
+      position: {x: -0.0060199997, y: -0.000010000001, z: 0.00088999997}
+      rotation: {x: 0.0026859895, y: 0.060723234, z: -0.013225656, w: 0.9980634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Hand
+      parentName: R_Forearm
+      position: {x: -0.00611, y: -0.000010000001, z: -0.00065999996}
+      rotation: {x: -1.2805166e-16, y: 1.3367179e-16, z: 0.67270666, w: 0.7399093}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

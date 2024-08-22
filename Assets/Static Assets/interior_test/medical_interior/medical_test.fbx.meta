@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 7a99faddc393d2a47aa6a69096dff362
+timeCreated: 1537356592
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: curtain
+    100002: floor
+    100004: glass
+    100006: glass3
+    100008: glass6
+    100010: glass7
+    100012: glass8
+    100014: glass9
+    100016: glass_2
+    100018: glass_4
+    100020: glass_5
+    100022: glass_compile
+    100024: //RootNode
+    100026: polySurface330
+    100028: polySurface331
+    100030: polySurface333
+    100032: polySurface334
+    100034: polySurface335
+    100036: polySurface336
+    100038: prop_001
+    100040: prop_002
+    100042: prop_004
+    100044: sofa_003
+    100046: sofa_004
+    100048: sofa_005
+    100050: table_01
+    100052: table_02
+    100054: table_03
+    100056: table_04
+    100058: wall1
+    100060: wall_compile
+    100062: wall_prop
+    100064: wall_prop_02
+    400000: curtain
+    400002: floor
+    400004: glass
+    400006: glass3
+    400008: glass6
+    400010: glass7
+    400012: glass8
+    400014: glass9
+    400016: glass_2
+    400018: glass_4
+    400020: glass_5
+    400022: glass_compile
+    400024: //RootNode
+    400026: polySurface330
+    400028: polySurface331
+    400030: polySurface333
+    400032: polySurface334
+    400034: polySurface335
+    400036: polySurface336
+    400038: prop_001
+    400040: prop_002
+    400042: prop_004
+    400044: sofa_003
+    400046: sofa_004
+    400048: sofa_005
+    400050: table_01
+    400052: table_02
+    400054: table_03
+    400056: table_04
+    400058: wall1
+    400060: wall_compile
+    400062: wall_prop
+    400064: wall_prop_02
+    2300000: curtain
+    2300002: floor
+    2300004: glass
+    2300006: glass3
+    2300008: glass6
+    2300010: glass7
+    2300012: glass8
+    2300014: glass9
+    2300016: glass_2
+    2300018: glass_4
+    2300020: glass_5
+    2300022: polySurface330
+    2300024: polySurface333
+    2300026: polySurface334
+    2300028: polySurface335
+    2300030: polySurface336
+    2300032: prop_001
+    2300034: prop_002
+    2300036: prop_004
+    2300038: sofa_003
+    2300040: sofa_004
+    2300042: sofa_005
+    2300044: table_01
+    2300046: table_02
+    2300048: table_03
+    2300050: table_04
+    2300052: wall1
+    2300054: wall_prop
+    3300000: curtain
+    3300002: floor
+    3300004: glass
+    3300006: glass3
+    3300008: glass6
+    3300010: glass7
+    3300012: glass8
+    3300014: glass9
+    3300016: glass_2
+    3300018: glass_4
+    3300020: glass_5
+    3300022: polySurface330
+    3300024: polySurface333
+    3300026: polySurface334
+    3300028: polySurface335
+    3300030: polySurface336
+    3300032: prop_001
+    3300034: prop_002
+    3300036: prop_004
+    3300038: sofa_003
+    3300040: sofa_004
+    3300042: sofa_005
+    3300044: table_01
+    3300046: table_02
+    3300048: table_03
+    3300050: table_04
+    3300052: wall1
+    3300054: wall_prop
+    4300000: floor
+    4300002: table_02
+    4300004: wall_prop
+    4300006: table_01
+    4300008: polySurface330
+    4300010: polySurface334
+    4300012: polySurface335
+    4300014: polySurface333
+    4300016: polySurface336
+    4300018: wall1
+    4300020: table_03
+    4300022: table_04
+    4300024: curtain
+    4300026: sofa_005
+    4300028: sofa_004
+    4300030: sofa_003
+    4300032: glass
+    4300034: glass_2
+    4300036: glass3
+    4300038: glass6
+    4300040: glass_4
+    4300042: glass7
+    4300044: glass8
+    4300046: glass_5
+    4300048: glass9
+    4300050: prop_001
+    4300052: prop_002
+    4300054: prop_004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 80
+    secondaryUVPackMargin: 10
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

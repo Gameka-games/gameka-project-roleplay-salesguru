@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 3db25628d666e1442aa4e40c66b7f1a5
+timeCreated: 1516068162
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_MOHS
+    100004: Book_MOHS
+    100006: //RootNode
+    100008: Collar_MOHS
+    100010: Hair_MOHS
+    100012: HEAD
+    100014: Head_MOHS
+    100016: L_Arm_MOHS
+    100018: L_Ear_MOHS
+    100020: L_Leg_MOHS
+    100022: Mustache_MOHS
+    100024: Neck_MOHS
+    100026: Nose_MOHS
+    100028: R_Arm_MOHS
+    100030: R_Ear_MOHS
+    100032: R_Leg_MOHS
+    100034: Shirt_MOHS
+    100036: Test_Tube_MOHS
+    400000: BODY
+    400002: Body_MOHS
+    400004: Book_MOHS
+    400006: //RootNode
+    400008: Collar_MOHS
+    400010: Hair_MOHS
+    400012: HEAD
+    400014: Head_MOHS
+    400016: L_Arm_MOHS
+    400018: L_Ear_MOHS
+    400020: L_Leg_MOHS
+    400022: Mustache_MOHS
+    400024: Neck_MOHS
+    400026: Nose_MOHS
+    400028: R_Arm_MOHS
+    400030: R_Ear_MOHS
+    400032: R_Leg_MOHS
+    400034: Shirt_MOHS
+    400036: Test_Tube_MOHS
+    2300000: Body_MOHS
+    2300002: Book_MOHS
+    2300004: Collar_MOHS
+    2300006: Hair_MOHS
+    2300008: Head_MOHS
+    2300010: L_Arm_MOHS
+    2300012: L_Ear_MOHS
+    2300014: L_Leg_MOHS
+    2300016: Mustache_MOHS
+    2300018: Neck_MOHS
+    2300020: Nose_MOHS
+    2300022: R_Arm_MOHS
+    2300024: R_Ear_MOHS
+    2300026: R_Leg_MOHS
+    2300028: Shirt_MOHS
+    2300030: Test_Tube_MOHS
+    3300000: Body_MOHS
+    3300002: Book_MOHS
+    3300004: Collar_MOHS
+    3300006: Hair_MOHS
+    3300008: Head_MOHS
+    3300010: L_Arm_MOHS
+    3300012: L_Ear_MOHS
+    3300014: L_Leg_MOHS
+    3300016: Mustache_MOHS
+    3300018: Neck_MOHS
+    3300020: Nose_MOHS
+    3300022: R_Arm_MOHS
+    3300024: R_Ear_MOHS
+    3300026: R_Leg_MOHS
+    3300028: Shirt_MOHS
+    3300030: Test_Tube_MOHS
+    4300000: Body_MOHS
+    4300002: L_Leg_MOHS
+    4300004: Neck_MOHS
+    4300006: R_Leg_MOHS
+    4300008: R_Arm_MOHS
+    4300010: L_Arm_MOHS
+    4300012: Collar_MOHS
+    4300014: Shirt_MOHS
+    4300016: Book_MOHS
+    4300018: Test_Tube_MOHS
+    4300020: Head_MOHS
+    4300022: Nose_MOHS
+    4300024: L_Ear_MOHS
+    4300026: R_Ear_MOHS
+    4300028: Hair_MOHS
+    4300030: Mustache_MOHS
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

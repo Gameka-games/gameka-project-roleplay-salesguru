@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: a2e7c6d9f5bc4eb4ba140fc4c23378de
+timeCreated: 1542959583
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: air_con1
+    100002: air_con1 1
+    100004: air_con2
+    100006: air_con2 1
+    100008: air_con3
+    100010: air_con3 1
+    100012: air_con_1
+    100014: air_con_2
+    100016: air_con_big_1
+    100018: air_con_big_1 1
+    100020: ambu
+    100022: ambulance_scale
+    100024: door_frame
+    100026: glass_floor1
+    100028: glass_floor2
+    100030: glass_floor3
+    100032: glass_floor4
+    100034: glass_floor5
+    100036: glass_floorG
+    100038: glass_floorG1
+    100040: glasses_tiangs
+    100042: heli_stage
+    100044: hospital
+    100046: //RootNode
+    100048: light
+    100050: main
+    100052: main_building
+    100054: main_glasses
+    100056: main_side_bottom
+    100058: main_side_top
+    100060: pPlane1
+    100062: roof
+    100064: roof1
+    100066: roof2
+    100068: roof3
+    100070: roof_entrance
+    100072: sign_cross
+    100074: sign_hospital
+    100076: tire_frt
+    100078: tower
+    100080: tower 1
+    100082: wire_tall
+    100084: shutter
+    400000: air_con1
+    400002: air_con1 1
+    400004: air_con2
+    400006: air_con2 1
+    400008: air_con3
+    400010: air_con3 1
+    400012: air_con_1
+    400014: air_con_2
+    400016: air_con_big_1
+    400018: air_con_big_1 1
+    400020: ambu
+    400022: ambulance_scale
+    400024: door_frame
+    400026: glass_floor1
+    400028: glass_floor2
+    400030: glass_floor3
+    400032: glass_floor4
+    400034: glass_floor5
+    400036: glass_floorG
+    400038: glass_floorG1
+    400040: glasses_tiangs
+    400042: heli_stage
+    400044: hospital
+    400046: //RootNode
+    400048: light
+    400050: main
+    400052: main_building
+    400054: main_glasses
+    400056: main_side_bottom
+    400058: main_side_top
+    400060: pPlane1
+    400062: roof
+    400064: roof1
+    400066: roof2
+    400068: roof3
+    400070: roof_entrance
+    400072: sign_cross
+    400074: sign_hospital
+    400076: tire_frt
+    400078: tower
+    400080: tower 1
+    400082: wire_tall
+    400084: shutter
+    2300000: air_con1
+    2300002: air_con1 1
+    2300004: air_con2
+    2300006: air_con2 1
+    2300008: air_con3
+    2300010: air_con3 1
+    2300012: air_con_big_1
+    2300014: air_con_big_1 1
+    2300016: ambulance_scale
+    2300018: door_frame
+    2300020: glass_floor1
+    2300022: glass_floor2
+    2300024: glass_floor3
+    2300026: glass_floor4
+    2300028: glass_floor5
+    2300030: glass_floorG
+    2300032: glass_floorG1
+    2300034: glasses_tiangs
+    2300036: heli_stage
+    2300038: light
+    2300040: main_building
+    2300042: main_glasses
+    2300044: main_side_bottom
+    2300046: main_side_top
+    2300048: pPlane1
+    2300050: roof
+    2300052: roof1
+    2300054: roof2
+    2300056: roof3
+    2300058: roof_entrance
+    2300060: sign_cross
+    2300062: sign_hospital
+    2300064: tire_frt
+    2300066: tower 1
+    2300068: wire_tall
+    2300070: shutter
+    3300000: air_con1
+    3300002: air_con1 1
+    3300004: air_con2
+    3300006: air_con2 1
+    3300008: air_con3
+    3300010: air_con3 1
+    3300012: air_con_big_1
+    3300014: air_con_big_1 1
+    3300016: ambulance_scale
+    3300018: door_frame
+    3300020: glass_floor1
+    3300022: glass_floor2
+    3300024: glass_floor3
+    3300026: glass_floor4
+    3300028: glass_floor5
+    3300030: glass_floorG
+    3300032: glass_floorG1
+    3300034: glasses_tiangs
+    3300036: heli_stage
+    3300038: light
+    3300040: main_building
+    3300042: main_glasses
+    3300044: main_side_bottom
+    3300046: main_side_top
+    3300048: pPlane1
+    3300050: roof
+    3300052: roof1
+    3300054: roof2
+    3300056: roof3
+    3300058: roof_entrance
+    3300060: sign_cross
+    3300062: sign_hospital
+    3300064: tire_frt
+    3300066: tower 1
+    3300068: wire_tall
+    3300070: shutter
+    4300000: pPlane1
+    4300002: tower
+    4300004: glass_floor5
+    4300006: glass_floor4
+    4300008: glass_floor3
+    4300010: glass_floor2
+    4300012: glass_floor1
+    4300014: roof
+    4300016: glasses_tiangs
+    4300018: glass_floorG
+    4300020: sign_cross
+    4300022: wire_tall
+    4300024: glass_floorG1
+    4300026: roof1
+    4300028: roof2
+    4300030: roof3
+    4300032: air_con_big_1
+    4300034: air_con1
+    4300036: air_con2
+    4300038: air_con3
+    4300040: air_con_big_1
+    4300042: air_con1
+    4300044: air_con2
+    4300046: air_con3
+    4300048: roof_entrance
+    4300050: door_frame
+    4300052: heli_stage
+    4300054: sign_hospital
+    4300056: main_side_bottom
+    4300058: main_building
+    4300060: main_side_top
+    4300062: main_glasses
+    4300064: light
+    4300066: ambulance_scale
+    4300068: tire_frt
+    4300070: shutter
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

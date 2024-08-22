@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: dd285173dd19c3c4aad5d7a2425aad53
+timeCreated: 1511673245
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base_Floor
+    100002: Base_Floor1
+    100004: Base_Stair
+    100006: Bottom_Wall
+    100008: Bottom_Wall_Window
+    100010: Building_main
+    100012: Building_side
+    100014: glass_1
+    100016: glass_2
+    100018: Globe
+    100020: Pagoda_1
+    100022: Pagoda_2
+    100024: Pagoda_3
+    100026: Roof_Middle
+    100028: Roof_Side
+    100030: //RootNode
+    400000: Base_Floor
+    400002: Base_Floor1
+    400004: Base_Stair
+    400006: Bottom_Wall
+    400008: Bottom_Wall_Window
+    400010: Building_main
+    400012: Building_side
+    400014: glass_1
+    400016: glass_2
+    400018: Globe
+    400020: Pagoda_1
+    400022: Pagoda_2
+    400024: Pagoda_3
+    400026: Roof_Middle
+    400028: Roof_Side
+    400030: //RootNode
+    2300000: Base_Floor
+    2300002: Base_Floor1
+    2300004: Base_Stair
+    2300006: Bottom_Wall
+    2300008: Bottom_Wall_Window
+    2300010: Building_main
+    2300012: Building_side
+    2300014: glass_1
+    2300016: glass_2
+    2300018: Globe
+    2300020: Pagoda_1
+    2300022: Pagoda_2
+    2300024: Pagoda_3
+    2300026: Roof_Middle
+    2300028: Roof_Side
+    3300000: Base_Floor
+    3300002: Base_Floor1
+    3300004: Base_Stair
+    3300006: Bottom_Wall
+    3300008: Bottom_Wall_Window
+    3300010: Building_main
+    3300012: Building_side
+    3300014: glass_1
+    3300016: glass_2
+    3300018: Globe
+    3300020: Pagoda_1
+    3300022: Pagoda_2
+    3300024: Pagoda_3
+    3300026: Roof_Middle
+    3300028: Roof_Side
+    4300000: Roof_Middle
+    4300002: Roof_Side
+    4300004: Building_main
+    4300006: Building_side
+    4300008: glass_2
+    4300010: glass_1
+    4300012: Base_Floor
+    4300014: Bottom_Wall_Window
+    4300016: Bottom_Wall
+    4300018: Base_Floor1
+    4300020: Base_Stair
+    4300022: Pagoda_1
+    4300024: Pagoda_2
+    4300026: Pagoda_3
+    4300028: Globe
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

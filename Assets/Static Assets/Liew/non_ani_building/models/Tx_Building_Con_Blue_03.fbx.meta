@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 645a6fcda38e66e4099194ef2e73d51a
+timeCreated: 1511673244
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Buiding_1
+    100002: Buiding_1 1
+    100004: Buiding_1_Handle
+    100006: Buiding_1_Pillar
+    100008: Buiding_1_Pillar1
+    100010: Buiding_1_Pillar2
+    100012: Buiding_1_Roof
+    100014: Buiding_1_Stair
+    100016: Buiding_1_Stair1
+    100018: Buiding_1_Stair2
+    100020: Buiding_2
+    100022: Buiding_2_Door
+    100024: Buiding_2_Door_Frame
+    100026: Buiding_2_Door_Roof
+    100028: Buiding_2_Handle
+    100030: Buiding_2_Pillar
+    100032: Buiding_2_Pillar1
+    100034: Buiding_2_Roof
+    100036: Buiding_2_Wall
+    100038: Buiding_3_Door
+    100040: Buiding_3_Door_Frame
+    100042: Buiding_3_Elavator
+    100044: Buiding_3_Elavator_Tube
+    100046: Buiding_3_Top_Cover
+    100048: Buiding_3_Top_Pillar
+    100050: Buiding_3_Top_Pillar1
+    100052: Buiding_3_Top_Pillar2
+    100054: Buiding_3_Top_Window
+    100056: Buiding_3_Wall
+    100058: Buiding_3_Wall_Roof
+    100060: Building_3
+    100062: //RootNode
+    400000: Buiding_1
+    400002: Buiding_1 1
+    400004: Buiding_1_Handle
+    400006: Buiding_1_Pillar
+    400008: Buiding_1_Pillar1
+    400010: Buiding_1_Pillar2
+    400012: Buiding_1_Roof
+    400014: Buiding_1_Stair
+    400016: Buiding_1_Stair1
+    400018: Buiding_1_Stair2
+    400020: Buiding_2
+    400022: Buiding_2_Door
+    400024: Buiding_2_Door_Frame
+    400026: Buiding_2_Door_Roof
+    400028: Buiding_2_Handle
+    400030: Buiding_2_Pillar
+    400032: Buiding_2_Pillar1
+    400034: Buiding_2_Roof
+    400036: Buiding_2_Wall
+    400038: Buiding_3_Door
+    400040: Buiding_3_Door_Frame
+    400042: Buiding_3_Elavator
+    400044: Buiding_3_Elavator_Tube
+    400046: Buiding_3_Top_Cover
+    400048: Buiding_3_Top_Pillar
+    400050: Buiding_3_Top_Pillar1
+    400052: Buiding_3_Top_Pillar2
+    400054: Buiding_3_Top_Window
+    400056: Buiding_3_Wall
+    400058: Buiding_3_Wall_Roof
+    400060: Building_3
+    400062: //RootNode
+    2300000: Buiding_1 1
+    2300002: Buiding_1_Handle
+    2300004: Buiding_1_Pillar
+    2300006: Buiding_1_Pillar1
+    2300008: Buiding_1_Pillar2
+    2300010: Buiding_1_Roof
+    2300012: Buiding_1_Stair
+    2300014: Buiding_1_Stair1
+    2300016: Buiding_1_Stair2
+    2300018: Buiding_2_Door
+    2300020: Buiding_2_Door_Frame
+    2300022: Buiding_2_Door_Roof
+    2300024: Buiding_2_Handle
+    2300026: Buiding_2_Pillar
+    2300028: Buiding_2_Pillar1
+    2300030: Buiding_2_Roof
+    2300032: Buiding_2_Wall
+    2300034: Buiding_3_Door
+    2300036: Buiding_3_Door_Frame
+    2300038: Buiding_3_Elavator
+    2300040: Buiding_3_Elavator_Tube
+    2300042: Buiding_3_Top_Cover
+    2300044: Buiding_3_Top_Pillar
+    2300046: Buiding_3_Top_Pillar1
+    2300048: Buiding_3_Top_Pillar2
+    2300050: Buiding_3_Top_Window
+    2300052: Buiding_3_Wall
+    2300054: Buiding_3_Wall_Roof
+    3300000: Buiding_1 1
+    3300002: Buiding_1_Handle
+    3300004: Buiding_1_Pillar
+    3300006: Buiding_1_Pillar1
+    3300008: Buiding_1_Pillar2
+    3300010: Buiding_1_Roof
+    3300012: Buiding_1_Stair
+    3300014: Buiding_1_Stair1
+    3300016: Buiding_1_Stair2
+    3300018: Buiding_2_Door
+    3300020: Buiding_2_Door_Frame
+    3300022: Buiding_2_Door_Roof
+    3300024: Buiding_2_Handle
+    3300026: Buiding_2_Pillar
+    3300028: Buiding_2_Pillar1
+    3300030: Buiding_2_Roof
+    3300032: Buiding_2_Wall
+    3300034: Buiding_3_Door
+    3300036: Buiding_3_Door_Frame
+    3300038: Buiding_3_Elavator
+    3300040: Buiding_3_Elavator_Tube
+    3300042: Buiding_3_Top_Cover
+    3300044: Buiding_3_Top_Pillar
+    3300046: Buiding_3_Top_Pillar1
+    3300048: Buiding_3_Top_Pillar2
+    3300050: Buiding_3_Top_Window
+    3300052: Buiding_3_Wall
+    3300054: Buiding_3_Wall_Roof
+    4300000: Buiding_1_Roof
+    4300002: Buiding_1_Pillar
+    4300004: Buiding_1_Pillar1
+    4300006: Buiding_1
+    4300008: Buiding_1_Pillar2
+    4300010: Buiding_1_Handle
+    4300012: Buiding_1_Stair
+    4300014: Buiding_1_Stair1
+    4300016: Buiding_1_Stair2
+    4300018: Buiding_2_Pillar
+    4300020: Buiding_2_Door_Frame
+    4300022: Buiding_2_Pillar1
+    4300024: Buiding_2_Door
+    4300026: Buiding_2_Door_Roof
+    4300028: Buiding_2_Wall
+    4300030: Buiding_2_Roof
+    4300032: Buiding_2_Handle
+    4300034: Buiding_3_Top_Pillar1
+    4300036: Buiding_3_Elavator_Tube
+    4300038: Buiding_3_Top_Pillar
+    4300040: Buiding_3_Top_Cover
+    4300042: Buiding_3_Top_Window
+    4300044: Buiding_3_Wall_Roof
+    4300046: Buiding_3_Wall
+    4300048: Buiding_3_Elavator
+    4300050: Buiding_3_Top_Pillar2
+    4300052: Buiding_3_Door
+    4300054: Buiding_3_Door_Frame
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

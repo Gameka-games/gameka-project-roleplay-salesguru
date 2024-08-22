@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: d05ccea8c733cce4094008257c742186
+timeCreated: 1516068191
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_FD
+    100004: //RootNode
+    100006: Cloth_FD
+    100008: Collar_FD
+    100010: Hair_FD
+    100012: Hair_Horse_Tail_FD
+    100014: HEAD
+    100016: Head_FD
+    100018: L_Arm_FD
+    100020: L_Ear_FD
+    100022: L_Leg_FD
+    100024: Neck_FD
+    100026: Nose_FD
+    100028: R_Arm_FD
+    100030: R_Ear_FD
+    100032: R_Leg_FD
+    100034: Spectacle_FD
+    100036: Tie_FD
+    400000: BODY
+    400002: Body_FD
+    400004: //RootNode
+    400006: Cloth_FD
+    400008: Collar_FD
+    400010: Hair_FD
+    400012: Hair_Horse_Tail_FD
+    400014: HEAD
+    400016: Head_FD
+    400018: L_Arm_FD
+    400020: L_Ear_FD
+    400022: L_Leg_FD
+    400024: Neck_FD
+    400026: Nose_FD
+    400028: R_Arm_FD
+    400030: R_Ear_FD
+    400032: R_Leg_FD
+    400034: Spectacle_FD
+    400036: Tie_FD
+    2300000: Body_FD
+    2300002: Cloth_FD
+    2300004: Collar_FD
+    2300006: Hair_FD
+    2300008: Hair_Horse_Tail_FD
+    2300010: Head_FD
+    2300012: L_Arm_FD
+    2300014: L_Ear_FD
+    2300016: L_Leg_FD
+    2300018: Neck_FD
+    2300020: Nose_FD
+    2300022: R_Arm_FD
+    2300024: R_Ear_FD
+    2300026: R_Leg_FD
+    2300028: Spectacle_FD
+    2300030: Tie_FD
+    3300000: Body_FD
+    3300002: Cloth_FD
+    3300004: Collar_FD
+    3300006: Hair_FD
+    3300008: Hair_Horse_Tail_FD
+    3300010: Head_FD
+    3300012: L_Arm_FD
+    3300014: L_Ear_FD
+    3300016: L_Leg_FD
+    3300018: Neck_FD
+    3300020: Nose_FD
+    3300022: R_Arm_FD
+    3300024: R_Ear_FD
+    3300026: R_Leg_FD
+    3300028: Spectacle_FD
+    3300030: Tie_FD
+    4300000: Collar_FD
+    4300002: Tie_FD
+    4300004: R_Arm_FD
+    4300006: L_Arm_FD
+    4300008: R_Leg_FD
+    4300010: Neck_FD
+    4300012: L_Leg_FD
+    4300014: Body_FD
+    4300016: Cloth_FD
+    4300018: Head_FD
+    4300020: Nose_FD
+    4300022: L_Ear_FD
+    4300024: R_Ear_FD
+    4300026: Hair_FD
+    4300028: Spectacle_FD
+    4300030: Hair_Horse_Tail_FD
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

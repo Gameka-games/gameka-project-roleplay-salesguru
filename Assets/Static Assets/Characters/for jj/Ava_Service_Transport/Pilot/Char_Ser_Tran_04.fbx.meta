@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 9a98d9a1586415b4288101b7e932f786
+timeCreated: 1516068183
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Badge_Pilot
+    100002: BODY
+    100004: Body_Pilot
+    100006: //RootNode
+    100008: Hair_Pilot
+    100010: Hat_Pilot
+    100012: HEAD
+    100014: Head_Pilot
+    100016: L_Arm_Pilot
+    100018: L_Ear_Pilot
+    100020: L_Leg_Pilot
+    100022: Neck_Pilot
+    100024: Nose_Pilot
+    100026: Pant_Pilot
+    100028: R_Arm_Pilot
+    100030: R_Ear_Pilot
+    100032: R_Leg_Pilot
+    400000: Badge_Pilot
+    400002: BODY
+    400004: Body_Pilot
+    400006: //RootNode
+    400008: Hair_Pilot
+    400010: Hat_Pilot
+    400012: HEAD
+    400014: Head_Pilot
+    400016: L_Arm_Pilot
+    400018: L_Ear_Pilot
+    400020: L_Leg_Pilot
+    400022: Neck_Pilot
+    400024: Nose_Pilot
+    400026: Pant_Pilot
+    400028: R_Arm_Pilot
+    400030: R_Ear_Pilot
+    400032: R_Leg_Pilot
+    2300000: Badge_Pilot
+    2300002: Body_Pilot
+    2300004: Hair_Pilot
+    2300006: Hat_Pilot
+    2300008: Head_Pilot
+    2300010: L_Arm_Pilot
+    2300012: L_Ear_Pilot
+    2300014: L_Leg_Pilot
+    2300016: Neck_Pilot
+    2300018: Nose_Pilot
+    2300020: Pant_Pilot
+    2300022: R_Arm_Pilot
+    2300024: R_Ear_Pilot
+    2300026: R_Leg_Pilot
+    3300000: Badge_Pilot
+    3300002: Body_Pilot
+    3300004: Hair_Pilot
+    3300006: Hat_Pilot
+    3300008: Head_Pilot
+    3300010: L_Arm_Pilot
+    3300012: L_Ear_Pilot
+    3300014: L_Leg_Pilot
+    3300016: Neck_Pilot
+    3300018: Nose_Pilot
+    3300020: Pant_Pilot
+    3300022: R_Arm_Pilot
+    3300024: R_Ear_Pilot
+    3300026: R_Leg_Pilot
+    4300000: Hat_Pilot
+    4300002: R_Ear_Pilot
+    4300004: L_Ear_Pilot
+    4300006: Nose_Pilot
+    4300008: Head_Pilot
+    4300010: Hair_Pilot
+    4300012: R_Leg_Pilot
+    4300014: L_Leg_Pilot
+    4300016: R_Arm_Pilot
+    4300018: L_Arm_Pilot
+    4300020: Neck_Pilot
+    4300022: Body_Pilot
+    4300024: Pant_Pilot
+    4300026: Badge_Pilot
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

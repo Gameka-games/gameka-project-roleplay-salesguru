@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: c8bd57de4bcaec749b6f0222cd3e6963
+timeCreated: 1518589987
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bench_1
+    100002: Bench_2
+    100004: Building2
+    100006: Burger
+    100008: door
+    100010: Drive_thru
+    100012: Floor
+    100014: Icon
+    100016: Icon_ART
+    100018: Icon_Burger
+    100020: Icon_Commerce
+    100022: Icon_Health
+    100024: Icon_Manufactoring
+    100026: Icon_Science
+    100028: Icon_Service
+    100030: main_building
+    100032: Sign_1
+    100034: Sign_2
+    100036: sign_drivetru
+    100038: //RootNode
+    400000: Bench_1
+    400002: Bench_2
+    400004: Building2
+    400006: Burger
+    400008: door
+    400010: Drive_thru
+    400012: Floor
+    400014: Icon
+    400016: Icon_ART
+    400018: Icon_Burger
+    400020: Icon_Commerce
+    400022: Icon_Health
+    400024: Icon_Manufactoring
+    400026: Icon_Science
+    400028: Icon_Service
+    400030: main_building
+    400032: Sign_1
+    400034: Sign_2
+    400036: sign_drivetru
+    400038: //RootNode
+    2300000: Bench_1
+    2300002: Bench_2
+    2300004: Building2
+    2300006: door
+    2300008: Drive_thru
+    2300010: Floor
+    2300012: Icon
+    2300014: Icon_ART
+    2300016: Icon_Commerce
+    2300018: Icon_Health
+    2300020: Icon_Manufactoring
+    2300022: Icon_Science
+    2300024: Icon_Service
+    2300026: Sign_1
+    2300028: Sign_2
+    2300030: sign_drivetru
+    3300000: Bench_1
+    3300002: Bench_2
+    3300004: Building2
+    3300006: door
+    3300008: Drive_thru
+    3300010: Floor
+    3300012: Icon
+    3300014: Icon_ART
+    3300016: Icon_Commerce
+    3300018: Icon_Health
+    3300020: Icon_Manufactoring
+    3300022: Icon_Science
+    3300024: Icon_Service
+    3300026: Sign_1
+    3300028: Sign_2
+    3300030: sign_drivetru
+    4300000: Icon
+    4300002: Sign_1
+    4300004: Sign_2
+    4300006: Icon_Service
+    4300008: Icon_ART
+    4300010: Icon_Science
+    4300012: Icon_Commerce
+    4300014: Icon_Health
+    4300016: Icon_Manufactoring
+    4300018: Floor
+    4300020: door
+    4300022: sign_drivetru
+    4300024: Bench_1
+    4300026: Bench_2
+    4300028: Drive_thru
+    4300030: Building2
+    7400000: Approach
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Approach
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Burger
+        weight: 1
+      - path: Burger/door
+        weight: 1
+      - path: Burger/Floor
+        weight: 1
+      - path: Burger/main_building
+        weight: 1
+      - path: Burger/main_building/Bench_1
+        weight: 1
+      - path: Burger/main_building/Bench_2
+        weight: 1
+      - path: Burger/main_building/Building2
+        weight: 1
+      - path: Burger/main_building/Drive_thru
+        weight: 1
+      - path: Burger/sign_drivetru
+        weight: 1
+      - path: Icon_ART
+        weight: 1
+      - path: Icon_Burger
+        weight: 1
+      - path: Icon_Burger/Icon
+        weight: 1
+      - path: Icon_Burger/Sign_1
+        weight: 1
+      - path: Icon_Burger/Sign_2
+        weight: 1
+      - path: Icon_Commerce
+        weight: 1
+      - path: Icon_Health
+        weight: 1
+      - path: Icon_Manufactoring
+        weight: 1
+      - path: Icon_Science
+        weight: 1
+      - path: Icon_Service
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 1b70d89eeddbbd3b9a6c9b4a65e8dc43
+timeCreated: 1516068178
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Singer
+    100004: //RootNode
+    100006: Collar_Singer
+    100008: Earing_Singer
+    100010: Earphone_Singer
+    100012: Hair_Singer
+    100014: HEAD
+    100016: Head_Singer
+    100018: L_Arm_Singer
+    100020: L_Ear_Singer
+    100022: L_Leg_Singer
+    100024: Mic_Singer
+    100026: Neck_Singer
+    100028: Nose_Singer
+    100030: R_Arm_Singer
+    100032: R_Ear_Singer
+    100034: R_Leg_Singer
+    100036: Skirt_Singer
+    100038: Skirt_Star_Singer
+    400000: BODY
+    400002: Body_Singer
+    400004: //RootNode
+    400006: Collar_Singer
+    400008: Earing_Singer
+    400010: Earphone_Singer
+    400012: Hair_Singer
+    400014: HEAD
+    400016: Head_Singer
+    400018: L_Arm_Singer
+    400020: L_Ear_Singer
+    400022: L_Leg_Singer
+    400024: Mic_Singer
+    400026: Neck_Singer
+    400028: Nose_Singer
+    400030: R_Arm_Singer
+    400032: R_Ear_Singer
+    400034: R_Leg_Singer
+    400036: Skirt_Singer
+    400038: Skirt_Star_Singer
+    2300000: Body_Singer
+    2300002: Collar_Singer
+    2300004: Earing_Singer
+    2300006: Earphone_Singer
+    2300008: Hair_Singer
+    2300010: Head_Singer
+    2300012: L_Arm_Singer
+    2300014: L_Ear_Singer
+    2300016: L_Leg_Singer
+    2300018: Mic_Singer
+    2300020: Neck_Singer
+    2300022: Nose_Singer
+    2300024: R_Arm_Singer
+    2300026: R_Ear_Singer
+    2300028: R_Leg_Singer
+    2300030: Skirt_Singer
+    2300032: Skirt_Star_Singer
+    3300000: Body_Singer
+    3300002: Collar_Singer
+    3300004: Earing_Singer
+    3300006: Earphone_Singer
+    3300008: Hair_Singer
+    3300010: Head_Singer
+    3300012: L_Arm_Singer
+    3300014: L_Ear_Singer
+    3300016: L_Leg_Singer
+    3300018: Mic_Singer
+    3300020: Neck_Singer
+    3300022: Nose_Singer
+    3300024: R_Arm_Singer
+    3300026: R_Ear_Singer
+    3300028: R_Leg_Singer
+    3300030: Skirt_Singer
+    3300032: Skirt_Star_Singer
+    4300000: Hair_Singer
+    4300002: Earing_Singer
+    4300004: Earphone_Singer
+    4300006: Mic_Singer
+    4300008: Head_Singer
+    4300010: Nose_Singer
+    4300012: L_Ear_Singer
+    4300014: R_Ear_Singer
+    4300016: R_Leg_Singer
+    4300018: L_Leg_Singer
+    4300020: Collar_Singer
+    4300022: Neck_Singer
+    4300024: R_Arm_Singer
+    4300026: L_Arm_Singer
+    4300028: Body_Singer
+    4300030: Skirt_Singer
+    4300032: Skirt_Star_Singer
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

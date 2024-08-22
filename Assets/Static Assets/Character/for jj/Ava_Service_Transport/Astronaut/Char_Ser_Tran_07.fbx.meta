@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 1fc900739c266bc378cebd0f0a62c004
+timeCreated: 1516068193
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Armor_Astronaut
+    100004: Body_Armour_Astronaut
+    100006: Body_Astronaut
+    100008: Button_Astronaut
+    100010: //RootNode
+    100012: Flag_Astronaut
+    100014: Hair_Astronaut
+    100016: HEAD
+    100018: Head_Armor_Astronaut
+    100020: Head_Astronaut
+    100022: L_Arm_Astronaut
+    100024: L_Ear_Astronaut
+    100026: L_Leg_Astronaut
+    100028: Neck_Astronaut
+    100030: Nose_Astronaut
+    100032: Oxygen_Astronaut
+    100034: R_Arm_Astronaut
+    100036: R_Ear_Astronaut
+    100038: R_Leg_Astronaut
+    400000: BODY
+    400002: Body_Armor_Astronaut
+    400004: Body_Armour_Astronaut
+    400006: Body_Astronaut
+    400008: Button_Astronaut
+    400010: //RootNode
+    400012: Flag_Astronaut
+    400014: Hair_Astronaut
+    400016: HEAD
+    400018: Head_Armor_Astronaut
+    400020: Head_Astronaut
+    400022: L_Arm_Astronaut
+    400024: L_Ear_Astronaut
+    400026: L_Leg_Astronaut
+    400028: Neck_Astronaut
+    400030: Nose_Astronaut
+    400032: Oxygen_Astronaut
+    400034: R_Arm_Astronaut
+    400036: R_Ear_Astronaut
+    400038: R_Leg_Astronaut
+    2300000: Body_Armor_Astronaut
+    2300002: Body_Armour_Astronaut
+    2300004: Body_Astronaut
+    2300006: Button_Astronaut
+    2300008: Flag_Astronaut
+    2300010: Hair_Astronaut
+    2300012: Head_Armor_Astronaut
+    2300014: Head_Astronaut
+    2300016: L_Arm_Astronaut
+    2300018: L_Ear_Astronaut
+    2300020: L_Leg_Astronaut
+    2300022: Neck_Astronaut
+    2300024: Nose_Astronaut
+    2300026: Oxygen_Astronaut
+    2300028: R_Arm_Astronaut
+    2300030: R_Ear_Astronaut
+    2300032: R_Leg_Astronaut
+    3300000: Body_Armor_Astronaut
+    3300002: Body_Armour_Astronaut
+    3300004: Body_Astronaut
+    3300006: Button_Astronaut
+    3300008: Flag_Astronaut
+    3300010: Hair_Astronaut
+    3300012: Head_Armor_Astronaut
+    3300014: Head_Astronaut
+    3300016: L_Arm_Astronaut
+    3300018: L_Ear_Astronaut
+    3300020: L_Leg_Astronaut
+    3300022: Neck_Astronaut
+    3300024: Nose_Astronaut
+    3300026: Oxygen_Astronaut
+    3300028: R_Arm_Astronaut
+    3300030: R_Ear_Astronaut
+    3300032: R_Leg_Astronaut
+    4300000: L_Arm_Astronaut
+    4300002: Neck_Astronaut
+    4300004: L_Leg_Astronaut
+    4300006: Body_Armor_Astronaut
+    4300008: R_Leg_Astronaut
+    4300010: R_Arm_Astronaut
+    4300012: Body_Astronaut
+    4300014: Body_Armour_Astronaut
+    4300016: Button_Astronaut
+    4300018: Flag_Astronaut
+    4300020: Oxygen_Astronaut
+    4300022: Head_Armor_Astronaut
+    4300024: Head_Astronaut
+    4300026: Nose_Astronaut
+    4300028: L_Ear_Astronaut
+    4300030: R_Ear_Astronaut
+    4300032: Hair_Astronaut
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

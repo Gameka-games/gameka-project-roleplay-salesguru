@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: eea76cddc22bb5f40916f432b443ae9c
+timeCreated: 1508818945
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bench_1
+    100002: Bench_2
+    100004: Building2
+    100006: Burger
+    100008: //RootNode
+    100010: door
+    100012: Drive_thru
+    100014: Floor
+    100016: Icon
+    100018: joint1
+    100020: joint2
+    100022: joint3
+    100024: main_building
+    100026: Sign_1
+    100028: Sign_2
+    100030: sign_drivetru
+    400000: Bench_1
+    400002: Bench_2
+    400004: Building2
+    400006: Burger
+    400008: //RootNode
+    400010: door
+    400012: Drive_thru
+    400014: Floor
+    400016: Icon
+    400018: joint1
+    400020: joint2
+    400022: joint3
+    400024: main_building
+    400026: Sign_1
+    400028: Sign_2
+    400030: sign_drivetru
+    2300000: door
+    2300002: Drive_thru
+    2300004: Floor
+    2300006: Icon
+    2300008: Sign_2
+    2300010: sign_drivetru
+    3300000: door
+    3300002: Drive_thru
+    3300004: Floor
+    3300006: Icon
+    3300008: Sign_2
+    3300010: sign_drivetru
+    4300000: Icon
+    4300002: Sign_1
+    4300004: Floor
+    4300006: Sign_2
+    4300008: door
+    4300010: sign_drivetru
+    4300012: Bench_1
+    4300014: Bench_2
+    4300016: Drive_thru
+    4300018: Building2
+    7400000: Shake1
+    7400002: Shake2
+    7400004: Shake3
+    7400006: sign_spin
+    9500000: //RootNode
+    13700000: Bench_1
+    13700002: Bench_2
+    13700004: Building2
+    13700006: Sign_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Shake1
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Burger
+        weight: 1
+      - path: Burger/door
+        weight: 1
+      - path: Burger/Floor
+        weight: 1
+      - path: Burger/Icon
+        weight: 1
+      - path: Burger/main_building
+        weight: 1
+      - path: Burger/main_building/Bench_1
+        weight: 1
+      - path: Burger/main_building/Bench_2
+        weight: 1
+      - path: Burger/main_building/Building2
+        weight: 1
+      - path: Burger/main_building/Drive_thru
+        weight: 1
+      - path: Burger/Sign_1
+        weight: 1
+      - path: Burger/Sign_2
+        weight: 1
+      - path: Burger/sign_drivetru
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shake2
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Burger
+        weight: 1
+      - path: Burger/door
+        weight: 1
+      - path: Burger/Floor
+        weight: 1
+      - path: Burger/Icon
+        weight: 1
+      - path: Burger/main_building
+        weight: 1
+      - path: Burger/main_building/Bench_1
+        weight: 1
+      - path: Burger/main_building/Bench_2
+        weight: 1
+      - path: Burger/main_building/Building2
+        weight: 1
+      - path: Burger/main_building/Drive_thru
+        weight: 1
+      - path: Burger/Sign_1
+        weight: 1
+      - path: Burger/Sign_2
+        weight: 1
+      - path: Burger/sign_drivetru
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shake3
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Burger
+        weight: 1
+      - path: Burger/door
+        weight: 1
+      - path: Burger/Floor
+        weight: 1
+      - path: Burger/Icon
+        weight: 1
+      - path: Burger/main_building
+        weight: 1
+      - path: Burger/main_building/Bench_1
+        weight: 1
+      - path: Burger/main_building/Bench_2
+        weight: 1
+      - path: Burger/main_building/Building2
+        weight: 1
+      - path: Burger/main_building/Drive_thru
+        weight: 1
+      - path: Burger/Sign_1
+        weight: 1
+      - path: Burger/Sign_2
+        weight: 1
+      - path: Burger/sign_drivetru
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sign_spin
+      takeName: Take 001
+      firstFrame: 182
+      lastFrame: 239
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Burger
+        weight: 1
+      - path: Burger/door
+        weight: 1
+      - path: Burger/Floor
+        weight: 1
+      - path: Burger/Icon
+        weight: 1
+      - path: Burger/main_building
+        weight: 1
+      - path: Burger/main_building/Bench_1
+        weight: 1
+      - path: Burger/main_building/Bench_2
+        weight: 1
+      - path: Burger/main_building/Building2
+        weight: 1
+      - path: Burger/main_building/Drive_thru
+        weight: 1
+      - path: Burger/Sign_1
+        weight: 1
+      - path: Burger/Sign_2
+        weight: 1
+      - path: Burger/sign_drivetru
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

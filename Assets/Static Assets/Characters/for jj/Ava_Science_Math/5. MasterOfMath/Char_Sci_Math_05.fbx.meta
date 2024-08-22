@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 87e298f32228d574db0e42cc48331106
+timeCreated: 1516068177
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_MOM
+    100004: Book_MOM
+    100006: //RootNode
+    100008: Collar_MOM
+    100010: Hair_MOM
+    100012: HEAD
+    100014: Head_MOM
+    100016: Jacket2_MOM
+    100018: Jacket_MOM
+    100020: L_Arm_MOM
+    100022: L_Ear_MOM
+    100024: L_Leg_MOM
+    100026: Neck_MOM
+    100028: Nose_MOM
+    100030: Pen_MOM
+    100032: R_Arm_MOM
+    100034: R_Ear_MOM
+    100036: R_Leg_MOM
+    100038: Tie_MOM
+    400000: BODY
+    400002: Body_MOM
+    400004: Book_MOM
+    400006: //RootNode
+    400008: Collar_MOM
+    400010: Hair_MOM
+    400012: HEAD
+    400014: Head_MOM
+    400016: Jacket2_MOM
+    400018: Jacket_MOM
+    400020: L_Arm_MOM
+    400022: L_Ear_MOM
+    400024: L_Leg_MOM
+    400026: Neck_MOM
+    400028: Nose_MOM
+    400030: Pen_MOM
+    400032: R_Arm_MOM
+    400034: R_Ear_MOM
+    400036: R_Leg_MOM
+    400038: Tie_MOM
+    2300000: Body_MOM
+    2300002: Book_MOM
+    2300004: Collar_MOM
+    2300006: Hair_MOM
+    2300008: Head_MOM
+    2300010: Jacket2_MOM
+    2300012: Jacket_MOM
+    2300014: L_Arm_MOM
+    2300016: L_Ear_MOM
+    2300018: L_Leg_MOM
+    2300020: Neck_MOM
+    2300022: Nose_MOM
+    2300024: Pen_MOM
+    2300026: R_Arm_MOM
+    2300028: R_Ear_MOM
+    2300030: R_Leg_MOM
+    2300032: Tie_MOM
+    3300000: Body_MOM
+    3300002: Book_MOM
+    3300004: Collar_MOM
+    3300006: Hair_MOM
+    3300008: Head_MOM
+    3300010: Jacket2_MOM
+    3300012: Jacket_MOM
+    3300014: L_Arm_MOM
+    3300016: L_Ear_MOM
+    3300018: L_Leg_MOM
+    3300020: Neck_MOM
+    3300022: Nose_MOM
+    3300024: Pen_MOM
+    3300026: R_Arm_MOM
+    3300028: R_Ear_MOM
+    3300030: R_Leg_MOM
+    3300032: Tie_MOM
+    4300000: Jacket_MOM
+    4300002: R_Arm_MOM
+    4300004: L_Arm_MOM
+    4300006: R_Leg_MOM
+    4300008: L_Leg_MOM
+    4300010: Neck_MOM
+    4300012: Body_MOM
+    4300014: Collar_MOM
+    4300016: Pen_MOM
+    4300018: Book_MOM
+    4300020: Tie_MOM
+    4300022: Jacket2_MOM
+    4300024: Head_MOM
+    4300026: Nose_MOM
+    4300028: L_Ear_MOM
+    4300030: R_Ear_MOM
+    4300032: Hair_MOM
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

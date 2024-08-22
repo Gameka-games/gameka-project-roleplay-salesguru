@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 53162789d0bf0d543a25ef4481ad76ac
+timeCreated: 1508498680
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Building1
+    100002: chair_table1
+    100004: chair_table2
+    100006: chair_table3
+    100008: chair_table4
+    100010: chair_table5
+    100012: pool1
+    100014: pool_plant1
+    100016: pool_plant2
+    100018: pool_plant3
+    100020: scuplture1
+    100022: scuplture2
+    100024: scuplture3
+    100026: scuplture_plant
+    100028: scuplture_plant2
+    100030: scuplture_plant3
+    100032: sign
+    100034: //RootNode
+    100036: window
+    400000: Building1
+    400002: chair_table1
+    400004: chair_table2
+    400006: chair_table3
+    400008: chair_table4
+    400010: chair_table5
+    400012: pool1
+    400014: pool_plant1
+    400016: pool_plant2
+    400018: pool_plant3
+    400020: scuplture1
+    400022: scuplture2
+    400024: scuplture3
+    400026: scuplture_plant
+    400028: scuplture_plant2
+    400030: scuplture_plant3
+    400032: sign
+    400034: //RootNode
+    400036: window
+    2300000: Building1
+    2300002: chair_table1
+    2300004: chair_table2
+    2300006: chair_table3
+    2300008: chair_table4
+    2300010: chair_table5
+    2300012: pool1
+    2300014: pool_plant1
+    2300016: pool_plant2
+    2300018: pool_plant3
+    2300020: scuplture1
+    2300022: scuplture2
+    2300024: scuplture3
+    2300026: sign
+    2300028: window
+    3300000: Building1
+    3300002: chair_table1
+    3300004: chair_table2
+    3300006: chair_table3
+    3300008: chair_table4
+    3300010: chair_table5
+    3300012: pool1
+    3300014: pool_plant1
+    3300016: pool_plant2
+    3300018: pool_plant3
+    3300020: scuplture1
+    3300022: scuplture2
+    3300024: scuplture3
+    3300026: sign
+    3300028: window
+    4300000: sign
+    4300002: pool1
+    4300004: window
+    4300006: chair_table1
+    4300008: chair_table2
+    4300010: chair_table3
+    4300012: chair_table4
+    4300014: chair_table5
+    4300016: Building1
+    4300018: pool_plant1
+    4300020: scuplture1
+    4300022: scuplture3
+    4300024: pool_plant3
+    4300026: scuplture2
+    4300028: pool_plant2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

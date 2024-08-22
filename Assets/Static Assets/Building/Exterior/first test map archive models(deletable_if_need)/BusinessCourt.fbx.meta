@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: 29defd6552b33974a81744ca83a0a3fc
+timeCreated: 1508486251
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: banner_left_1
+    100002: banner_left_2
+    100004: banner_left_3
+    100006: banner_left_4
+    100008: banner_mid_1
+    100010: banner_mid_2
+    100012: banner_mid_3
+    100014: banner_mid_4
+    100016: banner_right_1
+    100018: banner_right_2
+    100020: banner_right_3
+    100022: banner_right_4
+    100024: banners
+    100026: base
+    100028: building
+    100030: //RootNode
+    100032: flags
+    100034: left
+    100036: left_flag
+    100038: libra
+    100040: middle
+    100042: pole_left
+    100044: pole_right
+    100046: right
+    100048: right_flag
+    400000: banner_left_1
+    400002: banner_left_2
+    400004: banner_left_3
+    400006: banner_left_4
+    400008: banner_mid_1
+    400010: banner_mid_2
+    400012: banner_mid_3
+    400014: banner_mid_4
+    400016: banner_right_1
+    400018: banner_right_2
+    400020: banner_right_3
+    400022: banner_right_4
+    400024: banners
+    400026: base
+    400028: building
+    400030: //RootNode
+    400032: flags
+    400034: left
+    400036: left_flag
+    400038: libra
+    400040: middle
+    400042: pole_left
+    400044: pole_right
+    400046: right
+    400048: right_flag
+    2300000: banner_left_1
+    2300002: banner_left_2
+    2300004: banner_left_3
+    2300006: banner_left_4
+    2300008: banner_mid_1
+    2300010: banner_mid_2
+    2300012: banner_mid_3
+    2300014: banner_mid_4
+    2300016: banner_right_1
+    2300018: banner_right_2
+    2300020: banner_right_3
+    2300022: banner_right_4
+    2300024: base
+    2300026: building
+    2300028: left
+    2300030: left_flag
+    2300032: middle
+    2300034: pole_left
+    2300036: pole_right
+    2300038: right
+    2300040: right_flag
+    3300000: banner_left_1
+    3300002: banner_left_2
+    3300004: banner_left_3
+    3300006: banner_left_4
+    3300008: banner_mid_1
+    3300010: banner_mid_2
+    3300012: banner_mid_3
+    3300014: banner_mid_4
+    3300016: banner_right_1
+    3300018: banner_right_2
+    3300020: banner_right_3
+    3300022: banner_right_4
+    3300024: base
+    3300026: building
+    3300028: left
+    3300030: left_flag
+    3300032: middle
+    3300034: pole_left
+    3300036: pole_right
+    3300038: right
+    3300040: right_flag
+    4300000: left
+    4300002: right
+    4300004: middle
+    4300006: base
+    4300008: right_flag
+    4300010: left_flag
+    4300012: pole_left
+    4300014: pole_right
+    4300016: building
+    4300018: banner_right_4
+    4300020: banner_right_3
+    4300022: banner_right_2
+    4300024: banner_right_1
+    4300026: banner_mid_4
+    4300028: banner_mid_3
+    4300030: banner_mid_2
+    4300032: banner_mid_1
+    4300034: banner_left_4
+    4300036: banner_left_3
+    4300038: banner_left_2
+    4300040: banner_left_1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

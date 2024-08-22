@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: 89a61ab720478b54e9c0650a0bfde1b3
+timeCreated: 1511943311
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: banner
+    100002: flat1
+    100004: flat2
+    100006: Front
+    100008: MainBuilding
+    100010: mainbuilding
+    100012: pillar
+    100014: pillar1
+    100016: polySurface12
+    100018: polySurface13
+    100020: polySurface16
+    100022: polySurface17
+    100024: polySurface18
+    100026: polySurface19
+    100028: polySurface20
+    100030: polySurface21
+    100032: polySurface22
+    100034: polySurface23
+    100036: polySurface29
+    100038: polySurface31
+    100040: rooftop
+    100042: sign
+    100044: stair
+    100046: topfloor
+    100048: topfloor_2
+    100050: Trophy
+    100052: //RootNode
+    100054: Hall_Of_Fame
+    100056: Museum
+    400000: banner
+    400002: flat1
+    400004: flat2
+    400006: Front
+    400008: MainBuilding
+    400010: mainbuilding
+    400012: pillar
+    400014: pillar1
+    400016: polySurface12
+    400018: polySurface13
+    400020: polySurface16
+    400022: polySurface17
+    400024: polySurface18
+    400026: polySurface19
+    400028: polySurface20
+    400030: polySurface21
+    400032: polySurface22
+    400034: polySurface23
+    400036: polySurface29
+    400038: polySurface31
+    400040: rooftop
+    400042: sign
+    400044: stair
+    400046: topfloor
+    400048: topfloor_2
+    400050: Trophy
+    400052: //RootNode
+    400054: Hall_Of_Fame
+    400056: Museum
+    2300000: flat1
+    2300002: flat2
+    2300004: Front
+    2300006: mainbuilding
+    2300008: pillar
+    2300010: pillar1
+    2300012: polySurface12
+    2300014: polySurface13
+    2300016: polySurface16
+    2300018: polySurface17
+    2300020: polySurface18
+    2300022: polySurface19
+    2300024: polySurface20
+    2300026: polySurface21
+    2300028: polySurface22
+    2300030: polySurface23
+    2300032: polySurface29
+    2300034: polySurface31
+    2300036: rooftop
+    2300038: sign
+    2300040: stair
+    2300042: topfloor
+    2300044: topfloor_2
+    2300046: Trophy
+    3300000: flat1
+    3300002: flat2
+    3300004: Front
+    3300006: mainbuilding
+    3300008: pillar
+    3300010: pillar1
+    3300012: polySurface12
+    3300014: polySurface13
+    3300016: polySurface16
+    3300018: polySurface17
+    3300020: polySurface18
+    3300022: polySurface19
+    3300024: polySurface20
+    3300026: polySurface21
+    3300028: polySurface22
+    3300030: polySurface23
+    3300032: polySurface29
+    3300034: polySurface31
+    3300036: rooftop
+    3300038: sign
+    3300040: stair
+    3300042: topfloor
+    3300044: topfloor_2
+    3300046: Trophy
+    4300000: rooftop
+    4300002: topfloor
+    4300004: topfloor_2
+    4300006: mainbuilding
+    4300008: stair
+    4300010: Front
+    4300012: pillar
+    4300014: pillar1
+    4300016: flat2
+    4300018: flat1
+    4300020: sign
+    4300022: Trophy
+    4300024: polySurface31
+    4300026: polySurface29
+    4300028: polySurface23
+    4300030: polySurface22
+    4300032: polySurface21
+    4300034: polySurface20
+    4300036: polySurface19
+    4300038: polySurface18
+    4300040: polySurface12
+    4300042: polySurface13
+    4300044: polySurface17
+    4300046: polySurface16
+    7400000: Approach
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: <Root Transform>
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Approach
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hall_Of_Fame
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding/flat1
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding/flat2
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding/Front
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding/mainbuilding
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding/pillar
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding/pillar1
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding/rooftop
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding/sign
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding/stair
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding/topfloor
+        weight: 1
+      - path: Hall_Of_Fame/MainBuilding/topfloor_2
+        weight: 1
+      - path: Hall_Of_Fame/Trophy
+        weight: 1
+      - path: Museum
+        weight: 1
+      - path: Museum/banner
+        weight: 1
+      - path: Museum/banner/polySurface12
+        weight: 1
+      - path: Museum/banner/polySurface13
+        weight: 1
+      - path: Museum/banner/polySurface16
+        weight: 1
+      - path: Museum/banner/polySurface17
+        weight: 1
+      - path: Museum/banner/polySurface18
+        weight: 1
+      - path: Museum/banner/polySurface19
+        weight: 1
+      - path: Museum/banner/polySurface20
+        weight: 1
+      - path: Museum/banner/polySurface21
+        weight: 1
+      - path: Museum/banner/polySurface22
+        weight: 1
+      - path: Museum/banner/polySurface23
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

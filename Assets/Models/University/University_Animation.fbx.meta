@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: c81efd85e948c234091ca3452c6af518
+timeCreated: 1509591628
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: book
+    100002: book_scuplture
+    100004: earth
+    100006: earth_circle
+    100008: earth_circle1
+    100010: flag
+    100012: group1
+    100014: group2
+    100016: Left_side_building1
+    100018: middle_side_building
+    100020: mirror_transaprent
+    100022: Signature
+    100024: Signature1
+    100026: //RootNode
+    100028: group3
+    100030: group4
+    100032: group5
+    100034: University
+    100036: Earth
+    100038: Flag
+    100040: Left_Building
+    100042: Mid_Building
+    100044: Right_Building
+    100046: University_Light:Group_1
+    100048: middle_side_building1
+    400000: book
+    400002: book_scuplture
+    400004: earth
+    400006: earth_circle
+    400008: earth_circle1
+    400010: flag
+    400012: group1
+    400014: group2
+    400016: Left_side_building1
+    400018: middle_side_building
+    400020: mirror_transaprent
+    400022: Signature
+    400024: Signature1
+    400026: //RootNode
+    400028: group3
+    400030: group4
+    400032: group5
+    400034: University
+    400036: Earth
+    400038: Flag
+    400040: Left_Building
+    400042: Mid_Building
+    400044: Right_Building
+    400046: University_Light:Group_1
+    400048: middle_side_building1
+    2300000: book
+    2300002: book_scuplture
+    2300004: earth
+    2300006: earth_circle
+    2300008: earth_circle1
+    2300010: flag
+    2300012: Left_side_building1
+    2300014: middle_side_building
+    2300016: mirror_transaprent
+    2300018: Signature
+    2300020: Signature1
+    2300022: Earth
+    2300024: Flag
+    2300026: Left_Building
+    2300028: Mid_Building
+    2300030: Right_Building
+    2300032: middle_side_building1
+    3300000: book
+    3300002: book_scuplture
+    3300004: earth
+    3300006: earth_circle
+    3300008: earth_circle1
+    3300010: flag
+    3300012: Left_side_building1
+    3300014: middle_side_building
+    3300016: mirror_transaprent
+    3300018: Signature
+    3300020: Signature1
+    3300022: Earth
+    3300024: Flag
+    3300026: Left_Building
+    3300028: Mid_Building
+    3300030: Right_Building
+    3300032: middle_side_building1
+    4300000: flag
+    4300002: book_scuplture
+    4300004: Signature1
+    4300006: middle_side_building
+    4300008: Left_side_building1
+    4300010: mirror_transaprent
+    4300012: book
+    4300014: Signature
+    4300016: earth
+    4300018: earth_circle1
+    4300020: earth_circle
+    4300022: Right_Building
+    4300024: Left_Building
+    4300026: Flag
+    4300028: Earth
+    4300030: Mid_Building
+    4300032: middle_side_building1
+    7400000: Approached
+    7400002: Idle
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Approached
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book_scuplture
+        weight: 1
+      - path: flag
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/book
+        weight: 1
+      - path: group1/book/Signature
+        weight: 1
+      - path: group1/Left_side_building1
+        weight: 1
+      - path: group1/middle_side_building
+        weight: 1
+      - path: group1/mirror_transaprent
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group2/earth
+        weight: 1
+      - path: group2/earth/earth_circle
+        weight: 1
+      - path: group2/earth/earth_circle1
+        weight: 1
+      - path: Signature1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book_scuplture
+        weight: 1
+      - path: flag
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/book
+        weight: 1
+      - path: group1/book/Signature
+        weight: 1
+      - path: group1/Left_side_building1
+        weight: 1
+      - path: group1/middle_side_building
+        weight: 1
+      - path: group1/mirror_transaprent
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group2/earth
+        weight: 1
+      - path: group2/earth/earth_circle
+        weight: 1
+      - path: group2/earth/earth_circle1
+        weight: 1
+      - path: Signature1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

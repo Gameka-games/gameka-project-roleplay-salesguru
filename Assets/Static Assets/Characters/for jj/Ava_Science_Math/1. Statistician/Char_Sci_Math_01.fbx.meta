@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 880fbfeb920183b4ea408a1467e5e841
+timeCreated: 1516068177
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Belt_Statistician
+    100002: BODY
+    100004: Body_Statistician
+    100006: //RootNode
+    100008: Collar
+    100010: Hair_Statistician
+    100012: HEAD
+    100014: Head_Statistician
+    100016: L_Arm_Statistician
+    100018: L_Ear_Statistician
+    100020: L_Leg_Statistician
+    100022: Magic_Paper_Statistician
+    100024: Magic_Stick_Statistician
+    100026: Neck_Statistician
+    100028: Nose_Statistician
+    100030: R_Arm_Statistician
+    100032: R_Ear_Statistician
+    100034: R_Leg_Statistician
+    100036: Skirt_Statistician
+    100038: Spectacle_Statistician
+    400000: Belt_Statistician
+    400002: BODY
+    400004: Body_Statistician
+    400006: //RootNode
+    400008: Collar
+    400010: Hair_Statistician
+    400012: HEAD
+    400014: Head_Statistician
+    400016: L_Arm_Statistician
+    400018: L_Ear_Statistician
+    400020: L_Leg_Statistician
+    400022: Magic_Paper_Statistician
+    400024: Magic_Stick_Statistician
+    400026: Neck_Statistician
+    400028: Nose_Statistician
+    400030: R_Arm_Statistician
+    400032: R_Ear_Statistician
+    400034: R_Leg_Statistician
+    400036: Skirt_Statistician
+    400038: Spectacle_Statistician
+    2300000: Belt_Statistician
+    2300002: Body_Statistician
+    2300004: Collar
+    2300006: Hair_Statistician
+    2300008: Head_Statistician
+    2300010: L_Arm_Statistician
+    2300012: L_Ear_Statistician
+    2300014: L_Leg_Statistician
+    2300016: Magic_Paper_Statistician
+    2300018: Magic_Stick_Statistician
+    2300020: Neck_Statistician
+    2300022: Nose_Statistician
+    2300024: R_Arm_Statistician
+    2300026: R_Ear_Statistician
+    2300028: R_Leg_Statistician
+    2300030: Skirt_Statistician
+    2300032: Spectacle_Statistician
+    3300000: Belt_Statistician
+    3300002: Body_Statistician
+    3300004: Collar
+    3300006: Hair_Statistician
+    3300008: Head_Statistician
+    3300010: L_Arm_Statistician
+    3300012: L_Ear_Statistician
+    3300014: L_Leg_Statistician
+    3300016: Magic_Paper_Statistician
+    3300018: Magic_Stick_Statistician
+    3300020: Neck_Statistician
+    3300022: Nose_Statistician
+    3300024: R_Arm_Statistician
+    3300026: R_Ear_Statistician
+    3300028: R_Leg_Statistician
+    3300030: Skirt_Statistician
+    3300032: Spectacle_Statistician
+    4300000: Hair_Statistician
+    4300002: Head_Statistician
+    4300004: R_Ear_Statistician
+    4300006: L_Ear_Statistician
+    4300008: Nose_Statistician
+    4300010: Spectacle_Statistician
+    4300012: Magic_Stick_Statistician
+    4300014: Magic_Paper_Statistician
+    4300016: Collar
+    4300018: L_Leg_Statistician
+    4300020: Body_Statistician
+    4300022: R_Leg_Statistician
+    4300024: Neck_Statistician
+    4300026: Belt_Statistician
+    4300028: Skirt_Statistician
+    4300030: L_Arm_Statistician
+    4300032: R_Arm_Statistician
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

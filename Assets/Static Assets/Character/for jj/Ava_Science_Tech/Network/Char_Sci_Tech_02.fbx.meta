@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 891169bdb5954a5f68d2d61b92b259ea
+timeCreated: 1516068188
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Network
+    100004: Butt_Network
+    100006: //RootNode
+    100008: Collar_Network
+    100010: Hair_Network
+    100012: HEAD
+    100014: Head_Network
+    100016: Jacket_Network
+    100018: L_Arm_Network
+    100020: L_Ear_Network
+    100022: L_Leg_Network
+    100024: Neck_Network
+    100026: Nose_Network
+    100028: R_Arm_Network
+    100030: R_Ear_Network
+    100032: R_Leg_Network
+    400000: BODY
+    400002: Body_Network
+    400004: Butt_Network
+    400006: //RootNode
+    400008: Collar_Network
+    400010: Hair_Network
+    400012: HEAD
+    400014: Head_Network
+    400016: Jacket_Network
+    400018: L_Arm_Network
+    400020: L_Ear_Network
+    400022: L_Leg_Network
+    400024: Neck_Network
+    400026: Nose_Network
+    400028: R_Arm_Network
+    400030: R_Ear_Network
+    400032: R_Leg_Network
+    2300000: Body_Network
+    2300002: Butt_Network
+    2300004: Collar_Network
+    2300006: Hair_Network
+    2300008: Head_Network
+    2300010: Jacket_Network
+    2300012: L_Arm_Network
+    2300014: L_Ear_Network
+    2300016: L_Leg_Network
+    2300018: Neck_Network
+    2300020: Nose_Network
+    2300022: R_Arm_Network
+    2300024: R_Ear_Network
+    2300026: R_Leg_Network
+    3300000: Body_Network
+    3300002: Butt_Network
+    3300004: Collar_Network
+    3300006: Hair_Network
+    3300008: Head_Network
+    3300010: Jacket_Network
+    3300012: L_Arm_Network
+    3300014: L_Ear_Network
+    3300016: L_Leg_Network
+    3300018: Neck_Network
+    3300020: Nose_Network
+    3300022: R_Arm_Network
+    3300024: R_Ear_Network
+    3300026: R_Leg_Network
+    4300000: Head_Network
+    4300002: L_Ear_Network
+    4300004: Nose_Network
+    4300006: R_Ear_Network
+    4300008: Jacket_Network
+    4300010: Collar_Network
+    4300012: Body_Network
+    4300014: R_Leg_Network
+    4300016: Neck_Network
+    4300018: Butt_Network
+    4300020: R_Arm_Network
+    4300022: L_Leg_Network
+    4300024: L_Arm_Network
+    4300026: Hair_Network
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

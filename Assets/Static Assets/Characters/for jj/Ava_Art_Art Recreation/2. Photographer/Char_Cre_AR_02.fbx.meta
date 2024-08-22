@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: a1e73ff51c79b8145baa74e9a8e360e9
+timeCreated: 1516068185
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Photographer
+    100004: Camera_Bag_Photographer
+    100006: Camera_Photographer
+    100008: //RootNode
+    100010: Collar_Photographer
+    100012: Hair_Back_Photographer
+    100014: Hair_Photographer
+    100016: HEAD
+    100018: Head_Photographer
+    100020: L_Arm_Photographer
+    100022: L_Ear_Photographer
+    100024: L_Leg_Photographer
+    100026: Neck_Photographer
+    100028: Nose_Photographer
+    100030: Ponytail_Photographer
+    100032: R_Arm_Photographer
+    100034: R_Ear_Photographer
+    100036: R_Leg_Photographer
+    100038: Vest_Photographer
+    400000: BODY
+    400002: Body_Photographer
+    400004: Camera_Bag_Photographer
+    400006: Camera_Photographer
+    400008: //RootNode
+    400010: Collar_Photographer
+    400012: Hair_Back_Photographer
+    400014: Hair_Photographer
+    400016: HEAD
+    400018: Head_Photographer
+    400020: L_Arm_Photographer
+    400022: L_Ear_Photographer
+    400024: L_Leg_Photographer
+    400026: Neck_Photographer
+    400028: Nose_Photographer
+    400030: Ponytail_Photographer
+    400032: R_Arm_Photographer
+    400034: R_Ear_Photographer
+    400036: R_Leg_Photographer
+    400038: Vest_Photographer
+    2300000: Body_Photographer
+    2300002: Camera_Bag_Photographer
+    2300004: Camera_Photographer
+    2300006: Collar_Photographer
+    2300008: Hair_Back_Photographer
+    2300010: Hair_Photographer
+    2300012: Head_Photographer
+    2300014: L_Arm_Photographer
+    2300016: L_Ear_Photographer
+    2300018: L_Leg_Photographer
+    2300020: Neck_Photographer
+    2300022: Nose_Photographer
+    2300024: Ponytail_Photographer
+    2300026: R_Arm_Photographer
+    2300028: R_Ear_Photographer
+    2300030: R_Leg_Photographer
+    2300032: Vest_Photographer
+    3300000: Body_Photographer
+    3300002: Camera_Bag_Photographer
+    3300004: Camera_Photographer
+    3300006: Collar_Photographer
+    3300008: Hair_Back_Photographer
+    3300010: Hair_Photographer
+    3300012: Head_Photographer
+    3300014: L_Arm_Photographer
+    3300016: L_Ear_Photographer
+    3300018: L_Leg_Photographer
+    3300020: Neck_Photographer
+    3300022: Nose_Photographer
+    3300024: Ponytail_Photographer
+    3300026: R_Arm_Photographer
+    3300028: R_Ear_Photographer
+    3300030: R_Leg_Photographer
+    3300032: Vest_Photographer
+    4300000: Vest_Photographer
+    4300002: L_Arm_Photographer
+    4300004: R_Arm_Photographer
+    4300006: L_Leg_Photographer
+    4300008: R_Leg_Photographer
+    4300010: Neck_Photographer
+    4300012: Collar_Photographer
+    4300014: Body_Photographer
+    4300016: Camera_Bag_Photographer
+    4300018: Camera_Photographer
+    4300020: Head_Photographer
+    4300022: R_Ear_Photographer
+    4300024: L_Ear_Photographer
+    4300026: Nose_Photographer
+    4300028: Hair_Photographer
+    4300030: Ponytail_Photographer
+    4300032: Hair_Back_Photographer
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

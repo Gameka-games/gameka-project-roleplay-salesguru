@@ -1,0 +1,1286 @@
+fileFormatVersion: 2
+guid: 48eb9e5273073a136a38038fd5011d2f
+timeCreated: 1513142927
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bag
+    100002: Base_Male_Body
+    100004: Base_Male_Leg
+    100006: Base_Male_Leg1
+    100008: Base_Male_Neck
+    100010: Basic_Male_Body
+    100012: Body
+    100014: Char_Male_Head_1
+    100016: Chest
+    100018: collor
+    100020: Face_Male
+    100022: Hair
+    100024: hair
+    100026: hair1
+    100028: hat
+    100030: Head
+    100032: Head1
+    100034: HIps
+    100036: L_Calf
+    100038: L_Clavicle
+    100040: L_Foot
+    100042: L_Forearm
+    100044: L_Hand
+    100046: L_Thigh1
+    100048: L_Toe
+    100050: L_Upperarm
+    100052: Monetbag
+    100054: Neck
+    100056: Normal_Male_2_Body
+    100058: Pelvis
+    100060: polySurface1
+    100062: polySurface3
+    100064: polySurface32
+    100066: polySurface33
+    100068: polySurface6
+    100070: R_Calf
+    100072: R_Clavicle
+    100074: R_Foot
+    100076: R_Forearm
+    100078: R_Hand
+    100080: R_Thigh
+    100082: R_Toe
+    100084: R_Upperarm
+    100086: //RootNode
+    100088: robber_body
+    100090: Spine
+    100092: Spine1
+    100094: transform1
+    100096: transform2
+    100098: transform3
+    400000: bag
+    400002: Base_Male_Body
+    400004: Base_Male_Leg
+    400006: Base_Male_Leg1
+    400008: Base_Male_Neck
+    400010: Basic_Male_Body
+    400012: Body
+    400014: Char_Male_Head_1
+    400016: Chest
+    400018: collor
+    400020: Face_Male
+    400022: Hair
+    400024: hair
+    400026: hair1
+    400028: hat
+    400030: Head
+    400032: Head1
+    400034: HIps
+    400036: L_Calf
+    400038: L_Clavicle
+    400040: L_Foot
+    400042: L_Forearm
+    400044: L_Hand
+    400046: L_Thigh1
+    400048: L_Toe
+    400050: L_Upperarm
+    400052: Monetbag
+    400054: Neck
+    400056: Normal_Male_2_Body
+    400058: Pelvis
+    400060: polySurface1
+    400062: polySurface3
+    400064: polySurface32
+    400066: polySurface33
+    400068: polySurface6
+    400070: R_Calf
+    400072: R_Clavicle
+    400074: R_Foot
+    400076: R_Forearm
+    400078: R_Hand
+    400080: R_Thigh
+    400082: R_Toe
+    400084: R_Upperarm
+    400086: //RootNode
+    400088: robber_body
+    400090: Spine
+    400092: Spine1
+    400094: transform1
+    400096: transform2
+    400098: transform3
+    2300000: Monetbag
+    3300000: Monetbag
+    4300000: hair
+    4300002: hat
+    4300004: hair1
+    4300006: Base_Male_Body
+    4300008: Base_Male_Leg
+    4300010: Base_Male_Neck
+    4300012: Base_Male_Leg1
+    4300014: polySurface33
+    4300016: polySurface32
+    4300018: collor
+    4300020: Monetbag
+    4300022: Face_Male
+    4300024: polySurface6
+    4300026: polySurface1
+    4300028: polySurface3
+    7400000: run_robber
+    7400002: pokkai_1
+    7400004: pokkai_2
+    7400006: run_robber_two
+    7400008: Idle
+    9500000: //RootNode
+    13700000: Base_Male_Body
+    13700002: Base_Male_Leg
+    13700004: Base_Male_Leg1
+    13700006: Base_Male_Neck
+    13700008: collor
+    13700010: Face_Male
+    13700012: hair
+    13700014: hair1
+    13700016: hat
+    13700018: polySurface1
+    13700020: polySurface3
+    13700022: polySurface32
+    13700024: polySurface33
+    13700026: polySurface6
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'L_Forearm' has translation animation that will
+      be discarded.\n\t'R_Forearm' has translation animation that will be discarded.\n\t'R_Hand'
+      has translation animation that will be discarded.\n\t'L_Thigh1' has translation
+      animation that will be discarded.\n\t'R_Thigh' has translation animation that
+      will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run_robber
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Male_Head_1
+        weight: 1
+      - path: Char_Male_Head_1/Head
+        weight: 1
+      - path: Char_Male_Head_1/Head/Face_Male
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface1
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface1/transform1
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface3
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface3/transform2
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface6
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface6/transform3
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      - path: robber_body
+        weight: 1
+      - path: robber_body/Body
+        weight: 1
+      - path: robber_body/Body/bag
+        weight: 1
+      - path: robber_body/Body/bag/Monetbag
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Body
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Leg
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Leg1
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Neck
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/polySurface32
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/polySurface33
+        weight: 1
+      - path: robber_body/Body/Normal_Male_2_Body
+        weight: 1
+      - path: robber_body/Body/Normal_Male_2_Body/collor
+        weight: 1
+      - path: robber_body/Hair
+        weight: 1
+      - path: robber_body/Hair/hair
+        weight: 1
+      - path: robber_body/Hair/hair1
+        weight: 1
+      - path: robber_body/Hair/hat
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pokkai_1
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Male_Head_1
+        weight: 1
+      - path: Char_Male_Head_1/Head
+        weight: 1
+      - path: Char_Male_Head_1/Head/Face_Male
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface1
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface1/transform1
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface3
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface3/transform2
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface6
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface6/transform3
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      - path: robber_body
+        weight: 1
+      - path: robber_body/Body
+        weight: 1
+      - path: robber_body/Body/bag
+        weight: 1
+      - path: robber_body/Body/bag/Monetbag
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Body
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Leg
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Leg1
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Neck
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/polySurface32
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/polySurface33
+        weight: 1
+      - path: robber_body/Body/Normal_Male_2_Body
+        weight: 1
+      - path: robber_body/Body/Normal_Male_2_Body/collor
+        weight: 1
+      - path: robber_body/Hair
+        weight: 1
+      - path: robber_body/Hair/hair
+        weight: 1
+      - path: robber_body/Hair/hair1
+        weight: 1
+      - path: robber_body/Hair/hat
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pokkai_2
+      takeName: Take 001
+      firstFrame: 201
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Male_Head_1
+        weight: 1
+      - path: Char_Male_Head_1/Head
+        weight: 1
+      - path: Char_Male_Head_1/Head/Face_Male
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface1
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface1/transform1
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface3
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface3/transform2
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface6
+        weight: 1
+      - path: Char_Male_Head_1/Head/polySurface6/transform3
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      - path: robber_body
+        weight: 1
+      - path: robber_body/Body
+        weight: 1
+      - path: robber_body/Body/bag
+        weight: 1
+      - path: robber_body/Body/bag/Monetbag
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Body
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Leg
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Leg1
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Neck
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/polySurface32
+        weight: 1
+      - path: robber_body/Body/Basic_Male_Body/polySurface33
+        weight: 1
+      - path: robber_body/Body/Normal_Male_2_Body
+        weight: 1
+      - path: robber_body/Body/Normal_Male_2_Body/collor
+        weight: 1
+      - path: robber_body/Hair
+        weight: 1
+      - path: robber_body/Hair/hair
+        weight: 1
+      - path: robber_body/Hair/hair1
+        weight: 1
+      - path: robber_body/Hair/hat
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run_robber_two
+      takeName: Take 001
+      firstFrame: 141
+      lastFrame: 201
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Male_Head_1
+        weight: 0
+      - path: Char_Male_Head_1/Head
+        weight: 0
+      - path: Char_Male_Head_1/Head/Face_Male
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface1
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface1/transform1
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface3
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface3/transform2
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface6
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface6/transform3
+        weight: 0
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      - path: robber_body
+        weight: 0
+      - path: robber_body/Body
+        weight: 0
+      - path: robber_body/Body/bag
+        weight: 0
+      - path: robber_body/Body/bag/Monetbag
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Body
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Leg
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Leg1
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Neck
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/polySurface32
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/polySurface33
+        weight: 0
+      - path: robber_body/Body/Normal_Male_2_Body
+        weight: 0
+      - path: robber_body/Body/Normal_Male_2_Body/collor
+        weight: 0
+      - path: robber_body/Hair
+        weight: 0
+      - path: robber_body/Hair/hair
+        weight: 0
+      - path: robber_body/Hair/hair1
+        weight: 0
+      - path: robber_body/Hair/hat
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.9
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 281
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Male_Head_1
+        weight: 0
+      - path: Char_Male_Head_1/Head
+        weight: 0
+      - path: Char_Male_Head_1/Head/Face_Male
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface1
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface1/transform1
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface3
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface3/transform2
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface6
+        weight: 0
+      - path: Char_Male_Head_1/Head/polySurface6/transform3
+        weight: 0
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      - path: robber_body
+        weight: 0
+      - path: robber_body/Body
+        weight: 0
+      - path: robber_body/Body/bag
+        weight: 0
+      - path: robber_body/Body/bag/Monetbag
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Body
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Leg
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Leg1
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/Base_Male_Neck
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/polySurface32
+        weight: 0
+      - path: robber_body/Body/Basic_Male_Body/polySurface33
+        weight: 0
+      - path: robber_body/Body/Normal_Male_2_Body
+        weight: 0
+      - path: robber_body/Body/Normal_Male_2_Body/collor
+        weight: 0
+      - path: robber_body/Hair
+        weight: 0
+      - path: robber_body/Hair/hair
+        weight: 0
+      - path: robber_body/Hair/hair1
+        weight: 0
+      - path: robber_body/Hair/hat
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.9
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Thigh1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head1
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Upperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Upperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Toe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Toe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: robber(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Char_Male_Head_1
+      parentName: robber(Clone)
+      position: {x: -0, y: 0.035004202, z: 0}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Char_Male_Head_1
+      position: {x: -0.0021367648, y: 0.019947363, z: 0.000042579122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face_Male
+      parentName: Head
+      position: {x: 0.0021367648, y: -0.019947363, z: -0.000042579122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface1
+      parentName: Head
+      position: {x: 0.0021367648, y: -0.019947363, z: -0.000042579122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform1
+      parentName: polySurface1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface3
+      parentName: Head
+      position: {x: 0.0021367648, y: -0.019947363, z: -0.000042579122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform2
+      parentName: polySurface3
+      position: {x: 1.7815873e-19, y: 0, z: 0.0008023556}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface6
+      parentName: Head
+      position: {x: 0.0021367648, y: -0.019947363, z: -0.000042579122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform3
+      parentName: polySurface6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIps
+      parentName: robber(Clone)
+      position: {x: -0, y: 0.01504811, z: -0.0040162387}
+      rotation: {x: -0.4998451, y: 0.5001549, z: -0.48729733, w: 0.5123878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis
+      parentName: HIps
+      position: {x: 0.0020428773, y: -0.003360646, z: -0.0001713594}
+      rotation: {x: 0.587114, y: 0.013199121, z: 0.06363318, w: 0.80689144}
+      scale: {x: 0.9999995, y: 0.99999994, z: 1}
+    - name: L_Thigh1
+      parentName: Pelvis
+      position: {x: -0.0012908637, y: -0.005340376, z: -0.0022938927}
+      rotation: {x: -0.0326491, y: 0.99946696, z: 0.000000029802322, w: -3.492211e-10}
+      scale: {x: 1.000001, y: 1.0000001, z: 1.0000012}
+    - name: L_Calf
+      parentName: L_Thigh1
+      position: {x: -0.006330148, y: -0.00040152099, z: -0.00107796}
+      rotation: {x: -0.000000029092773, y: -0.000000023272555, z: 0.037978232, w: 0.9992786}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999976}
+    - name: L_Foot
+      parentName: L_Calf
+      position: {x: -0.0054995078, y: 0.000021093187, z: 0.0015457501}
+      rotation: {x: -0.46440393, y: 0.5550304, z: 0.53308386, w: 0.43828306}
+      scale: {x: 1.0000002, y: 1, z: 0.9999999}
+    - name: L_Toe
+      parentName: L_Foot
+      position: {x: 0.010037139, y: -0.0011026444, z: 7.771561e-18}
+      rotation: {x: -0.550844, y: -0.44336313, z: -0.45688003, w: -0.5396857}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Spine
+      parentName: Pelvis
+      position: {x: -0.0063349544, y: 0.00015754945, z: -0.00070423697}
+      rotation: {x: 0.000000029802322, y: 0.000000020837708, z: -0.012393809, w: 0.9999232}
+      scale: {x: 1.0000015, y: 1.0000007, z: 1.0000001}
+    - name: Spine1
+      parentName: Spine
+      position: {x: -0.005498976, y: 0.00000039196146, z: -0.00057596393}
+      rotation: {x: 0.000000029966785, y: -0.000000025944829, z: 0.0076915766, w: 0.9999705}
+      scale: {x: 1, y: 1.0000006, z: 1.0000004}
+    - name: Chest
+      parentName: Spine1
+      position: {x: -0.005432253, y: 0.000082523395, z: 0.0012147946}
+      rotation: {x: -0.9998392, y: 0.017935164, z: 0.000000031782324, w: 0.00000002917284}
+      scale: {x: 1.000001, y: 1.0000013, z: 1.0000029}
+    - name: L_Clavicle
+      parentName: Chest
+      position: {x: 0.00020313564, y: 0.0049369563, z: 0.0005085604}
+      rotation: {x: 0.6225453, y: 0.6546629, z: 0.4261695, w: 0.047259953}
+      scale: {x: 1.000001, y: 1.0000007, z: 1.0000002}
+    - name: L_Upperarm
+      parentName: L_Clavicle
+      position: {x: 0.0035366826, y: -0.00018553004, z: 8.299704e-11}
+      rotation: {x: 0.037590332, y: -0.14681315, z: -0.00869107, w: 0.98841155}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1}
+    - name: L_Forearm
+      parentName: L_Upperarm
+      position: {x: 0.012170171, y: 0.0013059671, z: -0.00081222755}
+      rotation: {x: -0.0018190361, y: 0.01345151, z: -0.064237274, w: 0.9978423}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000002}
+    - name: L_Hand
+      parentName: L_Forearm
+      position: {x: 0.010508647, y: 0.0023188526, z: 0.00068477006}
+      rotation: {x: -0.000000043839385, y: 0.00000008566625, z: -0.67270666, w: -0.7399094}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000005}
+    - name: R_Clavicle
+      parentName: Chest
+      position: {x: 0.0002, y: -0.00494, z: 0.00050855865}
+      rotation: {x: 0.038248472, y: -0.08983749, z: 0.6424277, w: 0.76010066}
+      scale: {x: 1.0000015, y: 1.000002, z: 0.9999997}
+    - name: R_Upperarm
+      parentName: R_Clavicle
+      position: {x: -0.0035784978, y: 0.00033317908, z: -2.6201268e-12}
+      rotation: {x: 0.021834768, y: -0.09813951, z: 0.05319877, w: 0.99350977}
+      scale: {x: 1.000001, y: 1, z: 1.0000012}
+    - name: R_Forearm
+      parentName: R_Upperarm
+      position: {x: -0.010294919, y: -0.0013566619, z: 0.0008408124}
+      rotation: {x: -0.0027850152, y: 0.018965278, z: -0.06286789, w: 0.9978378}
+      scale: {x: 0.99999946, y: 0.9999997, z: 1.0000012}
+    - name: R_Hand
+      parentName: R_Forearm
+      position: {x: -0.010508682, y: -0.002318924, z: -0.00068477145}
+      rotation: {x: 0.00000023184111, y: 0.00000034738332, z: 0.6727067, w: 0.7399093}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Neck
+      parentName: Chest
+      position: {x: -0.0022603734, y: 0.000046602356, z: -0.00008871763}
+      rotation: {x: 0.45827645, y: -0.53850055, z: 0.5289984, w: 0.4692127}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000008}
+    - name: Head1
+      parentName: Neck
+      position: {x: 0.0001929115, y: 0.014330495, z: -0.000001961983}
+      rotation: {x: 0.22383489, y: 0.72397226, z: -0.13729146, w: -0.63789755}
+      scale: {x: 1.0000055, y: 0.9999998, z: 1.000002}
+    - name: R_Thigh
+      parentName: Pelvis
+      position: {x: -0.0010452489, y: 0.0053975116, z: 0.0034597209}
+      rotation: {x: 0.000000029802322, y: 0.00000001807688, z: -0.05741158, w: 0.9983506}
+      scale: {x: 1.0000005, y: 0.99999994, z: 0.99999964}
+    - name: R_Calf
+      parentName: R_Thigh
+      position: {x: 0.006330148, y: 0.00040152154, z: 0.00107796}
+      rotation: {x: -0.0000000023854216, y: 0.00000002989747, z: 0.037978157, w: 0.9992786}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: R_Foot
+      parentName: R_Calf
+      position: {x: 0.0054995064, y: -0.000021093205, z: -0.0015457501}
+      rotation: {x: -0.45399576, y: 0.54211426, z: 0.54847205, w: 0.44629422}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: R_Toe
+      parentName: R_Foot
+      position: {x: -0.010037142, y: 0.00110265, z: 1.11022296e-17}
+      rotation: {x: 0.5508441, y: 0.44336316, z: 0.45688003, w: 0.5396857}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000004}
+    - name: robber_body
+      parentName: robber(Clone)
+      position: {x: -0, y: 0, z: -0.003958207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: robber_body
+      position: {x: -0, y: 0, z: 0.003958207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bag
+      parentName: Body
+      position: {x: -0, y: 0, z: -0.004}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monetbag
+      parentName: bag
+      position: {x: -0.013523784, y: 0.011805698, z: -0.018396867}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Basic_Male_Body
+      parentName: Body
+      position: {x: 0.035471886, y: 0.0011469192, z: 0.031935334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base_Male_Body
+      parentName: Basic_Male_Body
+      position: {x: -0.035471886, y: -0.0011469192, z: -0.031935334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base_Male_Leg
+      parentName: Basic_Male_Body
+      position: {x: -0.035471886, y: -0.0011469192, z: -0.031935334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base_Male_Leg1
+      parentName: Basic_Male_Body
+      position: {x: -0.035471886, y: -0.0011469192, z: -0.031935334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base_Male_Neck
+      parentName: Basic_Male_Body
+      position: {x: -0.035471886, y: -0.0011469192, z: -0.031935334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface32
+      parentName: Basic_Male_Body
+      position: {x: -0.035471886, y: -0.0011469192, z: -0.031935334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface33
+      parentName: Basic_Male_Body
+      position: {x: -0.035471886, y: -0.0011469192, z: -0.031935334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Normal_Male_2_Body
+      parentName: Body
+      position: {x: 0.035471886, y: 0.0011469192, z: 0.031935334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: collor
+      parentName: Normal_Male_2_Body
+      position: {x: -0.035471886, y: -0.0011469192, z: -0.031935334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair
+      parentName: robber_body
+      position: {x: 0.002710695, y: 0.00008931944, z: 0.0042196778}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair
+      parentName: Hair
+      position: {x: -0.0005815871, y: -0.00071457005, z: -0.005944633}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair1
+      parentName: Hair
+      position: {x: -0.0005815871, y: -0.00071457005, z: -0.0057514375}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hat
+      parentName: Hair
+      position: {x: -0.002710695, y: -0.00008931944, z: -0.00026147085}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

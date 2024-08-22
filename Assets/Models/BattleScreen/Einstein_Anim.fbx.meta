@@ -1,0 +1,658 @@
+fileFormatVersion: 2
+guid: bcbafa38370733d41882bf90cf91f3ab
+timeCreated: 1520812922
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Einstein
+    100004: Chest
+    100006: Coat_Einstein
+    100008: Collar_Einstein
+    100010: //RootNode
+    100012: Hair2_Einstein
+    100014: Hair_Einstein
+    100016: Hair_Side2_Einstein
+    100018: Hair_Side_Einstein
+    100020: HEAD
+    100022: Head1
+    100024: Head_Einstein
+    100026: HIps
+    100028: L_Arm_Einstein
+    100030: L_Calf
+    100032: L_Clavicle
+    100034: L_Ear_Einstein
+    100036: L_Foot
+    100038: L_Forearm
+    100040: L_Hand
+    100042: L_Leg_Einstein
+    100044: L_Thigh1
+    100046: L_Toe
+    100048: L_Upperarm
+    100050: Mustach_Einstein
+    100052: Neck
+    100054: Neck_Einstein
+    100056: Nose_Einstein
+    100058: Pelvis
+    100060: R_Arm_Einstein
+    100062: R_Calf
+    100064: R_Clavicle
+    100066: R_Ear_Einstein
+    100068: R_Foot
+    100070: R_Forearm
+    100072: R_Hand
+    100074: R_Leg_Einstein
+    100076: R_Thigh
+    100078: R_Toe
+    100080: R_Upperarm
+    100082: Spine
+    100084: Spine1
+    400000: BODY
+    400002: Body_Einstein
+    400004: Chest
+    400006: Coat_Einstein
+    400008: Collar_Einstein
+    400010: //RootNode
+    400012: Hair2_Einstein
+    400014: Hair_Einstein
+    400016: Hair_Side2_Einstein
+    400018: Hair_Side_Einstein
+    400020: HEAD
+    400022: Head1
+    400024: Head_Einstein
+    400026: HIps
+    400028: L_Arm_Einstein
+    400030: L_Calf
+    400032: L_Clavicle
+    400034: L_Ear_Einstein
+    400036: L_Foot
+    400038: L_Forearm
+    400040: L_Hand
+    400042: L_Leg_Einstein
+    400044: L_Thigh1
+    400046: L_Toe
+    400048: L_Upperarm
+    400050: Mustach_Einstein
+    400052: Neck
+    400054: Neck_Einstein
+    400056: Nose_Einstein
+    400058: Pelvis
+    400060: R_Arm_Einstein
+    400062: R_Calf
+    400064: R_Clavicle
+    400066: R_Ear_Einstein
+    400068: R_Foot
+    400070: R_Forearm
+    400072: R_Hand
+    400074: R_Leg_Einstein
+    400076: R_Thigh
+    400078: R_Toe
+    400080: R_Upperarm
+    400082: Spine
+    400084: Spine1
+    4300000: Body_Einstein
+    4300002: L_Leg_Einstein
+    4300004: Neck_Einstein
+    4300006: R_Leg_Einstein
+    4300008: L_Arm_Einstein
+    4300010: R_Arm_Einstein
+    4300012: Collar_Einstein
+    4300014: Coat_Einstein
+    4300016: Nose_Einstein
+    4300018: Head_Einstein
+    4300020: L_Ear_Einstein
+    4300022: R_Ear_Einstein
+    4300024: Mustach_Einstein
+    4300026: Hair_Einstein
+    4300028: Hair2_Einstein
+    4300030: Hair_Side2_Einstein
+    4300032: Hair_Side_Einstein
+    7400000: Einstein_Walk
+    7400002: Einstein_Idle1
+    7400004: Einstein_Idle2
+    7400006: Einstein_Idle3
+    9500000: //RootNode
+    13700000: Body_Einstein
+    13700002: Coat_Einstein
+    13700004: Collar_Einstein
+    13700006: Hair2_Einstein
+    13700008: Hair_Einstein
+    13700010: Hair_Side2_Einstein
+    13700012: Hair_Side_Einstein
+    13700014: Head_Einstein
+    13700016: L_Arm_Einstein
+    13700018: L_Ear_Einstein
+    13700020: L_Leg_Einstein
+    13700022: Mustach_Einstein
+    13700024: Neck_Einstein
+    13700026: Nose_Einstein
+    13700028: R_Arm_Einstein
+    13700030: R_Ear_Einstein
+    13700032: R_Leg_Einstein
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Einstein_Walk
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Einstein
+        weight: 1
+      - path: BODY/Coat_Einstein
+        weight: 1
+      - path: BODY/Collar_Einstein
+        weight: 1
+      - path: BODY/L_Arm_Einstein
+        weight: 1
+      - path: BODY/L_Leg_Einstein
+        weight: 1
+      - path: BODY/Neck_Einstein
+        weight: 1
+      - path: BODY/R_Arm_Einstein
+        weight: 1
+      - path: BODY/R_Leg_Einstein
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Hair2_Einstein
+        weight: 1
+      - path: HEAD/Hair_Einstein
+        weight: 1
+      - path: HEAD/Hair_Side2_Einstein
+        weight: 1
+      - path: HEAD/Hair_Side_Einstein
+        weight: 1
+      - path: HEAD/Head_Einstein
+        weight: 1
+      - path: HEAD/L_Ear_Einstein
+        weight: 1
+      - path: HEAD/Mustach_Einstein
+        weight: 1
+      - path: HEAD/Nose_Einstein
+        weight: 1
+      - path: HEAD/R_Ear_Einstein
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Einstein_Idle1
+      takeName: Take 001
+      firstFrame: 51
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Einstein
+        weight: 1
+      - path: BODY/Coat_Einstein
+        weight: 1
+      - path: BODY/Collar_Einstein
+        weight: 1
+      - path: BODY/L_Arm_Einstein
+        weight: 1
+      - path: BODY/L_Leg_Einstein
+        weight: 1
+      - path: BODY/Neck_Einstein
+        weight: 1
+      - path: BODY/R_Arm_Einstein
+        weight: 1
+      - path: BODY/R_Leg_Einstein
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Hair2_Einstein
+        weight: 1
+      - path: HEAD/Hair_Einstein
+        weight: 1
+      - path: HEAD/Hair_Side2_Einstein
+        weight: 1
+      - path: HEAD/Hair_Side_Einstein
+        weight: 1
+      - path: HEAD/Head_Einstein
+        weight: 1
+      - path: HEAD/L_Ear_Einstein
+        weight: 1
+      - path: HEAD/Mustach_Einstein
+        weight: 1
+      - path: HEAD/Nose_Einstein
+        weight: 1
+      - path: HEAD/R_Ear_Einstein
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Einstein_Idle2
+      takeName: Take 001
+      firstFrame: 161
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Einstein
+        weight: 1
+      - path: BODY/Coat_Einstein
+        weight: 1
+      - path: BODY/Collar_Einstein
+        weight: 1
+      - path: BODY/L_Arm_Einstein
+        weight: 1
+      - path: BODY/L_Leg_Einstein
+        weight: 1
+      - path: BODY/Neck_Einstein
+        weight: 1
+      - path: BODY/R_Arm_Einstein
+        weight: 1
+      - path: BODY/R_Leg_Einstein
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Hair2_Einstein
+        weight: 1
+      - path: HEAD/Hair_Einstein
+        weight: 1
+      - path: HEAD/Hair_Side2_Einstein
+        weight: 1
+      - path: HEAD/Hair_Side_Einstein
+        weight: 1
+      - path: HEAD/Head_Einstein
+        weight: 1
+      - path: HEAD/L_Ear_Einstein
+        weight: 1
+      - path: HEAD/Mustach_Einstein
+        weight: 1
+      - path: HEAD/Nose_Einstein
+        weight: 1
+      - path: HEAD/R_Ear_Einstein
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Einstein_Idle3
+      takeName: Take 001
+      firstFrame: 251
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BODY
+        weight: 1
+      - path: BODY/Body_Einstein
+        weight: 1
+      - path: BODY/Coat_Einstein
+        weight: 1
+      - path: BODY/Collar_Einstein
+        weight: 1
+      - path: BODY/L_Arm_Einstein
+        weight: 1
+      - path: BODY/L_Leg_Einstein
+        weight: 1
+      - path: BODY/Neck_Einstein
+        weight: 1
+      - path: BODY/R_Arm_Einstein
+        weight: 1
+      - path: BODY/R_Leg_Einstein
+        weight: 1
+      - path: HEAD
+        weight: 1
+      - path: HEAD/Hair2_Einstein
+        weight: 1
+      - path: HEAD/Hair_Einstein
+        weight: 1
+      - path: HEAD/Hair_Side2_Einstein
+        weight: 1
+      - path: HEAD/Hair_Side_Einstein
+        weight: 1
+      - path: HEAD/Head_Einstein
+        weight: 1
+      - path: HEAD/L_Ear_Einstein
+        weight: 1
+      - path: HEAD/Mustach_Einstein
+        weight: 1
+      - path: HEAD/Nose_Einstein
+        weight: 1
+      - path: HEAD/R_Ear_Einstein
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

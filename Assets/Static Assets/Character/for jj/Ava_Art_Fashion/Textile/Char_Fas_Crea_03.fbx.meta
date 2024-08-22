@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 37c79b0bc41b5f46f895bf4b0cfd5305
+timeCreated: 1516068188
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Textile
+    100004: //RootNode
+    100006: Collar_Textile
+    100008: Hair_Textile
+    100010: HEAD
+    100012: Head_Textile
+    100014: L_Arm_Textile
+    100016: L_Cloth_Textile
+    100018: L_Ear_Textile
+    100020: L_Leg_Textile
+    100022: Neck_Textile
+    100024: Nose_Textile
+    100026: R_Arm_Textile
+    100028: R_Ear_Textile
+    100030: R_Leg_Textile
+    100032: Ruler_Textile
+    100034: S_Cloth_Textile
+    100036: Spectacle_Textile
+    400000: BODY
+    400002: Body_Textile
+    400004: //RootNode
+    400006: Collar_Textile
+    400008: Hair_Textile
+    400010: HEAD
+    400012: Head_Textile
+    400014: L_Arm_Textile
+    400016: L_Cloth_Textile
+    400018: L_Ear_Textile
+    400020: L_Leg_Textile
+    400022: Neck_Textile
+    400024: Nose_Textile
+    400026: R_Arm_Textile
+    400028: R_Ear_Textile
+    400030: R_Leg_Textile
+    400032: Ruler_Textile
+    400034: S_Cloth_Textile
+    400036: Spectacle_Textile
+    2300000: Body_Textile
+    2300002: Collar_Textile
+    2300004: Hair_Textile
+    2300006: Head_Textile
+    2300008: L_Arm_Textile
+    2300010: L_Cloth_Textile
+    2300012: L_Ear_Textile
+    2300014: L_Leg_Textile
+    2300016: Neck_Textile
+    2300018: Nose_Textile
+    2300020: R_Arm_Textile
+    2300022: R_Ear_Textile
+    2300024: R_Leg_Textile
+    2300026: Ruler_Textile
+    2300028: S_Cloth_Textile
+    2300030: Spectacle_Textile
+    3300000: Body_Textile
+    3300002: Collar_Textile
+    3300004: Hair_Textile
+    3300006: Head_Textile
+    3300008: L_Arm_Textile
+    3300010: L_Cloth_Textile
+    3300012: L_Ear_Textile
+    3300014: L_Leg_Textile
+    3300016: Neck_Textile
+    3300018: Nose_Textile
+    3300020: R_Arm_Textile
+    3300022: R_Ear_Textile
+    3300024: R_Leg_Textile
+    3300026: Ruler_Textile
+    3300028: S_Cloth_Textile
+    3300030: Spectacle_Textile
+    4300000: Collar_Textile
+    4300002: R_Arm_Textile
+    4300004: L_Arm_Textile
+    4300006: R_Leg_Textile
+    4300008: Neck_Textile
+    4300010: L_Leg_Textile
+    4300012: Body_Textile
+    4300014: Ruler_Textile
+    4300016: L_Cloth_Textile
+    4300018: S_Cloth_Textile
+    4300020: Head_Textile
+    4300022: Nose_Textile
+    4300024: L_Ear_Textile
+    4300026: R_Ear_Textile
+    4300028: Hair_Textile
+    4300030: Spectacle_Textile
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

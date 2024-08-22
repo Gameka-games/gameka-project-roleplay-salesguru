@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 3571c789775d3db8e9fc1e93ab291cdf
+timeCreated: 1516068160
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Interrior_Designer
+    100004: Butt_Interrior_Designer
+    100006: //RootNode
+    100008: Hair_Interrior_Designer
+    100010: HEAD
+    100012: Head_Interrior_Designer
+    100014: Jacket_Interrior_Designer
+    100016: L_Arm_Interrior_Designer
+    100018: L_Ear_Interrior_Designer
+    100020: L_Leg_Interrior_Designer
+    100022: Neck_Interrior_Designer
+    100024: Nose_Interrior_Designer
+    100026: Palette_Interrior_Designer
+    100028: Pencil_Interrior_Designer
+    100030: R_Arm_Interrior_Designer
+    100032: R_Ear_Interrior_Designer
+    100034: R_Leg_Interrior_Designer
+    100036: Sketckbook_Interrior_Designer
+    400000: BODY
+    400002: Body_Interrior_Designer
+    400004: Butt_Interrior_Designer
+    400006: //RootNode
+    400008: Hair_Interrior_Designer
+    400010: HEAD
+    400012: Head_Interrior_Designer
+    400014: Jacket_Interrior_Designer
+    400016: L_Arm_Interrior_Designer
+    400018: L_Ear_Interrior_Designer
+    400020: L_Leg_Interrior_Designer
+    400022: Neck_Interrior_Designer
+    400024: Nose_Interrior_Designer
+    400026: Palette_Interrior_Designer
+    400028: Pencil_Interrior_Designer
+    400030: R_Arm_Interrior_Designer
+    400032: R_Ear_Interrior_Designer
+    400034: R_Leg_Interrior_Designer
+    400036: Sketckbook_Interrior_Designer
+    2300000: Body_Interrior_Designer
+    2300002: Butt_Interrior_Designer
+    2300004: Hair_Interrior_Designer
+    2300006: Head_Interrior_Designer
+    2300008: Jacket_Interrior_Designer
+    2300010: L_Arm_Interrior_Designer
+    2300012: L_Ear_Interrior_Designer
+    2300014: L_Leg_Interrior_Designer
+    2300016: Neck_Interrior_Designer
+    2300018: Nose_Interrior_Designer
+    2300020: Palette_Interrior_Designer
+    2300022: Pencil_Interrior_Designer
+    2300024: R_Arm_Interrior_Designer
+    2300026: R_Ear_Interrior_Designer
+    2300028: R_Leg_Interrior_Designer
+    2300030: Sketckbook_Interrior_Designer
+    3300000: Body_Interrior_Designer
+    3300002: Butt_Interrior_Designer
+    3300004: Hair_Interrior_Designer
+    3300006: Head_Interrior_Designer
+    3300008: Jacket_Interrior_Designer
+    3300010: L_Arm_Interrior_Designer
+    3300012: L_Ear_Interrior_Designer
+    3300014: L_Leg_Interrior_Designer
+    3300016: Neck_Interrior_Designer
+    3300018: Nose_Interrior_Designer
+    3300020: Palette_Interrior_Designer
+    3300022: Pencil_Interrior_Designer
+    3300024: R_Arm_Interrior_Designer
+    3300026: R_Ear_Interrior_Designer
+    3300028: R_Leg_Interrior_Designer
+    3300030: Sketckbook_Interrior_Designer
+    4300000: Head_Interrior_Designer
+    4300002: R_Ear_Interrior_Designer
+    4300004: L_Ear_Interrior_Designer
+    4300006: Nose_Interrior_Designer
+    4300008: Hair_Interrior_Designer
+    4300010: Pencil_Interrior_Designer
+    4300012: Jacket_Interrior_Designer
+    4300014: Sketckbook_Interrior_Designer
+    4300016: L_Leg_Interrior_Designer
+    4300018: Body_Interrior_Designer
+    4300020: R_Leg_Interrior_Designer
+    4300022: Neck_Interrior_Designer
+    4300024: Butt_Interrior_Designer
+    4300026: L_Arm_Interrior_Designer
+    4300028: R_Arm_Interrior_Designer
+    4300030: Palette_Interrior_Designer
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: HEAD
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Ear_Interrior_Designer
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pencil_Interrior_Designer
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hair_Interrior_Designer
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Char_Man_Arc_03(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BODY
+      parentName: Char_Man_Arc_03(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Interrior_Designer
+      parentName: BODY
+      position: {x: 0.001333737, y: 0.02328808, z: -0.0002469647}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Butt_Interrior_Designer
+      parentName: BODY
+      position: {x: -0, y: 0.021851396, z: 0.004433242}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jacket_Interrior_Designer
+      parentName: BODY
+      position: {x: -0.0043417024, y: 0.028085804, z: -0.00032978217}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Arm_Interrior_Designer
+      parentName: BODY
+      position: {x: -0.0035898434, y: 0.03201637, z: 0.0014868338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Leg_Interrior_Designer
+      parentName: BODY
+      position: {x: -0.0027854405, y: 0.016139282, z: 0.003179561}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck_Interrior_Designer
+      parentName: BODY
+      position: {x: -0.0033326012, y: 0.033692427, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Palette_Interrior_Designer
+      parentName: BODY
+      position: {x: 0.019087706, y: 0.0325077, z: 0.0054329494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Arm_Interrior_Designer
+      parentName: BODY
+      position: {x: 0.0035480498, y: 0.032018643, z: 0.0014867836}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Leg_Interrior_Designer
+      parentName: BODY
+      position: {x: 0.0027854394, y: 0.01613928, z: 0.0031795593}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sketckbook_Interrior_Designer
+      parentName: BODY
+      position: {x: -0.02029481, y: 0.03279834, z: -1.8576942e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HEAD
+      parentName: Char_Man_Arc_03(Clone)
+      position: {x: 0.000040163584, y: 0.05294736, z: 0.0021367648}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 0.9432694}
+    - name: Hair_Interrior_Designer
+      parentName: HEAD
+      position: {x: 0.0043108473, y: 0.007438562, z: 0.00007906913}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1.0601425, y: 1, z: 1}
+    - name: Head_Interrior_Designer
+      parentName: HEAD
+      position: {x: 0.004376269, y: -0.0055875024, z: -0.00424825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Ear_Interrior_Designer
+      parentName: HEAD
+      position: {x: 0.0049021235, y: -0.0059829038, z: -0.021174941}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nose_Interrior_Designer
+      parentName: HEAD
+      position: {x: -0.017282678, y: -0.007454061, z: -0.000042579122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pencil_Interrior_Designer
+      parentName: HEAD
+      position: {x: 0.0058782822, y: 0.0017854595, z: 0.023964742}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1.0601425, y: 1, z: 1}
+    - name: R_Ear_Interrior_Designer
+      parentName: HEAD
+      position: {x: -0.0005737245, y: -0.005933722, z: -0.00010341685}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: ff7af9dac89bc1b4aa4fff22ce28de55
+timeCreated: 1543567433
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: //RootNode
+    100004: Chest
+    100006: Hat
+    100008: Head1
+    100010: HIps
+    100012: L_arm
+    100014: L_Calf
+    100016: L_Clavicle
+    100018: L_Foot
+    100020: L_Forearm
+    100022: L_Hand
+    100024: L_Thigh1
+    100026: L_Toe
+    100028: L_Upperarm
+    100030: line
+    100032: Main_Body
+    100034: Main_Leg_L
+    100036: Main_Leg_R
+    100038: Main_Neck
+    100040: MainChar_Body
+    100042: Male_Head
+    100044: Mask_use
+    100046: MaskSide1
+    100048: nametag
+    100050: Neck
+    100052: Nose
+    100054: Pelvis
+    100056: R_arm
+    100058: R_Calf
+    100060: R_Clavicle
+    100062: R_Foot
+    100064: R_Forearm
+    100066: R_Hand
+    100068: R_Thigh
+    100070: R_Toe
+    100072: R_Upperarm
+    100074: Spine
+    100076: Spine1
+    100078: Sponsor_Face
+    100080: SurgeryGlasses
+    100082: Tag
+    100084: Thingy
+    400000: Body
+    400002: //RootNode
+    400004: Chest
+    400006: Hat
+    400008: Head1
+    400010: HIps
+    400012: L_arm
+    400014: L_Calf
+    400016: L_Clavicle
+    400018: L_Foot
+    400020: L_Forearm
+    400022: L_Hand
+    400024: L_Thigh1
+    400026: L_Toe
+    400028: L_Upperarm
+    400030: line
+    400032: Main_Body
+    400034: Main_Leg_L
+    400036: Main_Leg_R
+    400038: Main_Neck
+    400040: MainChar_Body
+    400042: Male_Head
+    400044: Mask_use
+    400046: MaskSide1
+    400048: nametag
+    400050: Neck
+    400052: Nose
+    400054: Pelvis
+    400056: R_arm
+    400058: R_Calf
+    400060: R_Clavicle
+    400062: R_Foot
+    400064: R_Forearm
+    400066: R_Hand
+    400068: R_Thigh
+    400070: R_Toe
+    400072: R_Upperarm
+    400074: Spine
+    400076: Spine1
+    400078: Sponsor_Face
+    400080: SurgeryGlasses
+    400082: Tag
+    400084: Thingy
+    4300000: SurgeryGlasses
+    4300002: MaskSide1
+    4300004: Mask_use
+    4300006: Hat
+    4300008: Nose
+    4300010: Sponsor_Face
+    4300012: Tag
+    4300014: line
+    4300016: L_arm
+    4300018: Thingy
+    4300020: R_arm
+    4300022: Main_Body
+    4300024: Main_Leg_L
+    4300026: Main_Neck
+    4300028: Main_Leg_R
+    9500000: //RootNode
+    13700000: Hat
+    13700002: L_arm
+    13700004: line
+    13700006: Main_Body
+    13700008: Main_Leg_L
+    13700010: Main_Leg_R
+    13700012: Main_Neck
+    13700014: Mask_use
+    13700016: MaskSide1
+    13700018: Nose
+    13700020: R_arm
+    13700022: Sponsor_Face
+    13700024: SurgeryGlasses
+    13700026: Tag
+    13700028: Thingy
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

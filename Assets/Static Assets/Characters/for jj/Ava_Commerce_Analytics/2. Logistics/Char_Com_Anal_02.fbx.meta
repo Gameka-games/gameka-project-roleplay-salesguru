@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 8d5191d7680edc547997218d01e44a8c
+timeCreated: 1516068178
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: B_Collar_Logistics
+    100002: BODY
+    100004: Body_Logistics
+    100006: Butt_Logistics
+    100008: //RootNode
+    100010: Collar_Logistics
+    100012: File_Logistics
+    100014: Hair_Logistics
+    100016: Hairband_Logistics
+    100018: HEAD
+    100020: Head_Logistics
+    100022: L_Arm_Logistics
+    100024: L_Ear_Logistics
+    100026: L_Leg_Logistics
+    100028: Neck_Logistics
+    100030: Nose_Logistics
+    100032: Ponytail_Logistics
+    100034: R_Arm_Logistics
+    100036: R_Ear_Logistics
+    100038: R_Leg_Logistics
+    400000: B_Collar_Logistics
+    400002: BODY
+    400004: Body_Logistics
+    400006: Butt_Logistics
+    400008: //RootNode
+    400010: Collar_Logistics
+    400012: File_Logistics
+    400014: Hair_Logistics
+    400016: Hairband_Logistics
+    400018: HEAD
+    400020: Head_Logistics
+    400022: L_Arm_Logistics
+    400024: L_Ear_Logistics
+    400026: L_Leg_Logistics
+    400028: Neck_Logistics
+    400030: Nose_Logistics
+    400032: Ponytail_Logistics
+    400034: R_Arm_Logistics
+    400036: R_Ear_Logistics
+    400038: R_Leg_Logistics
+    2300000: B_Collar_Logistics
+    2300002: Body_Logistics
+    2300004: Butt_Logistics
+    2300006: Collar_Logistics
+    2300008: File_Logistics
+    2300010: Hair_Logistics
+    2300012: Hairband_Logistics
+    2300014: Head_Logistics
+    2300016: L_Arm_Logistics
+    2300018: L_Ear_Logistics
+    2300020: L_Leg_Logistics
+    2300022: Neck_Logistics
+    2300024: Nose_Logistics
+    2300026: Ponytail_Logistics
+    2300028: R_Arm_Logistics
+    2300030: R_Ear_Logistics
+    2300032: R_Leg_Logistics
+    3300000: B_Collar_Logistics
+    3300002: Body_Logistics
+    3300004: Butt_Logistics
+    3300006: Collar_Logistics
+    3300008: File_Logistics
+    3300010: Hair_Logistics
+    3300012: Hairband_Logistics
+    3300014: Head_Logistics
+    3300016: L_Arm_Logistics
+    3300018: L_Ear_Logistics
+    3300020: L_Leg_Logistics
+    3300022: Neck_Logistics
+    3300024: Nose_Logistics
+    3300026: Ponytail_Logistics
+    3300028: R_Arm_Logistics
+    3300030: R_Ear_Logistics
+    3300032: R_Leg_Logistics
+    4300000: L_Leg_Logistics
+    4300002: Body_Logistics
+    4300004: R_Leg_Logistics
+    4300006: Neck_Logistics
+    4300008: Butt_Logistics
+    4300010: R_Arm_Logistics
+    4300012: Collar_Logistics
+    4300014: File_Logistics
+    4300016: B_Collar_Logistics
+    4300018: L_Arm_Logistics
+    4300020: Hair_Logistics
+    4300022: Head_Logistics
+    4300024: R_Ear_Logistics
+    4300026: L_Ear_Logistics
+    4300028: Nose_Logistics
+    4300030: Ponytail_Logistics
+    4300032: Hairband_Logistics
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

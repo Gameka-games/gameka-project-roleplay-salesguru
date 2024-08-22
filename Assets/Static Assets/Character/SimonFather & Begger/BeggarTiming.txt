@@ -1,0 +1,13 @@
+-------------------------------
+Useless Animation
+
+001 ~ 060	Sad Walk
+581 ~ 690 	MetalSlug Hyakutaro ThankYou
+-------------------------------
+Beggar Animation
+
+061 ~ 180	Idle(begging)
+181 ~ 240	(Player Give $)ThankYou
+241 ~ 330	(Player Ignore)Emo
+331 ~ 480	(Beggar Return1) Holic
+481 ~ 580	(Beggar Return2) Take Out From Pants

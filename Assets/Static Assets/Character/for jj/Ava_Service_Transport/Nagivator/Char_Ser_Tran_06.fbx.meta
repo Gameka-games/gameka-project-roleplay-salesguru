@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 879746f12befcfbb9961f4f88a93efbe
+timeCreated: 1516068178
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Navigator
+    100004: //RootNode
+    100006: Compass_Navigator
+    100008: Cpollar_Navigator
+    100010: Hair_Navigator
+    100012: HEAD
+    100014: Head_Navigator
+    100016: L_Arm_Navigator
+    100018: L_Ear_Navigator
+    100020: L_Leg_Navigator
+    100022: Nametag_Navigator
+    100024: Neck_Navigator
+    100026: Nose_Navigator
+    100028: R_Arm_Navigator
+    100030: R_Ear_Navigator
+    100032: R_Leg_Navigator
+    100034: Scope_Navigator
+    100036: Tie_Navigator
+    400000: BODY
+    400002: Body_Navigator
+    400004: //RootNode
+    400006: Compass_Navigator
+    400008: Cpollar_Navigator
+    400010: Hair_Navigator
+    400012: HEAD
+    400014: Head_Navigator
+    400016: L_Arm_Navigator
+    400018: L_Ear_Navigator
+    400020: L_Leg_Navigator
+    400022: Nametag_Navigator
+    400024: Neck_Navigator
+    400026: Nose_Navigator
+    400028: R_Arm_Navigator
+    400030: R_Ear_Navigator
+    400032: R_Leg_Navigator
+    400034: Scope_Navigator
+    400036: Tie_Navigator
+    2300000: Body_Navigator
+    2300002: Compass_Navigator
+    2300004: Cpollar_Navigator
+    2300006: Hair_Navigator
+    2300008: Head_Navigator
+    2300010: L_Arm_Navigator
+    2300012: L_Ear_Navigator
+    2300014: L_Leg_Navigator
+    2300016: Nametag_Navigator
+    2300018: Neck_Navigator
+    2300020: Nose_Navigator
+    2300022: R_Arm_Navigator
+    2300024: R_Ear_Navigator
+    2300026: R_Leg_Navigator
+    2300028: Scope_Navigator
+    2300030: Tie_Navigator
+    3300000: Body_Navigator
+    3300002: Compass_Navigator
+    3300004: Cpollar_Navigator
+    3300006: Hair_Navigator
+    3300008: Head_Navigator
+    3300010: L_Arm_Navigator
+    3300012: L_Ear_Navigator
+    3300014: L_Leg_Navigator
+    3300016: Nametag_Navigator
+    3300018: Neck_Navigator
+    3300020: Nose_Navigator
+    3300022: R_Arm_Navigator
+    3300024: R_Ear_Navigator
+    3300026: R_Leg_Navigator
+    3300028: Scope_Navigator
+    3300030: Tie_Navigator
+    4300000: Tie_Navigator
+    4300002: Scope_Navigator
+    4300004: Compass_Navigator
+    4300006: Nametag_Navigator
+    4300008: L_Arm_Navigator
+    4300010: R_Arm_Navigator
+    4300012: Body_Navigator
+    4300014: L_Leg_Navigator
+    4300016: Neck_Navigator
+    4300018: R_Leg_Navigator
+    4300020: Cpollar_Navigator
+    4300022: Hair_Navigator
+    4300024: Nose_Navigator
+    4300026: L_Ear_Navigator
+    4300028: R_Ear_Navigator
+    4300030: Head_Navigator
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

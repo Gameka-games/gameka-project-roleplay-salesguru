@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: e9056c3e70c6ae80dab2c07ce507f0a9
+timeCreated: 1516068153
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Physiatrist
+    100004: //RootNode
+    100006: Coat_Physiatrist
+    100008: Collar_Physiatrist
+    100010: File_Physiatrist
+    100012: Hair_Physiatrist
+    100014: HEAD
+    100016: Head_Physiatrist
+    100018: L_Arm_Physiatrist
+    100020: L_Ear_Physiatrist
+    100022: L_Leg_Physiatrist
+    100024: Neck_Physiatrist
+    100026: Nose_Physiatrist
+    100028: Ponytail_Physiatrist
+    100030: R_Arm_Physiatrist
+    100032: R_Ear_Physiatrist
+    100034: R_Leg_Physiatrist
+    100036: Skirt_Physiatrist
+    100038: Stethoscope_Physiatrist
+    400000: BODY
+    400002: Body_Physiatrist
+    400004: //RootNode
+    400006: Coat_Physiatrist
+    400008: Collar_Physiatrist
+    400010: File_Physiatrist
+    400012: Hair_Physiatrist
+    400014: HEAD
+    400016: Head_Physiatrist
+    400018: L_Arm_Physiatrist
+    400020: L_Ear_Physiatrist
+    400022: L_Leg_Physiatrist
+    400024: Neck_Physiatrist
+    400026: Nose_Physiatrist
+    400028: Ponytail_Physiatrist
+    400030: R_Arm_Physiatrist
+    400032: R_Ear_Physiatrist
+    400034: R_Leg_Physiatrist
+    400036: Skirt_Physiatrist
+    400038: Stethoscope_Physiatrist
+    2300000: Body_Physiatrist
+    2300002: Coat_Physiatrist
+    2300004: Collar_Physiatrist
+    2300006: File_Physiatrist
+    2300008: Hair_Physiatrist
+    2300010: Head_Physiatrist
+    2300012: L_Arm_Physiatrist
+    2300014: L_Ear_Physiatrist
+    2300016: L_Leg_Physiatrist
+    2300018: Neck_Physiatrist
+    2300020: Nose_Physiatrist
+    2300022: Ponytail_Physiatrist
+    2300024: R_Arm_Physiatrist
+    2300026: R_Ear_Physiatrist
+    2300028: R_Leg_Physiatrist
+    2300030: Skirt_Physiatrist
+    2300032: Stethoscope_Physiatrist
+    3300000: Body_Physiatrist
+    3300002: Coat_Physiatrist
+    3300004: Collar_Physiatrist
+    3300006: File_Physiatrist
+    3300008: Hair_Physiatrist
+    3300010: Head_Physiatrist
+    3300012: L_Arm_Physiatrist
+    3300014: L_Ear_Physiatrist
+    3300016: L_Leg_Physiatrist
+    3300018: Neck_Physiatrist
+    3300020: Nose_Physiatrist
+    3300022: Ponytail_Physiatrist
+    3300024: R_Arm_Physiatrist
+    3300026: R_Ear_Physiatrist
+    3300028: R_Leg_Physiatrist
+    3300030: Skirt_Physiatrist
+    3300032: Stethoscope_Physiatrist
+    4300000: Head_Physiatrist
+    4300002: R_Ear_Physiatrist
+    4300004: L_Ear_Physiatrist
+    4300006: Nose_Physiatrist
+    4300008: Hair_Physiatrist
+    4300010: Ponytail_Physiatrist
+    4300012: File_Physiatrist
+    4300014: Collar_Physiatrist
+    4300016: Coat_Physiatrist
+    4300018: L_Leg_Physiatrist
+    4300020: Body_Physiatrist
+    4300022: R_Leg_Physiatrist
+    4300024: Neck_Physiatrist
+    4300026: L_Arm_Physiatrist
+    4300028: R_Arm_Physiatrist
+    4300030: Skirt_Physiatrist
+    4300032: Stethoscope_Physiatrist
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

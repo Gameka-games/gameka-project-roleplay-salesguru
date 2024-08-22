@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 9ff1359029f94401d85547b0d7022b66
+timeCreated: 1516068172
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Director
+    100004: Camera_Director
+    100006: //RootNode
+    100008: Collar_Director
+    100010: Hair_Director
+    100012: Hat_Director
+    100014: HEAD
+    100016: Head_Director
+    100018: L_Arm_Director
+    100020: L_Ear_Director
+    100022: L_Leg_Director
+    100024: Mustache_Director
+    100026: Nametag_Director
+    100028: Neck_Director
+    100030: Nose_Director
+    100032: Paper_Director
+    100034: Pen_Director
+    100036: R_Arm_Director
+    100038: R_Ear_Director
+    100040: R_Leg_Director
+    100042: Spectacle_Director
+    400000: BODY
+    400002: Body_Director
+    400004: Camera_Director
+    400006: //RootNode
+    400008: Collar_Director
+    400010: Hair_Director
+    400012: Hat_Director
+    400014: HEAD
+    400016: Head_Director
+    400018: L_Arm_Director
+    400020: L_Ear_Director
+    400022: L_Leg_Director
+    400024: Mustache_Director
+    400026: Nametag_Director
+    400028: Neck_Director
+    400030: Nose_Director
+    400032: Paper_Director
+    400034: Pen_Director
+    400036: R_Arm_Director
+    400038: R_Ear_Director
+    400040: R_Leg_Director
+    400042: Spectacle_Director
+    2300000: Body_Director
+    2300002: Camera_Director
+    2300004: Collar_Director
+    2300006: Hair_Director
+    2300008: Hat_Director
+    2300010: Head_Director
+    2300012: L_Arm_Director
+    2300014: L_Ear_Director
+    2300016: L_Leg_Director
+    2300018: Mustache_Director
+    2300020: Nametag_Director
+    2300022: Neck_Director
+    2300024: Nose_Director
+    2300026: Paper_Director
+    2300028: Pen_Director
+    2300030: R_Arm_Director
+    2300032: R_Ear_Director
+    2300034: R_Leg_Director
+    2300036: Spectacle_Director
+    3300000: Body_Director
+    3300002: Camera_Director
+    3300004: Collar_Director
+    3300006: Hair_Director
+    3300008: Hat_Director
+    3300010: Head_Director
+    3300012: L_Arm_Director
+    3300014: L_Ear_Director
+    3300016: L_Leg_Director
+    3300018: Mustache_Director
+    3300020: Nametag_Director
+    3300022: Neck_Director
+    3300024: Nose_Director
+    3300026: Paper_Director
+    3300028: Pen_Director
+    3300030: R_Arm_Director
+    3300032: R_Ear_Director
+    3300034: R_Leg_Director
+    3300036: Spectacle_Director
+    4300000: Camera_Director
+    4300002: Paper_Director
+    4300004: R_Arm_Director
+    4300006: L_Arm_Director
+    4300008: Body_Director
+    4300010: L_Leg_Director
+    4300012: Neck_Director
+    4300014: R_Leg_Director
+    4300016: Collar_Director
+    4300018: Nametag_Director
+    4300020: Hair_Director
+    4300022: Spectacle_Director
+    4300024: Mustache_Director
+    4300026: Hat_Director
+    4300028: L_Ear_Director
+    4300030: R_Ear_Director
+    4300032: Nose_Director
+    4300034: Head_Director
+    4300036: Pen_Director
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

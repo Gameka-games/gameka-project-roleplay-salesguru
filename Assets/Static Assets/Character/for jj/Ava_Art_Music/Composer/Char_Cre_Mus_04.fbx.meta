@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 6637e4fd551e8fc23bb2d220023c62d1
+timeCreated: 1516068154
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Composer
+    100004: //RootNode
+    100006: Collar_Composer
+    100008: Hair_Composer
+    100010: HEAD
+    100012: Head_Composer
+    100014: L_Arm_Composer
+    100016: L_Ear_Composer
+    100018: L_Leg_Composer
+    100020: Neck_Composer
+    100022: Nose_Composer
+    100024: R_Arm_Composer
+    100026: R_Ear_Composer
+    100028: R_Leg_Composer
+    100030: Ribbon_Composer
+    100032: Stick_Composer
+    100034: Vest_Composer
+    400000: BODY
+    400002: Body_Composer
+    400004: //RootNode
+    400006: Collar_Composer
+    400008: Hair_Composer
+    400010: HEAD
+    400012: Head_Composer
+    400014: L_Arm_Composer
+    400016: L_Ear_Composer
+    400018: L_Leg_Composer
+    400020: Neck_Composer
+    400022: Nose_Composer
+    400024: R_Arm_Composer
+    400026: R_Ear_Composer
+    400028: R_Leg_Composer
+    400030: Ribbon_Composer
+    400032: Stick_Composer
+    400034: Vest_Composer
+    2300000: Body_Composer
+    2300002: Collar_Composer
+    2300004: Hair_Composer
+    2300006: Head_Composer
+    2300008: L_Arm_Composer
+    2300010: L_Ear_Composer
+    2300012: L_Leg_Composer
+    2300014: Neck_Composer
+    2300016: Nose_Composer
+    2300018: R_Arm_Composer
+    2300020: R_Ear_Composer
+    2300022: R_Leg_Composer
+    2300024: Ribbon_Composer
+    2300026: Stick_Composer
+    2300028: Vest_Composer
+    3300000: Body_Composer
+    3300002: Collar_Composer
+    3300004: Hair_Composer
+    3300006: Head_Composer
+    3300008: L_Arm_Composer
+    3300010: L_Ear_Composer
+    3300012: L_Leg_Composer
+    3300014: Neck_Composer
+    3300016: Nose_Composer
+    3300018: R_Arm_Composer
+    3300020: R_Ear_Composer
+    3300022: R_Leg_Composer
+    3300024: Ribbon_Composer
+    3300026: Stick_Composer
+    3300028: Vest_Composer
+    4300000: L_Ear_Composer
+    4300002: R_Ear_Composer
+    4300004: Nose_Composer
+    4300006: Hair_Composer
+    4300008: Head_Composer
+    4300010: Body_Composer
+    4300012: L_Leg_Composer
+    4300014: Neck_Composer
+    4300016: R_Leg_Composer
+    4300018: Collar_Composer
+    4300020: L_Arm_Composer
+    4300022: R_Arm_Composer
+    4300024: Stick_Composer
+    4300026: Ribbon_Composer
+    4300028: Vest_Composer
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: eb0845f36290cc04286005bfaf4d28cd
+timeCreated: 1516257350
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_YAP
+    100004: //RootNode
+    100006: Chest
+    100008: Collar_YAP
+    100010: Hair_YAP
+    100012: HEAD
+    100014: Head2
+    100016: Head_YAP
+    100018: HIps
+    100020: L_Calf
+    100022: L_Clavicle
+    100024: L_Foot
+    100026: L_Forearm
+    100028: L_Hand
+    100030: L_hand_YAP
+    100032: L_leg_YAP1
+    100034: L_Thigh
+    100036: L_Toe
+    100038: L_Upperarm
+    100040: Left_Ear_YAP
+    100042: Neck
+    100044: Neck_YAP
+    100046: Nose_YAP
+    100048: Pelvis
+    100050: R_Calf
+    100052: R_Clavicle
+    100054: R_Foot
+    100056: R_Forearm
+    100058: R_Hand
+    100060: R_hand_YAP
+    100062: R_leg_YAP
+    100064: R_Thigh
+    100066: R_Toe
+    100068: R_Upperarm
+    100070: Right_Ear_YAP
+    100072: Skirt_YAP
+    100074: Spine
+    100076: Spine1
+    100078: YAP_ALL
+    400000: BODY
+    400002: Body_YAP
+    400004: //RootNode
+    400006: Chest
+    400008: Collar_YAP
+    400010: Hair_YAP
+    400012: HEAD
+    400014: Head2
+    400016: Head_YAP
+    400018: HIps
+    400020: L_Calf
+    400022: L_Clavicle
+    400024: L_Foot
+    400026: L_Forearm
+    400028: L_Hand
+    400030: L_hand_YAP
+    400032: L_leg_YAP1
+    400034: L_Thigh
+    400036: L_Toe
+    400038: L_Upperarm
+    400040: Left_Ear_YAP
+    400042: Neck
+    400044: Neck_YAP
+    400046: Nose_YAP
+    400048: Pelvis
+    400050: R_Calf
+    400052: R_Clavicle
+    400054: R_Foot
+    400056: R_Forearm
+    400058: R_Hand
+    400060: R_hand_YAP
+    400062: R_leg_YAP
+    400064: R_Thigh
+    400066: R_Toe
+    400068: R_Upperarm
+    400070: Right_Ear_YAP
+    400072: Skirt_YAP
+    400074: Spine
+    400076: Spine1
+    400078: YAP_ALL
+    4300000: Head_YAP
+    4300002: Right_Ear_YAP
+    4300004: Left_Ear_YAP
+    4300006: Nose_YAP
+    4300008: Skirt_YAP
+    4300010: L_leg_YAP1
+    4300012: Collar_YAP
+    4300014: Hair_YAP
+    4300016: Body_YAP
+    4300018: R_leg_YAP
+    4300020: R_hand_YAP
+    4300022: L_hand_YAP
+    4300024: Neck_YAP
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Body_YAP
+    13700002: Collar_YAP
+    13700004: Hair_YAP
+    13700006: Head_YAP
+    13700008: L_hand_YAP
+    13700010: L_leg_YAP1
+    13700012: Left_Ear_YAP
+    13700014: Neck_YAP
+    13700016: Nose_YAP
+    13700018: R_hand_YAP
+    13700020: R_leg_YAP
+    13700022: Right_Ear_YAP
+    13700024: Skirt_YAP
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

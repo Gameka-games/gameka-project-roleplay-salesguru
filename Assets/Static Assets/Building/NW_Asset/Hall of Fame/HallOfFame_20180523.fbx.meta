@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 4f8d29c63a80ae7458952805dd236638
+timeCreated: 1527212149
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: banner
+    100002: flat1
+    100004: flat2
+    100006: Hall_Of_Fame
+    100008: //RootNode
+    100010: MainBuilding
+    100012: mainbuilding
+    100014: Museum
+    100016: polySurface12
+    100018: polySurface13
+    100020: polySurface16
+    100022: polySurface17
+    100024: polySurface18
+    100026: polySurface19
+    100028: polySurface20
+    100030: polySurface21
+    100032: polySurface22
+    100034: polySurface23
+    100036: sign
+    100038: Trophy
+    400000: banner
+    400002: flat1
+    400004: flat2
+    400006: Hall_Of_Fame
+    400008: //RootNode
+    400010: MainBuilding
+    400012: mainbuilding
+    400014: Museum
+    400016: polySurface12
+    400018: polySurface13
+    400020: polySurface16
+    400022: polySurface17
+    400024: polySurface18
+    400026: polySurface19
+    400028: polySurface20
+    400030: polySurface21
+    400032: polySurface22
+    400034: polySurface23
+    400036: sign
+    400038: Trophy
+    2300000: flat1
+    2300002: flat2
+    2300004: mainbuilding
+    2300006: polySurface12
+    2300008: polySurface13
+    2300010: polySurface16
+    2300012: polySurface17
+    2300014: polySurface18
+    2300016: polySurface19
+    2300018: polySurface20
+    2300020: polySurface21
+    2300022: polySurface22
+    2300024: polySurface23
+    2300026: sign
+    2300028: Trophy
+    3300000: flat1
+    3300002: flat2
+    3300004: mainbuilding
+    3300006: polySurface12
+    3300008: polySurface13
+    3300010: polySurface16
+    3300012: polySurface17
+    3300014: polySurface18
+    3300016: polySurface19
+    3300018: polySurface20
+    3300020: polySurface21
+    3300022: polySurface22
+    3300024: polySurface23
+    3300026: sign
+    3300028: Trophy
+    4300000: polySurface23
+    4300002: polySurface22
+    4300004: polySurface21
+    4300006: polySurface20
+    4300008: polySurface19
+    4300010: polySurface18
+    4300012: polySurface12
+    4300014: polySurface13
+    4300016: polySurface17
+    4300018: polySurface16
+    4300020: mainbuilding
+    4300022: flat2
+    4300024: flat1
+    4300026: sign
+    4300028: Trophy
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

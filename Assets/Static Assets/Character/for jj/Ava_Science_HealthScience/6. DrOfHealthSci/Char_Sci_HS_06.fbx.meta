@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 8f443f7a9741b81c2bb468e5ea81afac
+timeCreated: 1516068189
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_DOHS
+    100004: Book_DOHS
+    100006: //RootNode
+    100008: Collar_DOHS
+    100010: Hair_DOHS
+    100012: HEAD
+    100014: Head_DOHS
+    100016: L_Arm_DOHS
+    100018: L_Ear_DOHS
+    100020: L_Leg_DOHS
+    100022: Neck_DOHS
+    100024: Nose_DOHS
+    100026: R_Arm_DOHS
+    100028: R_Ear_DOHS
+    100030: R_Leg_DOHS
+    100032: Stethoscope_DOHS
+    100034: Vest_DOHS
+    400000: BODY
+    400002: Body_DOHS
+    400004: Book_DOHS
+    400006: //RootNode
+    400008: Collar_DOHS
+    400010: Hair_DOHS
+    400012: HEAD
+    400014: Head_DOHS
+    400016: L_Arm_DOHS
+    400018: L_Ear_DOHS
+    400020: L_Leg_DOHS
+    400022: Neck_DOHS
+    400024: Nose_DOHS
+    400026: R_Arm_DOHS
+    400028: R_Ear_DOHS
+    400030: R_Leg_DOHS
+    400032: Stethoscope_DOHS
+    400034: Vest_DOHS
+    2300000: Body_DOHS
+    2300002: Book_DOHS
+    2300004: Collar_DOHS
+    2300006: Hair_DOHS
+    2300008: Head_DOHS
+    2300010: L_Arm_DOHS
+    2300012: L_Ear_DOHS
+    2300014: L_Leg_DOHS
+    2300016: Neck_DOHS
+    2300018: Nose_DOHS
+    2300020: R_Arm_DOHS
+    2300022: R_Ear_DOHS
+    2300024: R_Leg_DOHS
+    2300026: Stethoscope_DOHS
+    2300028: Vest_DOHS
+    3300000: Body_DOHS
+    3300002: Book_DOHS
+    3300004: Collar_DOHS
+    3300006: Hair_DOHS
+    3300008: Head_DOHS
+    3300010: L_Arm_DOHS
+    3300012: L_Ear_DOHS
+    3300014: L_Leg_DOHS
+    3300016: Neck_DOHS
+    3300018: Nose_DOHS
+    3300020: R_Arm_DOHS
+    3300022: R_Ear_DOHS
+    3300024: R_Leg_DOHS
+    3300026: Stethoscope_DOHS
+    3300028: Vest_DOHS
+    4300000: L_Leg_DOHS
+    4300002: R_Leg_DOHS
+    4300004: Book_DOHS
+    4300006: Stethoscope_DOHS
+    4300008: Vest_DOHS
+    4300010: L_Arm_DOHS
+    4300012: Neck_DOHS
+    4300014: R_Arm_DOHS
+    4300016: Collar_DOHS
+    4300018: Body_DOHS
+    4300020: Head_DOHS
+    4300022: R_Ear_DOHS
+    4300024: L_Ear_DOHS
+    4300026: Nose_DOHS
+    4300028: Hair_DOHS
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

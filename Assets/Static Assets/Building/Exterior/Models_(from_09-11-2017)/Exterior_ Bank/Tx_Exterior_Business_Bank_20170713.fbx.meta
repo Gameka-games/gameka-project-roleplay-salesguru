@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: ee0fd104943df4842ab9490188ad1bb9
+timeCreated: 1509594464
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Aircon_Left
+    100002: Aircon_Right
+    100004: aircon_Top
+    100006: Base
+    100008: Body
+    100010: coin_Btm
+    100012: Coin_Top
+    100014: Floor2nd
+    100016: Middle
+    100018: pillar
+    100020: ring
+    100022: //RootNode
+    100024: Wall_Left
+    100026: Wall_Right
+    100028: Exterior_Bank
+    100030: Netdollar_2
+    100032: Netdollar_top
+    100034: polySurface1
+    100036: polySurface10
+    100038: polySurface11
+    100040: polySurface12
+    100042: polySurface13
+    100044: polySurface14
+    100046: polySurface15
+    100048: polySurface16
+    100050: polySurface17
+    100052: polySurface18
+    100054: polySurface19
+    100056: polySurface2
+    100058: polySurface20
+    100060: polySurface21
+    100062: polySurface22
+    100064: polySurface23
+    100066: polySurface24
+    100068: polySurface25
+    100070: polySurface26
+    100072: polySurface27
+    100074: polySurface28
+    100076: polySurface29
+    100078: polySurface3
+    100080: polySurface30
+    100082: polySurface31
+    100084: polySurface32
+    100086: polySurface33
+    100088: polySurface34
+    100090: polySurface4
+    100092: polySurface5
+    100094: polySurface6
+    100096: polySurface7
+    100098: polySurface8
+    100100: polySurface9
+    100102: transform1
+    100104: transform10
+    100106: transform11
+    100108: transform12
+    100110: transform13
+    100112: transform14
+    100114: transform15
+    100116: transform16
+    100118: transform2
+    100120: transform3
+    100122: transform4
+    100124: transform5
+    100126: transform6
+    100128: transform7
+    100130: transform8
+    100132: transform9
+    100134: Tx_Exterior_Business_Bank
+    100136: building
+    100138: coin
+    100140: coin_animate
+    400000: Aircon_Left
+    400002: Aircon_Right
+    400004: aircon_Top
+    400006: Base
+    400008: Body
+    400010: coin_Btm
+    400012: Coin_Top
+    400014: Floor2nd
+    400016: Middle
+    400018: pillar
+    400020: ring
+    400022: //RootNode
+    400024: Wall_Left
+    400026: Wall_Right
+    400028: Exterior_Bank
+    400030: Netdollar_2
+    400032: Netdollar_top
+    400034: polySurface1
+    400036: polySurface10
+    400038: polySurface11
+    400040: polySurface12
+    400042: polySurface13
+    400044: polySurface14
+    400046: polySurface15
+    400048: polySurface16
+    400050: polySurface17
+    400052: polySurface18
+    400054: polySurface19
+    400056: polySurface2
+    400058: polySurface20
+    400060: polySurface21
+    400062: polySurface22
+    400064: polySurface23
+    400066: polySurface24
+    400068: polySurface25
+    400070: polySurface26
+    400072: polySurface27
+    400074: polySurface28
+    400076: polySurface29
+    400078: polySurface3
+    400080: polySurface30
+    400082: polySurface31
+    400084: polySurface32
+    400086: polySurface33
+    400088: polySurface34
+    400090: polySurface4
+    400092: polySurface5
+    400094: polySurface6
+    400096: polySurface7
+    400098: polySurface8
+    400100: polySurface9
+    400102: transform1
+    400104: transform10
+    400106: transform11
+    400108: transform12
+    400110: transform13
+    400112: transform14
+    400114: transform15
+    400116: transform16
+    400118: transform2
+    400120: transform3
+    400122: transform4
+    400124: transform5
+    400126: transform6
+    400128: transform7
+    400130: transform8
+    400132: transform9
+    400134: Tx_Exterior_Business_Bank
+    400136: building
+    400138: coin
+    400140: coin_animate
+    2300000: Aircon_Left
+    2300002: Aircon_Right
+    2300004: aircon_Top
+    2300006: Base
+    2300008: Body
+    2300010: coin_Btm
+    2300012: Coin_Top
+    2300014: Floor2nd
+    2300016: Middle
+    2300018: pillar
+    2300020: ring
+    2300022: Wall_Left
+    2300024: Wall_Right
+    2300026: Netdollar_2
+    2300028: Netdollar_top
+    2300030: polySurface1
+    2300032: polySurface10
+    2300034: polySurface11
+    2300036: polySurface12
+    2300038: polySurface13
+    2300040: polySurface14
+    2300042: polySurface15
+    2300044: polySurface16
+    2300046: polySurface17
+    2300048: polySurface18
+    2300050: polySurface19
+    2300052: polySurface2
+    2300054: polySurface20
+    2300056: polySurface21
+    2300058: polySurface22
+    2300060: polySurface23
+    2300062: polySurface24
+    2300064: polySurface25
+    2300066: polySurface26
+    2300068: polySurface27
+    2300070: polySurface28
+    2300072: polySurface29
+    2300074: polySurface3
+    2300076: polySurface30
+    2300078: polySurface31
+    2300080: polySurface32
+    2300082: polySurface33
+    2300084: polySurface34
+    2300086: polySurface4
+    2300088: polySurface5
+    2300090: polySurface6
+    2300092: polySurface7
+    2300094: polySurface8
+    2300096: polySurface9
+    2300098: //RootNode
+    2300100: building
+    2300102: coin
+    2300104: coin_animate
+    3300000: Aircon_Left
+    3300002: Aircon_Right
+    3300004: aircon_Top
+    3300006: Base
+    3300008: Body
+    3300010: coin_Btm
+    3300012: Coin_Top
+    3300014: Floor2nd
+    3300016: Middle
+    3300018: pillar
+    3300020: ring
+    3300022: Wall_Left
+    3300024: Wall_Right
+    3300026: Netdollar_2
+    3300028: Netdollar_top
+    3300030: polySurface1
+    3300032: polySurface10
+    3300034: polySurface11
+    3300036: polySurface12
+    3300038: polySurface13
+    3300040: polySurface14
+    3300042: polySurface15
+    3300044: polySurface16
+    3300046: polySurface17
+    3300048: polySurface18
+    3300050: polySurface19
+    3300052: polySurface2
+    3300054: polySurface20
+    3300056: polySurface21
+    3300058: polySurface22
+    3300060: polySurface23
+    3300062: polySurface24
+    3300064: polySurface25
+    3300066: polySurface26
+    3300068: polySurface27
+    3300070: polySurface28
+    3300072: polySurface29
+    3300074: polySurface3
+    3300076: polySurface30
+    3300078: polySurface31
+    3300080: polySurface32
+    3300082: polySurface33
+    3300084: polySurface34
+    3300086: polySurface4
+    3300088: polySurface5
+    3300090: polySurface6
+    3300092: polySurface7
+    3300094: polySurface8
+    3300096: polySurface9
+    3300098: //RootNode
+    3300100: building
+    3300102: coin
+    3300104: coin_animate
+    4300000: Base
+    4300002: Wall_Left
+    4300004: Wall_Right
+    4300006: Middle
+    4300008: Body
+    4300010: Floor2nd
+    4300012: Aircon_Right
+    4300014: Aircon_Left
+    4300016: coin_Btm
+    4300018: aircon_Top
+    4300020: pillar
+    4300022: Coin_Top
+    4300024: ring
+    4300026: Netdollar_2
+    4300028: Netdollar_top
+    4300030: polySurface1
+    4300032: polySurface2
+    4300034: polySurface3
+    4300036: polySurface4
+    4300038: polySurface5
+    4300040: polySurface6
+    4300042: polySurface7
+    4300044: polySurface8
+    4300046: polySurface9
+    4300048: polySurface10
+    4300050: polySurface11
+    4300052: polySurface12
+    4300054: polySurface13
+    4300056: polySurface14
+    4300058: polySurface15
+    4300060: polySurface16
+    4300062: polySurface17
+    4300064: polySurface18
+    4300066: polySurface19
+    4300068: polySurface20
+    4300070: polySurface21
+    4300072: polySurface22
+    4300074: polySurface23
+    4300076: polySurface24
+    4300078: polySurface25
+    4300080: polySurface26
+    4300082: polySurface27
+    4300084: polySurface28
+    4300086: polySurface29
+    4300088: polySurface30
+    4300090: polySurface31
+    4300092: polySurface32
+    4300094: polySurface33
+    4300096: polySurface34
+    4300098: Bank
+    4300100: building
+    4300102: coin
+    4300104: coin_animate
+    7400000: Approached
+    7400002: Take 001 (1)
+    7400004: Approach
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Approached
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Coin_Top
+        weight: 1
+      - path: Exterior_Bank
+        weight: 1
+      - path: Exterior_Bank/Aircon_Left
+        weight: 1
+      - path: Exterior_Bank/Aircon_Right
+        weight: 1
+      - path: Exterior_Bank/aircon_Top
+        weight: 1
+      - path: Exterior_Bank/Base
+        weight: 1
+      - path: Exterior_Bank/Body
+        weight: 1
+      - path: Exterior_Bank/coin_Btm
+        weight: 1
+      - path: Exterior_Bank/Floor2nd
+        weight: 1
+      - path: Exterior_Bank/Middle
+        weight: 1
+      - path: Exterior_Bank/pillar
+        weight: 1
+      - path: Exterior_Bank/Wall_Left
+        weight: 1
+      - path: Exterior_Bank/Wall_Right
+        weight: 1
+      - path: ring
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Approach
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Coin_Top
+        weight: 1
+      - path: Exterior_Bank
+        weight: 1
+      - path: Exterior_Bank/Aircon_Left
+        weight: 1
+      - path: Exterior_Bank/Aircon_Right
+        weight: 1
+      - path: Exterior_Bank/aircon_Top
+        weight: 1
+      - path: Exterior_Bank/Base
+        weight: 1
+      - path: Exterior_Bank/Body
+        weight: 1
+      - path: Exterior_Bank/coin_Btm
+        weight: 1
+      - path: Exterior_Bank/Floor2nd
+        weight: 1
+      - path: Exterior_Bank/Middle
+        weight: 1
+      - path: Exterior_Bank/pillar
+        weight: 1
+      - path: Exterior_Bank/Wall_Left
+        weight: 1
+      - path: Exterior_Bank/Wall_Right
+        weight: 1
+      - path: ring
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

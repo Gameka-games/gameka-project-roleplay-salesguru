@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 610f22b7896c20e8894f14672d31e7e1
+timeCreated: 1516068175
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Einstein
+    100004: Coat_Einstein
+    100006: Collar_Einstein
+    100008: //RootNode
+    100010: Hair2_Einstein
+    100012: Hair_Einstein
+    100014: Hair_Side2_Einstein
+    100016: Hair_Side_Einstein
+    100018: HEAD
+    100020: Head_Einstein
+    100022: L_Arm_Einstein
+    100024: L_Ear_Einstein
+    100026: L_Leg_Einstein
+    100028: Mustach_Einstein
+    100030: Neck_Einstein
+    100032: Nose_Einstein
+    100034: R_Arm_Einstein
+    100036: R_Ear_Einstein
+    100038: R_Leg_Einstein
+    400000: BODY
+    400002: Body_Einstein
+    400004: Coat_Einstein
+    400006: Collar_Einstein
+    400008: //RootNode
+    400010: Hair2_Einstein
+    400012: Hair_Einstein
+    400014: Hair_Side2_Einstein
+    400016: Hair_Side_Einstein
+    400018: HEAD
+    400020: Head_Einstein
+    400022: L_Arm_Einstein
+    400024: L_Ear_Einstein
+    400026: L_Leg_Einstein
+    400028: Mustach_Einstein
+    400030: Neck_Einstein
+    400032: Nose_Einstein
+    400034: R_Arm_Einstein
+    400036: R_Ear_Einstein
+    400038: R_Leg_Einstein
+    2300000: Body_Einstein
+    2300002: Coat_Einstein
+    2300004: Collar_Einstein
+    2300006: Hair2_Einstein
+    2300008: Hair_Einstein
+    2300010: Hair_Side2_Einstein
+    2300012: Hair_Side_Einstein
+    2300014: Head_Einstein
+    2300016: L_Arm_Einstein
+    2300018: L_Ear_Einstein
+    2300020: L_Leg_Einstein
+    2300022: Mustach_Einstein
+    2300024: Neck_Einstein
+    2300026: Nose_Einstein
+    2300028: R_Arm_Einstein
+    2300030: R_Ear_Einstein
+    2300032: R_Leg_Einstein
+    3300000: Body_Einstein
+    3300002: Coat_Einstein
+    3300004: Collar_Einstein
+    3300006: Hair2_Einstein
+    3300008: Hair_Einstein
+    3300010: Hair_Side2_Einstein
+    3300012: Hair_Side_Einstein
+    3300014: Head_Einstein
+    3300016: L_Arm_Einstein
+    3300018: L_Ear_Einstein
+    3300020: L_Leg_Einstein
+    3300022: Mustach_Einstein
+    3300024: Neck_Einstein
+    3300026: Nose_Einstein
+    3300028: R_Arm_Einstein
+    3300030: R_Ear_Einstein
+    3300032: R_Leg_Einstein
+    4300000: Body_Einstein
+    4300002: L_Leg_Einstein
+    4300004: Neck_Einstein
+    4300006: R_Leg_Einstein
+    4300008: L_Arm_Einstein
+    4300010: R_Arm_Einstein
+    4300012: Collar_Einstein
+    4300014: Coat_Einstein
+    4300016: Nose_Einstein
+    4300018: Head_Einstein
+    4300020: L_Ear_Einstein
+    4300022: R_Ear_Einstein
+    4300024: Mustach_Einstein
+    4300026: Hair_Einstein
+    4300028: Hair2_Einstein
+    4300030: Hair_Side2_Einstein
+    4300032: Hair_Side_Einstein
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

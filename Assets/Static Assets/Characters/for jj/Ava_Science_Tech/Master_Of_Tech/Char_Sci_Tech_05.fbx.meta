@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 01bd89c2500e789458a5215a3c132fe9
+timeCreated: 1516068151
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_MOT
+    100004: //RootNode
+    100006: Collar_MOT
+    100008: Hair_MOT
+    100010: HEAD
+    100012: Head_MOT
+    100014: L_Cloth_Side_MOT
+    100016: L_Ear_MOT
+    100018: L_Hand_MOT
+    100020: L_Leg_MOT
+    100022: Nametag_MOT
+    100024: Neck_MOT
+    100026: Nose_MOT
+    100028: R_Cloth_Side_MOT
+    100030: R_Ear_MOT
+    100032: R_Hand_MOT
+    100034: R_Leg_MOT
+    100036: Spectacle_MOT
+    100038: String_MOT
+    400000: BODY
+    400002: Body_MOT
+    400004: //RootNode
+    400006: Collar_MOT
+    400008: Hair_MOT
+    400010: HEAD
+    400012: Head_MOT
+    400014: L_Cloth_Side_MOT
+    400016: L_Ear_MOT
+    400018: L_Hand_MOT
+    400020: L_Leg_MOT
+    400022: Nametag_MOT
+    400024: Neck_MOT
+    400026: Nose_MOT
+    400028: R_Cloth_Side_MOT
+    400030: R_Ear_MOT
+    400032: R_Hand_MOT
+    400034: R_Leg_MOT
+    400036: Spectacle_MOT
+    400038: String_MOT
+    2300000: Body_MOT
+    2300002: Collar_MOT
+    2300004: Hair_MOT
+    2300006: Head_MOT
+    2300008: L_Cloth_Side_MOT
+    2300010: L_Ear_MOT
+    2300012: L_Hand_MOT
+    2300014: L_Leg_MOT
+    2300016: Nametag_MOT
+    2300018: Neck_MOT
+    2300020: Nose_MOT
+    2300022: R_Cloth_Side_MOT
+    2300024: R_Ear_MOT
+    2300026: R_Hand_MOT
+    2300028: R_Leg_MOT
+    2300030: Spectacle_MOT
+    2300032: String_MOT
+    3300000: Body_MOT
+    3300002: Collar_MOT
+    3300004: Hair_MOT
+    3300006: Head_MOT
+    3300008: L_Cloth_Side_MOT
+    3300010: L_Ear_MOT
+    3300012: L_Hand_MOT
+    3300014: L_Leg_MOT
+    3300016: Nametag_MOT
+    3300018: Neck_MOT
+    3300020: Nose_MOT
+    3300022: R_Cloth_Side_MOT
+    3300024: R_Ear_MOT
+    3300026: R_Hand_MOT
+    3300028: R_Leg_MOT
+    3300030: Spectacle_MOT
+    3300032: String_MOT
+    4300000: Nametag_MOT
+    4300002: String_MOT
+    4300004: Body_MOT
+    4300006: Neck_MOT
+    4300008: R_Leg_MOT
+    4300010: Collar_MOT
+    4300012: L_Leg_MOT
+    4300014: R_Hand_MOT
+    4300016: L_Hand_MOT
+    4300018: L_Cloth_Side_MOT
+    4300020: R_Cloth_Side_MOT
+    4300022: R_Ear_MOT
+    4300024: Head_MOT
+    4300026: Nose_MOT
+    4300028: L_Ear_MOT
+    4300030: Hair_MOT
+    4300032: Spectacle_MOT
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

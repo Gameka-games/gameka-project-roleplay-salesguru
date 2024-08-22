@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 12bd337c6e44a494a9dc6955502200a6
+timeCreated: 1516068156
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Bus_Driver
+    100004: Butt_Bus_Driver
+    100006: //RootNode
+    100008: Collar_Bus_Driver
+    100010: Hair_Bus_Driver
+    100012: HEAD
+    100014: Head_Bus_Driver
+    100016: Jacket_Bus_Driver
+    100018: L_Arm_Bus_Driver
+    100020: L_Ear_Bus_Driver
+    100022: L_Leg_Bus_Driver
+    100024: Neck_Bus_Driver
+    100026: Nose_Bus_Driver
+    100028: R_Arm_Bus_Driver
+    100030: R_Ear_Bus_Driver
+    100032: R_Leg_Bus_Driver
+    400000: BODY
+    400002: Body_Bus_Driver
+    400004: Butt_Bus_Driver
+    400006: //RootNode
+    400008: Collar_Bus_Driver
+    400010: Hair_Bus_Driver
+    400012: HEAD
+    400014: Head_Bus_Driver
+    400016: Jacket_Bus_Driver
+    400018: L_Arm_Bus_Driver
+    400020: L_Ear_Bus_Driver
+    400022: L_Leg_Bus_Driver
+    400024: Neck_Bus_Driver
+    400026: Nose_Bus_Driver
+    400028: R_Arm_Bus_Driver
+    400030: R_Ear_Bus_Driver
+    400032: R_Leg_Bus_Driver
+    2300000: Body_Bus_Driver
+    2300002: Butt_Bus_Driver
+    2300004: Collar_Bus_Driver
+    2300006: Hair_Bus_Driver
+    2300008: Head_Bus_Driver
+    2300010: Jacket_Bus_Driver
+    2300012: L_Arm_Bus_Driver
+    2300014: L_Ear_Bus_Driver
+    2300016: L_Leg_Bus_Driver
+    2300018: Neck_Bus_Driver
+    2300020: Nose_Bus_Driver
+    2300022: R_Arm_Bus_Driver
+    2300024: R_Ear_Bus_Driver
+    2300026: R_Leg_Bus_Driver
+    3300000: Body_Bus_Driver
+    3300002: Butt_Bus_Driver
+    3300004: Collar_Bus_Driver
+    3300006: Hair_Bus_Driver
+    3300008: Head_Bus_Driver
+    3300010: Jacket_Bus_Driver
+    3300012: L_Arm_Bus_Driver
+    3300014: L_Ear_Bus_Driver
+    3300016: L_Leg_Bus_Driver
+    3300018: Neck_Bus_Driver
+    3300020: Nose_Bus_Driver
+    3300022: R_Arm_Bus_Driver
+    3300024: R_Ear_Bus_Driver
+    3300026: R_Leg_Bus_Driver
+    4300000: Head_Bus_Driver
+    4300002: R_Ear_Bus_Driver
+    4300004: L_Ear_Bus_Driver
+    4300006: Nose_Bus_Driver
+    4300008: Hair_Bus_Driver
+    4300010: Collar_Bus_Driver
+    4300012: Body_Bus_Driver
+    4300014: R_Leg_Bus_Driver
+    4300016: Neck_Bus_Driver
+    4300018: Butt_Bus_Driver
+    4300020: R_Arm_Bus_Driver
+    4300022: Jacket_Bus_Driver
+    4300024: L_Arm_Bus_Driver
+    4300026: L_Leg_Bus_Driver
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: BODY
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Leg_Bus_Driver
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Leg_Bus_Driver
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hair_Bus_Driver
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Char_Tran_Ser_01(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BODY
+      parentName: Char_Tran_Ser_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Bus_Driver
+      parentName: BODY
+      position: {x: 0.001333737, y: 0.02328808, z: -0.0002469647}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Butt_Bus_Driver
+      parentName: BODY
+      position: {x: -0, y: 0.021851396, z: 0.004433242}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Collar_Bus_Driver
+      parentName: BODY
+      position: {x: -0.00018281702, y: 0.033105172, z: 0.0033844977}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.78243995, y: 0.78243995, z: 0.78243995}
+    - name: Hair_Bus_Driver
+      parentName: BODY
+      position: {x: 0.00011474707, y: 0.060385924, z: -0.0021740827}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: Jacket_Bus_Driver
+      parentName: BODY
+      position: {x: 0.001333737, y: 0.022645518, z: -0.00052295416}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0769749, y: 1.0769749, z: 1.0769749}
+    - name: L_Arm_Bus_Driver
+      parentName: BODY
+      position: {x: -0, y: 0.032018643, z: 0.0014867836}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Leg_Bus_Driver
+      parentName: BODY
+      position: {x: -0.00040638732, y: 0.01613928, z: 0.0024469397}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: Neck_Bus_Driver
+      parentName: BODY
+      position: {x: -0.0033326012, y: 0.033692427, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Arm_Bus_Driver
+      parentName: BODY
+      position: {x: 0.0035480498, y: 0.032018643, z: 0.0014867836}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Leg_Bus_Driver
+      parentName: BODY
+      position: {x: 0.002927658, y: 0.01613928, z: 0.0024469397}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HEAD
+      parentName: Char_Tran_Ser_01(Clone)
+      position: {x: 0.000040163584, y: 0.05294736, z: 0.0021367648}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 0.9432694}
+    - name: Head_Bus_Driver
+      parentName: HEAD
+      position: {x: 0.004376269, y: -0.0055875024, z: -0.00424825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Ear_Bus_Driver
+      parentName: HEAD
+      position: {x: 0.0049021235, y: -0.0059829038, z: -0.021174941}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nose_Bus_Driver
+      parentName: HEAD
+      position: {x: -0.017282678, y: -0.007454061, z: -0.000042579122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Ear_Bus_Driver
+      parentName: HEAD
+      position: {x: -0.0005737245, y: -0.005933722, z: -0.00010341685}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

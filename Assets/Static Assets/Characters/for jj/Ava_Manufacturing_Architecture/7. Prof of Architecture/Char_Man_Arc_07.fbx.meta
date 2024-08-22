@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 47fc9612d64040a489c14c76fb841478
+timeCreated: 1516068166
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_POA
+    100004: //RootNode
+    100006: Collar_POA
+    100008: Hair_POA
+    100010: HEAD
+    100012: Head_POA
+    100014: L_Arm_POA
+    100016: L_Ear_POA
+    100018: L_Leg_POA
+    100020: Neck_POA
+    100022: Nose_POA
+    100024: Papers_POA
+    100026: R_Arm_POA
+    100028: R_Ear_POA
+    100030: R_Leg_POA
+    100032: Ruler_POA
+    100034: Spectacle_POA
+    400000: BODY
+    400002: Body_POA
+    400004: //RootNode
+    400006: Collar_POA
+    400008: Hair_POA
+    400010: HEAD
+    400012: Head_POA
+    400014: L_Arm_POA
+    400016: L_Ear_POA
+    400018: L_Leg_POA
+    400020: Neck_POA
+    400022: Nose_POA
+    400024: Papers_POA
+    400026: R_Arm_POA
+    400028: R_Ear_POA
+    400030: R_Leg_POA
+    400032: Ruler_POA
+    400034: Spectacle_POA
+    2300000: Body_POA
+    2300002: Collar_POA
+    2300004: Hair_POA
+    2300006: Head_POA
+    2300008: L_Arm_POA
+    2300010: L_Ear_POA
+    2300012: L_Leg_POA
+    2300014: Neck_POA
+    2300016: Nose_POA
+    2300018: Papers_POA
+    2300020: R_Arm_POA
+    2300022: R_Ear_POA
+    2300024: R_Leg_POA
+    2300026: Ruler_POA
+    2300028: Spectacle_POA
+    3300000: Body_POA
+    3300002: Collar_POA
+    3300004: Hair_POA
+    3300006: Head_POA
+    3300008: L_Arm_POA
+    3300010: L_Ear_POA
+    3300012: L_Leg_POA
+    3300014: Neck_POA
+    3300016: Nose_POA
+    3300018: Papers_POA
+    3300020: R_Arm_POA
+    3300022: R_Ear_POA
+    3300024: R_Leg_POA
+    3300026: Ruler_POA
+    3300028: Spectacle_POA
+    4300000: Head_POA
+    4300002: Nose_POA
+    4300004: L_Ear_POA
+    4300006: R_Ear_POA
+    4300008: Spectacle_POA
+    4300010: Hair_POA
+    4300012: Body_POA
+    4300014: L_Leg_POA
+    4300016: Neck_POA
+    4300018: R_Leg_POA
+    4300020: L_Arm_POA
+    4300022: R_Arm_POA
+    4300024: Ruler_POA
+    4300026: Papers_POA
+    4300028: Collar_POA
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

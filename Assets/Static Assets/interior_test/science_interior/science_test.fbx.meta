@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 3e09ffa3e48db794bb06a2edf09b3663
+timeCreated: 1536906373
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back_case
+    100002: backshelf_001
+    100004: book
+    100006: book1
+    100008: book2
+    100010: book3
+    100012: books_pipes
+    100014: bottle_glass
+    100016: bottle_glass1
+    100018: floor
+    100020: main_prop
+    100022: pc_prop
+    100024: pc_prop1
+    100026: pc_prop2
+    100028: pc_prop3
+    100030: pipe
+    100032: pipe1
+    100034: pipe2
+    100036: pipe3
+    100038: //RootNode
+    100040: science_wal
+    100042: table
+    100044: table3
+    100046: table4
+    100048: table5
+    100050: table6
+    100052: table_002
+    100054: table_003
+    100056: table_004
+    100058: table_005
+    100060: table_006
+    100062: tables_AC
+    100064: wall_001
+    100066: wall_002
+    100068: wall_main
+    100070: wall_003
+    100072: wall_004
+    400000: back_case
+    400002: backshelf_001
+    400004: book
+    400006: book1
+    400008: book2
+    400010: book3
+    400012: books_pipes
+    400014: bottle_glass
+    400016: bottle_glass1
+    400018: floor
+    400020: main_prop
+    400022: pc_prop
+    400024: pc_prop1
+    400026: pc_prop2
+    400028: pc_prop3
+    400030: pipe
+    400032: pipe1
+    400034: pipe2
+    400036: pipe3
+    400038: //RootNode
+    400040: science_wal
+    400042: table
+    400044: table3
+    400046: table4
+    400048: table5
+    400050: table6
+    400052: table_002
+    400054: table_003
+    400056: table_004
+    400058: table_005
+    400060: table_006
+    400062: tables_AC
+    400064: wall_001
+    400066: wall_002
+    400068: wall_main
+    400070: wall_003
+    400072: wall_004
+    2300000: back_case
+    2300002: book
+    2300004: book1
+    2300006: book2
+    2300008: book3
+    2300010: books_pipes
+    2300012: bottle_glass
+    2300014: bottle_glass1
+    2300016: floor
+    2300018: pc_prop
+    2300020: pc_prop1
+    2300022: pc_prop2
+    2300024: pc_prop3
+    2300026: pipe
+    2300028: pipe1
+    2300030: pipe2
+    2300032: pipe3
+    2300034: science_wal
+    2300036: table
+    2300038: table3
+    2300040: table4
+    2300042: table5
+    2300044: table6
+    2300046: tables_AC
+    2300048: wall_001
+    2300050: wall_002
+    2300052: wall_003
+    2300054: wall_004
+    3300000: back_case
+    3300002: book
+    3300004: book1
+    3300006: book2
+    3300008: book3
+    3300010: books_pipes
+    3300012: bottle_glass
+    3300014: bottle_glass1
+    3300016: floor
+    3300018: pc_prop
+    3300020: pc_prop1
+    3300022: pc_prop2
+    3300024: pc_prop3
+    3300026: pipe
+    3300028: pipe1
+    3300030: pipe2
+    3300032: pipe3
+    3300034: science_wal
+    3300036: table
+    3300038: table3
+    3300040: table4
+    3300042: table5
+    3300044: table6
+    3300046: tables_AC
+    3300048: wall_001
+    3300050: wall_002
+    3300052: wall_003
+    3300054: wall_004
+    4300000: floor
+    4300002: science_wal
+    4300004: wall_001
+    4300006: wall_002
+    4300008: table
+    4300010: pc_prop1
+    4300012: book
+    4300014: table3
+    4300016: pipe1
+    4300018: pc_prop2
+    4300020: table6
+    4300022: pipe2
+    4300024: book2
+    4300026: table4
+    4300028: pc_prop3
+    4300030: book3
+    4300032: pipe3
+    4300034: table5
+    4300036: book1
+    4300038: bottle_glass1
+    4300040: pipe
+    4300042: back_case
+    4300044: pc_prop
+    4300046: bottle_glass
+    4300048: books_pipes
+    4300050: tables_AC
+    4300052: wall_003
+    4300054: wall_004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 9
+    secondaryUVAreaDistortion: 19
+    secondaryUVHardAngle: 89
+    secondaryUVPackMargin: 11
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

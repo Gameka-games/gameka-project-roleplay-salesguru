@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 0fc2d08dd904c0a0c9188ba0c971bd30
+timeCreated: 1516068190
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_DOM
+    100004: //RootNode
+    100006: Collar_DOM
+    100008: File_DOM
+    100010: Hair_DOM
+    100012: HEAD
+    100014: Head_DOM
+    100016: L_Arm_DOM
+    100018: L_Ear_DOM
+    100020: L_Leg_DOM
+    100022: Neck_DOM
+    100024: Nose_DOM
+    100026: Pen_DOM
+    100028: R_Arm_DOM
+    100030: R_Ear_DOM
+    100032: R_Leg_DOM
+    100034: Spectacle_DOM
+    400000: BODY
+    400002: Body_DOM
+    400004: //RootNode
+    400006: Collar_DOM
+    400008: File_DOM
+    400010: Hair_DOM
+    400012: HEAD
+    400014: Head_DOM
+    400016: L_Arm_DOM
+    400018: L_Ear_DOM
+    400020: L_Leg_DOM
+    400022: Neck_DOM
+    400024: Nose_DOM
+    400026: Pen_DOM
+    400028: R_Arm_DOM
+    400030: R_Ear_DOM
+    400032: R_Leg_DOM
+    400034: Spectacle_DOM
+    2300000: Body_DOM
+    2300002: Collar_DOM
+    2300004: File_DOM
+    2300006: Hair_DOM
+    2300008: Head_DOM
+    2300010: L_Arm_DOM
+    2300012: L_Ear_DOM
+    2300014: L_Leg_DOM
+    2300016: Neck_DOM
+    2300018: Nose_DOM
+    2300020: Pen_DOM
+    2300022: R_Arm_DOM
+    2300024: R_Ear_DOM
+    2300026: R_Leg_DOM
+    2300028: Spectacle_DOM
+    3300000: Body_DOM
+    3300002: Collar_DOM
+    3300004: File_DOM
+    3300006: Hair_DOM
+    3300008: Head_DOM
+    3300010: L_Arm_DOM
+    3300012: L_Ear_DOM
+    3300014: L_Leg_DOM
+    3300016: Neck_DOM
+    3300018: Nose_DOM
+    3300020: Pen_DOM
+    3300022: R_Arm_DOM
+    3300024: R_Ear_DOM
+    3300026: R_Leg_DOM
+    3300028: Spectacle_DOM
+    4300000: Body_DOM
+    4300002: L_Leg_DOM
+    4300004: Neck_DOM
+    4300006: R_Leg_DOM
+    4300008: R_Arm_DOM
+    4300010: L_Arm_DOM
+    4300012: Pen_DOM
+    4300014: File_DOM
+    4300016: Collar_DOM
+    4300018: Spectacle_DOM
+    4300020: Head_DOM
+    4300022: Nose_DOM
+    4300024: L_Ear_DOM
+    4300026: R_Ear_DOM
+    4300028: Hair_DOM
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

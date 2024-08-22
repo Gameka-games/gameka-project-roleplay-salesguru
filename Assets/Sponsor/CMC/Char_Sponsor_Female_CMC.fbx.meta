@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 532f9fbca75d06f4dad4c9edfd6ec349
+timeCreated: 1516783103
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: //RootNode
+    100004: Coat_Doctor_Female
+    100006: Face_Male
+    100008: glasses
+    100010: Hair
+    100012: hair
+    100014: Head
+    100016: L_leg2
+    100018: Left_Arm_Cook_Female
+    100020: Left_Arm_Cook_Female1
+    100022: Left_Ear
+    100024: pSphere1
+    100026: Right_Ear
+    100028: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:body3
+    100030: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:L_leg2
+    100032: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:Neck22
+    100034: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:polySurface1
+    100036: Sponsor_Female_CMC_Body
+    100038: tag
+    100040: Tx_Interior_Education_Computing_20170703:layer2_bake
+    400000: body
+    400002: //RootNode
+    400004: Coat_Doctor_Female
+    400006: Face_Male
+    400008: glasses
+    400010: Hair
+    400012: hair
+    400014: Head
+    400016: L_leg2
+    400018: Left_Arm_Cook_Female
+    400020: Left_Arm_Cook_Female1
+    400022: Left_Ear
+    400024: pSphere1
+    400026: Right_Ear
+    400028: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:body3
+    400030: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:L_leg2
+    400032: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:Neck22
+    400034: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:polySurface1
+    400036: Sponsor_Female_CMC_Body
+    400038: tag
+    400040: Tx_Interior_Education_Computing_20170703:layer2_bake
+    2300000: Coat_Doctor_Female
+    2300002: Face_Male
+    2300004: glasses
+    2300006: hair
+    2300008: L_leg2
+    2300010: Left_Arm_Cook_Female
+    2300012: Left_Arm_Cook_Female1
+    2300014: Left_Ear
+    2300016: pSphere1
+    2300018: Right_Ear
+    2300020: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:body3
+    2300022: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:L_leg2
+    2300024: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:Neck22
+    2300026: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:polySurface1
+    2300028: tag
+    2300030: Tx_Interior_Education_Computing_20170703:layer2_bake
+    3300000: Coat_Doctor_Female
+    3300002: Face_Male
+    3300004: glasses
+    3300006: hair
+    3300008: L_leg2
+    3300010: Left_Arm_Cook_Female
+    3300012: Left_Arm_Cook_Female1
+    3300014: Left_Ear
+    3300016: pSphere1
+    3300018: Right_Ear
+    3300020: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:body3
+    3300022: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:L_leg2
+    3300024: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:Neck22
+    3300026: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:polySurface1
+    3300028: tag
+    3300030: Tx_Interior_Education_Computing_20170703:layer2_bake
+    4300000: Tx_Interior_Education_Computing_20170703:layer2_bake
+    4300002: tag
+    4300004: Coat_Doctor_Female
+    4300006: Left_Arm_Cook_Female1
+    4300008: Left_Arm_Cook_Female
+    4300010: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:Neck22
+    4300012: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:L_leg2
+    4300014: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:body3
+    4300016: sponsor_9_Female_YoungMode_2:sponsor_9_Female_YoungMode_2:polySurface1
+    4300018: L_leg2
+    4300020: glasses
+    4300022: hair
+    4300024: Face_Male
+    4300026: Right_Ear
+    4300028: Left_Ear
+    4300030: pSphere1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

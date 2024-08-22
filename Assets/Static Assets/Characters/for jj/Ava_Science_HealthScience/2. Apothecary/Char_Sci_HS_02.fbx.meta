@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: c0f0706a62cd834458f10b30e533e0e5
+timeCreated: 1516068190
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Apothecary
+    100004: Bottle2_Apothecary
+    100006: Bottle_Apothecary
+    100008: //RootNode
+    100010: Collar_Apothecary
+    100012: Hair_Apothecary
+    100014: HEAD
+    100016: Head_Apothecary
+    100018: Headbadge_Apothecary
+    100020: L_Arm_Apothecary
+    100022: L_Ear_Apothecary
+    100024: L_Leg_Apothecary
+    100026: Neck_Apothecary
+    100028: Nose_Apothecary
+    100030: R_Arm_Apothecary
+    100032: R_Ear_Apothecary
+    100034: R_Leg_Apothecary
+    400000: BODY
+    400002: Body_Apothecary
+    400004: Bottle2_Apothecary
+    400006: Bottle_Apothecary
+    400008: //RootNode
+    400010: Collar_Apothecary
+    400012: Hair_Apothecary
+    400014: HEAD
+    400016: Head_Apothecary
+    400018: Headbadge_Apothecary
+    400020: L_Arm_Apothecary
+    400022: L_Ear_Apothecary
+    400024: L_Leg_Apothecary
+    400026: Neck_Apothecary
+    400028: Nose_Apothecary
+    400030: R_Arm_Apothecary
+    400032: R_Ear_Apothecary
+    400034: R_Leg_Apothecary
+    2300000: Body_Apothecary
+    2300002: Bottle2_Apothecary
+    2300004: Bottle_Apothecary
+    2300006: Collar_Apothecary
+    2300008: Hair_Apothecary
+    2300010: Head_Apothecary
+    2300012: Headbadge_Apothecary
+    2300014: L_Arm_Apothecary
+    2300016: L_Ear_Apothecary
+    2300018: L_Leg_Apothecary
+    2300020: Neck_Apothecary
+    2300022: Nose_Apothecary
+    2300024: R_Arm_Apothecary
+    2300026: R_Ear_Apothecary
+    2300028: R_Leg_Apothecary
+    3300000: Body_Apothecary
+    3300002: Bottle2_Apothecary
+    3300004: Bottle_Apothecary
+    3300006: Collar_Apothecary
+    3300008: Hair_Apothecary
+    3300010: Head_Apothecary
+    3300012: Headbadge_Apothecary
+    3300014: L_Arm_Apothecary
+    3300016: L_Ear_Apothecary
+    3300018: L_Leg_Apothecary
+    3300020: Neck_Apothecary
+    3300022: Nose_Apothecary
+    3300024: R_Arm_Apothecary
+    3300026: R_Ear_Apothecary
+    3300028: R_Leg_Apothecary
+    4300000: Head_Apothecary
+    4300002: Nose_Apothecary
+    4300004: L_Ear_Apothecary
+    4300006: R_Ear_Apothecary
+    4300008: Headbadge_Apothecary
+    4300010: Hair_Apothecary
+    4300012: Bottle_Apothecary
+    4300014: Bottle2_Apothecary
+    4300016: Collar_Apothecary
+    4300018: Neck_Apothecary
+    4300020: R_Arm_Apothecary
+    4300022: L_Arm_Apothecary
+    4300024: Body_Apothecary
+    4300026: R_Leg_Apothecary
+    4300028: L_Leg_Apothecary
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: 1ae0fc7c21d010148b6f4cb4219b7ac4
+timeCreated: 1511673244
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bottom
+    100002: Bottom_Middle_Pillar
+    100004: Bottom_Middle_Pillar 1
+    100006: Bottom_Middle_Pillar1
+    100008: Bottom_Middle_Pillar2
+    100010: Bottom_Middle_Roof
+    100012: Bottom_Side_Pillar
+    100014: Bottom_Side_Pillar 1
+    100016: Bottom_Side_Pillar1
+    100018: Bottom_Side_Pillar10
+    100020: Bottom_Side_Pillar11
+    100022: Bottom_Side_Pillar12
+    100024: Bottom_Side_Pillar13
+    100026: Bottom_Side_Pillar14
+    100028: Bottom_Side_Pillar15
+    100030: Bottom_Side_Pillar16
+    100032: Bottom_Side_Pillar17
+    100034: Bottom_Side_Pillar18
+    100036: Bottom_Side_Pillar19
+    100038: Bottom_Side_Pillar2
+    100040: Bottom_Side_Pillar3
+    100042: Bottom_Side_Pillar4
+    100044: Bottom_Side_Pillar5
+    100046: Bottom_Side_Pillar6
+    100048: Bottom_Side_Pillar7
+    100050: Bottom_Side_Pillar8
+    100052: Bottom_Side_Pillar9
+    100054: Bottom_Side_Wall
+    100056: Middle
+    100058: Middle_Building
+    100060: Middle_Building_Pillar
+    100062: Middle_Building_Pillar 1
+    100064: Middle_Building_Pillar1
+    100066: Middle_Building_Pillar10
+    100068: Middle_Building_Pillar11
+    100070: Middle_Building_Pillar2
+    100072: Middle_Building_Pillar3
+    100074: Middle_Building_Pillar4
+    100076: Middle_Building_Pillar5
+    100078: Middle_Building_Pillar6
+    100080: Middle_Building_Pillar7
+    100082: Middle_Building_Pillar8
+    100084: Middle_Building_Pillar9
+    100086: Middle_Side
+    100088: Middle_Side_Floor
+    100090: Middle_Side_Pillar
+    100092: Middle_Side_Pillar 1
+    100094: Middle_Side_Pillar1
+    100096: Middle_Side_Pillar2
+    100098: Middle_Side_Pillar3
+    100100: Middle_Side_Pillar4
+    100102: Middle_Side_Pillar5
+    100104: polySurface42
+    100106: polySurface43
+    100108: polySurface44
+    100110: polySurface47
+    100112: Stair
+    100114: Top
+    100116: Top_Building
+    100118: Top_Building_Cover
+    100120: Top_Building_Cover1
+    100122: Top_Middle_Pillar
+    100124: Top_Middle_Pillar 1
+    100126: Top_Middle_Pillar1
+    100128: Top_Middle_Pillar10
+    100130: Top_Middle_Pillar11
+    100132: Top_Middle_Pillar12
+    100134: Top_Middle_Pillar2
+    100136: Top_Middle_Pillar3
+    100138: Top_Middle_Pillar4
+    100140: Top_Middle_Pillar5
+    100142: Top_Middle_Pillar6
+    100144: Top_Middle_Pillar7
+    100146: Top_Middle_Pillar8
+    100148: Top_Middle_Pillar9
+    100150: //RootNode
+    400000: Bottom
+    400002: Bottom_Middle_Pillar
+    400004: Bottom_Middle_Pillar 1
+    400006: Bottom_Middle_Pillar1
+    400008: Bottom_Middle_Pillar2
+    400010: Bottom_Middle_Roof
+    400012: Bottom_Side_Pillar
+    400014: Bottom_Side_Pillar 1
+    400016: Bottom_Side_Pillar1
+    400018: Bottom_Side_Pillar10
+    400020: Bottom_Side_Pillar11
+    400022: Bottom_Side_Pillar12
+    400024: Bottom_Side_Pillar13
+    400026: Bottom_Side_Pillar14
+    400028: Bottom_Side_Pillar15
+    400030: Bottom_Side_Pillar16
+    400032: Bottom_Side_Pillar17
+    400034: Bottom_Side_Pillar18
+    400036: Bottom_Side_Pillar19
+    400038: Bottom_Side_Pillar2
+    400040: Bottom_Side_Pillar3
+    400042: Bottom_Side_Pillar4
+    400044: Bottom_Side_Pillar5
+    400046: Bottom_Side_Pillar6
+    400048: Bottom_Side_Pillar7
+    400050: Bottom_Side_Pillar8
+    400052: Bottom_Side_Pillar9
+    400054: Bottom_Side_Wall
+    400056: Middle
+    400058: Middle_Building
+    400060: Middle_Building_Pillar
+    400062: Middle_Building_Pillar 1
+    400064: Middle_Building_Pillar1
+    400066: Middle_Building_Pillar10
+    400068: Middle_Building_Pillar11
+    400070: Middle_Building_Pillar2
+    400072: Middle_Building_Pillar3
+    400074: Middle_Building_Pillar4
+    400076: Middle_Building_Pillar5
+    400078: Middle_Building_Pillar6
+    400080: Middle_Building_Pillar7
+    400082: Middle_Building_Pillar8
+    400084: Middle_Building_Pillar9
+    400086: Middle_Side
+    400088: Middle_Side_Floor
+    400090: Middle_Side_Pillar
+    400092: Middle_Side_Pillar 1
+    400094: Middle_Side_Pillar1
+    400096: Middle_Side_Pillar2
+    400098: Middle_Side_Pillar3
+    400100: Middle_Side_Pillar4
+    400102: Middle_Side_Pillar5
+    400104: polySurface42
+    400106: polySurface43
+    400108: polySurface44
+    400110: polySurface47
+    400112: Stair
+    400114: Top
+    400116: Top_Building
+    400118: Top_Building_Cover
+    400120: Top_Building_Cover1
+    400122: Top_Middle_Pillar
+    400124: Top_Middle_Pillar 1
+    400126: Top_Middle_Pillar1
+    400128: Top_Middle_Pillar10
+    400130: Top_Middle_Pillar11
+    400132: Top_Middle_Pillar12
+    400134: Top_Middle_Pillar2
+    400136: Top_Middle_Pillar3
+    400138: Top_Middle_Pillar4
+    400140: Top_Middle_Pillar5
+    400142: Top_Middle_Pillar6
+    400144: Top_Middle_Pillar7
+    400146: Top_Middle_Pillar8
+    400148: Top_Middle_Pillar9
+    400150: //RootNode
+    2300000: Bottom_Middle_Pillar 1
+    2300002: Bottom_Middle_Pillar1
+    2300004: Bottom_Middle_Pillar2
+    2300006: Bottom_Middle_Roof
+    2300008: Bottom_Side_Pillar 1
+    2300010: Bottom_Side_Pillar1
+    2300012: Bottom_Side_Pillar10
+    2300014: Bottom_Side_Pillar11
+    2300016: Bottom_Side_Pillar12
+    2300018: Bottom_Side_Pillar13
+    2300020: Bottom_Side_Pillar14
+    2300022: Bottom_Side_Pillar15
+    2300024: Bottom_Side_Pillar16
+    2300026: Bottom_Side_Pillar17
+    2300028: Bottom_Side_Pillar18
+    2300030: Bottom_Side_Pillar19
+    2300032: Bottom_Side_Pillar2
+    2300034: Bottom_Side_Pillar3
+    2300036: Bottom_Side_Pillar4
+    2300038: Bottom_Side_Pillar5
+    2300040: Bottom_Side_Pillar6
+    2300042: Bottom_Side_Pillar7
+    2300044: Bottom_Side_Pillar8
+    2300046: Bottom_Side_Pillar9
+    2300048: Bottom_Side_Wall
+    2300050: Middle_Building
+    2300052: Middle_Building_Pillar 1
+    2300054: Middle_Building_Pillar1
+    2300056: Middle_Building_Pillar10
+    2300058: Middle_Building_Pillar11
+    2300060: Middle_Building_Pillar2
+    2300062: Middle_Building_Pillar3
+    2300064: Middle_Building_Pillar4
+    2300066: Middle_Building_Pillar5
+    2300068: Middle_Building_Pillar6
+    2300070: Middle_Building_Pillar7
+    2300072: Middle_Building_Pillar8
+    2300074: Middle_Building_Pillar9
+    2300076: Middle_Side
+    2300078: Middle_Side_Floor
+    2300080: Middle_Side_Pillar 1
+    2300082: Middle_Side_Pillar1
+    2300084: Middle_Side_Pillar2
+    2300086: Middle_Side_Pillar3
+    2300088: Middle_Side_Pillar4
+    2300090: Middle_Side_Pillar5
+    2300092: polySurface42
+    2300094: polySurface43
+    2300096: polySurface44
+    2300098: polySurface47
+    2300100: Top_Building
+    2300102: Top_Building_Cover
+    2300104: Top_Building_Cover1
+    2300106: Top_Middle_Pillar 1
+    2300108: Top_Middle_Pillar1
+    2300110: Top_Middle_Pillar10
+    2300112: Top_Middle_Pillar11
+    2300114: Top_Middle_Pillar12
+    2300116: Top_Middle_Pillar2
+    2300118: Top_Middle_Pillar3
+    2300120: Top_Middle_Pillar4
+    2300122: Top_Middle_Pillar5
+    2300124: Top_Middle_Pillar6
+    2300126: Top_Middle_Pillar7
+    2300128: Top_Middle_Pillar8
+    2300130: Top_Middle_Pillar9
+    3300000: Bottom_Middle_Pillar 1
+    3300002: Bottom_Middle_Pillar1
+    3300004: Bottom_Middle_Pillar2
+    3300006: Bottom_Middle_Roof
+    3300008: Bottom_Side_Pillar 1
+    3300010: Bottom_Side_Pillar1
+    3300012: Bottom_Side_Pillar10
+    3300014: Bottom_Side_Pillar11
+    3300016: Bottom_Side_Pillar12
+    3300018: Bottom_Side_Pillar13
+    3300020: Bottom_Side_Pillar14
+    3300022: Bottom_Side_Pillar15
+    3300024: Bottom_Side_Pillar16
+    3300026: Bottom_Side_Pillar17
+    3300028: Bottom_Side_Pillar18
+    3300030: Bottom_Side_Pillar19
+    3300032: Bottom_Side_Pillar2
+    3300034: Bottom_Side_Pillar3
+    3300036: Bottom_Side_Pillar4
+    3300038: Bottom_Side_Pillar5
+    3300040: Bottom_Side_Pillar6
+    3300042: Bottom_Side_Pillar7
+    3300044: Bottom_Side_Pillar8
+    3300046: Bottom_Side_Pillar9
+    3300048: Bottom_Side_Wall
+    3300050: Middle_Building
+    3300052: Middle_Building_Pillar 1
+    3300054: Middle_Building_Pillar1
+    3300056: Middle_Building_Pillar10
+    3300058: Middle_Building_Pillar11
+    3300060: Middle_Building_Pillar2
+    3300062: Middle_Building_Pillar3
+    3300064: Middle_Building_Pillar4
+    3300066: Middle_Building_Pillar5
+    3300068: Middle_Building_Pillar6
+    3300070: Middle_Building_Pillar7
+    3300072: Middle_Building_Pillar8
+    3300074: Middle_Building_Pillar9
+    3300076: Middle_Side
+    3300078: Middle_Side_Floor
+    3300080: Middle_Side_Pillar 1
+    3300082: Middle_Side_Pillar1
+    3300084: Middle_Side_Pillar2
+    3300086: Middle_Side_Pillar3
+    3300088: Middle_Side_Pillar4
+    3300090: Middle_Side_Pillar5
+    3300092: polySurface42
+    3300094: polySurface43
+    3300096: polySurface44
+    3300098: polySurface47
+    3300100: Top_Building
+    3300102: Top_Building_Cover
+    3300104: Top_Building_Cover1
+    3300106: Top_Middle_Pillar 1
+    3300108: Top_Middle_Pillar1
+    3300110: Top_Middle_Pillar10
+    3300112: Top_Middle_Pillar11
+    3300114: Top_Middle_Pillar12
+    3300116: Top_Middle_Pillar2
+    3300118: Top_Middle_Pillar3
+    3300120: Top_Middle_Pillar4
+    3300122: Top_Middle_Pillar5
+    3300124: Top_Middle_Pillar6
+    3300126: Top_Middle_Pillar7
+    3300128: Top_Middle_Pillar8
+    3300130: Top_Middle_Pillar9
+    4300000: Top_Building_Cover1
+    4300002: Top_Building_Cover
+    4300004: Top_Building
+    4300006: Top_Middle_Pillar
+    4300008: Top_Middle_Pillar1
+    4300010: Top_Middle_Pillar2
+    4300012: Top_Middle_Pillar3
+    4300014: Top_Middle_Pillar4
+    4300016: Top_Middle_Pillar5
+    4300018: Top_Middle_Pillar6
+    4300020: Top_Middle_Pillar7
+    4300022: Top_Middle_Pillar8
+    4300024: Top_Middle_Pillar9
+    4300026: Top_Middle_Pillar10
+    4300028: Top_Middle_Pillar12
+    4300030: Top_Middle_Pillar11
+    4300032: Middle_Side_Pillar
+    4300034: Middle_Side_Pillar1
+    4300036: Middle_Side_Pillar2
+    4300038: Middle_Side_Pillar3
+    4300040: Middle_Side_Pillar4
+    4300042: Middle_Side_Pillar5
+    4300044: Middle_Side
+    4300046: Middle_Side_Floor
+    4300048: Middle_Building_Pillar
+    4300050: Middle_Building_Pillar1
+    4300052: Middle_Building_Pillar2
+    4300054: Middle_Building_Pillar3
+    4300056: Middle_Building_Pillar4
+    4300058: Middle_Building_Pillar5
+    4300060: Middle_Building_Pillar6
+    4300062: Middle_Building_Pillar7
+    4300064: Middle_Building_Pillar8
+    4300066: Middle_Building_Pillar9
+    4300068: Middle_Building_Pillar10
+    4300070: Middle_Building_Pillar11
+    4300072: Middle_Building
+    4300074: Bottom_Side_Wall
+    4300076: Bottom_Middle_Roof
+    4300078: Bottom_Side_Pillar
+    4300080: Bottom_Side_Pillar1
+    4300082: Bottom_Side_Pillar2
+    4300084: Bottom_Side_Pillar3
+    4300086: Bottom_Side_Pillar4
+    4300088: Bottom_Side_Pillar5
+    4300090: Bottom_Side_Pillar6
+    4300092: Bottom_Side_Pillar7
+    4300094: Bottom_Side_Pillar8
+    4300096: Bottom_Side_Pillar9
+    4300098: Bottom_Side_Pillar10
+    4300100: Bottom_Side_Pillar11
+    4300102: Bottom_Side_Pillar12
+    4300104: Bottom_Side_Pillar13
+    4300106: Bottom_Side_Pillar14
+    4300108: Bottom_Side_Pillar15
+    4300110: Bottom_Side_Pillar16
+    4300112: Bottom_Side_Pillar17
+    4300114: Bottom_Side_Pillar18
+    4300116: Bottom_Side_Pillar19
+    4300118: Bottom_Middle_Pillar
+    4300120: Bottom_Middle_Pillar1
+    4300122: Bottom_Middle_Pillar2
+    4300124: polySurface44
+    4300126: polySurface43
+    4300128: polySurface42
+    4300130: polySurface47
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

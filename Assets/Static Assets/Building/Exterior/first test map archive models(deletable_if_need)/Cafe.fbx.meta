@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 2a775b6aea3334b40ab878d293337100
+timeCreated: 1508486260
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: awning
+    100002: bottom
+    100004: building
+    100006: //RootNode
+    100008: chair1
+    100010: chair1_1
+    100012: chair1_2
+    100014: chair2
+    100016: chair2_1
+    100018: chair2_2
+    100020: chair3
+    100022: chair3_1
+    100024: chair3_2
+    100026: chair4
+    100028: chair4_1
+    100030: chair4_2
+    100032: cup
+    100034: door
+    100036: signage
+    100038: table1
+    100040: table2
+    100042: table3
+    100044: table4
+    100046: top
+    100048: umbrella1
+    100050: umbrella2
+    100052: Cafe_Bottom
+    100054: Cafe_top
+    400000: awning
+    400002: bottom
+    400004: building
+    400006: //RootNode
+    400008: chair1
+    400010: chair1_1
+    400012: chair1_2
+    400014: chair2
+    400016: chair2_1
+    400018: chair2_2
+    400020: chair3
+    400022: chair3_1
+    400024: chair3_2
+    400026: chair4
+    400028: chair4_1
+    400030: chair4_2
+    400032: cup
+    400034: door
+    400036: signage
+    400038: table1
+    400040: table2
+    400042: table3
+    400044: table4
+    400046: top
+    400048: umbrella1
+    400050: umbrella2
+    400052: Cafe_Bottom
+    400054: Cafe_top
+    2300000: bottom
+    2300002: building
+    2300004: chair1_1
+    2300006: chair1_2
+    2300008: chair2_1
+    2300010: chair2_2
+    2300012: chair3_1
+    2300014: chair3_2
+    2300016: chair4_1
+    2300018: chair4_2
+    2300020: cup
+    2300022: door
+    2300024: signage
+    2300026: table1
+    2300028: table2
+    2300030: table3
+    2300032: table4
+    2300034: top
+    2300036: umbrella1
+    2300038: umbrella2
+    2300040: Cafe_Bottom
+    2300042: Cafe_top
+    3300000: bottom
+    3300002: building
+    3300004: chair1_1
+    3300006: chair1_2
+    3300008: chair2_1
+    3300010: chair2_2
+    3300012: chair3_1
+    3300014: chair3_2
+    3300016: chair4_1
+    3300018: chair4_2
+    3300020: cup
+    3300022: door
+    3300024: signage
+    3300026: table1
+    3300028: table2
+    3300030: table3
+    3300032: table4
+    3300034: top
+    3300036: umbrella1
+    3300038: umbrella2
+    3300040: Cafe_Bottom
+    3300042: Cafe_top
+    4300000: building
+    4300002: cup
+    4300004: signage
+    4300006: door
+    4300008: top
+    4300010: bottom
+    4300012: umbrella2
+    4300014: chair4_1
+    4300016: chair4_2
+    4300018: table4
+    4300020: umbrella1
+    4300022: chair3_1
+    4300024: chair3_2
+    4300026: table3
+    4300028: chair2_1
+    4300030: chair2_2
+    4300032: table2
+    4300034: chair1_1
+    4300036: chair1_2
+    4300038: table1
+    4300040: Cafe_Bottom
+    4300042: Cafe_top
+    7400000: Approach
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Approach
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: awning
+        weight: 1
+      - path: awning/Cafe_Bottom
+        weight: 1
+      - path: awning/Cafe_top
+        weight: 1
+      - path: building
+        weight: 1
+      - path: chair1
+        weight: 1
+      - path: chair1/chair1_1
+        weight: 1
+      - path: chair1/chair1_2
+        weight: 1
+      - path: chair1/table1
+        weight: 1
+      - path: chair2
+        weight: 1
+      - path: chair2/chair2_1
+        weight: 1
+      - path: chair2/chair2_2
+        weight: 1
+      - path: chair2/table2
+        weight: 1
+      - path: chair3
+        weight: 1
+      - path: chair3/chair3_1
+        weight: 1
+      - path: chair3/chair3_2
+        weight: 1
+      - path: chair3/table3
+        weight: 1
+      - path: chair3/umbrella1
+        weight: 1
+      - path: chair4
+        weight: 1
+      - path: chair4/chair4_1
+        weight: 1
+      - path: chair4/chair4_2
+        weight: 1
+      - path: chair4/table4
+        weight: 1
+      - path: chair4/umbrella2
+        weight: 1
+      - path: cup
+        weight: 1
+      - path: door
+        weight: 1
+      - path: signage
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

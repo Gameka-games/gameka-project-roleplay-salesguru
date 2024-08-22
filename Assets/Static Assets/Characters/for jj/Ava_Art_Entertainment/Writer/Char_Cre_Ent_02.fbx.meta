@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 1279e3f23a4061641b62762c8671299e
+timeCreated: 1516068156
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BODY
+    100002: Body_Writer
+    100004: Butt_Writer
+    100006: //RootNode
+    100008: Collar_Writer
+    100010: Hair__Writer
+    100012: Hat_Writer
+    100014: HEAD
+    100016: Head_Writer
+    100018: Jacket_Writer
+    100020: L_Arm_Writer
+    100022: L_Ear_Writer
+    100024: L_Leg_Writer
+    100026: Neck_Writer
+    100028: Nose_Writer
+    100030: Pen_Writer
+    100032: R_Arm_Writer
+    100034: R_Ear_Writer
+    100036: R_Leg_Writer
+    100038: Spectacle_Writer
+    400000: BODY
+    400002: Body_Writer
+    400004: Butt_Writer
+    400006: //RootNode
+    400008: Collar_Writer
+    400010: Hair__Writer
+    400012: Hat_Writer
+    400014: HEAD
+    400016: Head_Writer
+    400018: Jacket_Writer
+    400020: L_Arm_Writer
+    400022: L_Ear_Writer
+    400024: L_Leg_Writer
+    400026: Neck_Writer
+    400028: Nose_Writer
+    400030: Pen_Writer
+    400032: R_Arm_Writer
+    400034: R_Ear_Writer
+    400036: R_Leg_Writer
+    400038: Spectacle_Writer
+    2300000: Body_Writer
+    2300002: Butt_Writer
+    2300004: Collar_Writer
+    2300006: Hair__Writer
+    2300008: Hat_Writer
+    2300010: Head_Writer
+    2300012: Jacket_Writer
+    2300014: L_Arm_Writer
+    2300016: L_Ear_Writer
+    2300018: L_Leg_Writer
+    2300020: Neck_Writer
+    2300022: Nose_Writer
+    2300024: Pen_Writer
+    2300026: R_Arm_Writer
+    2300028: R_Ear_Writer
+    2300030: R_Leg_Writer
+    2300032: Spectacle_Writer
+    3300000: Body_Writer
+    3300002: Butt_Writer
+    3300004: Collar_Writer
+    3300006: Hair__Writer
+    3300008: Hat_Writer
+    3300010: Head_Writer
+    3300012: Jacket_Writer
+    3300014: L_Arm_Writer
+    3300016: L_Ear_Writer
+    3300018: L_Leg_Writer
+    3300020: Neck_Writer
+    3300022: Nose_Writer
+    3300024: Pen_Writer
+    3300026: R_Arm_Writer
+    3300028: R_Ear_Writer
+    3300030: R_Leg_Writer
+    3300032: Spectacle_Writer
+    4300000: R_Arm_Writer
+    4300002: L_Arm_Writer
+    4300004: Neck_Writer
+    4300006: L_Leg_Writer
+    4300008: Body_Writer
+    4300010: R_Leg_Writer
+    4300012: Butt_Writer
+    4300014: Pen_Writer
+    4300016: Hat_Writer
+    4300018: Collar_Writer
+    4300020: Jacket_Writer
+    4300022: Head_Writer
+    4300024: R_Ear_Writer
+    4300026: L_Ear_Writer
+    4300028: Nose_Writer
+    4300030: Hair__Writer
+    4300032: Spectacle_Writer
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 5759e165b0bd87c4eb2ebcb809772d70
+timeCreated: 1512376019
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Building
+    100002: chair
+    100004: chair1
+    100006: chair_table_set_left
+    100008: chair_table_set_right
+    100010: chair_table_set_top
+    100012: sofa
+    100014: sofa1
+    100016: sofa2
+    100018: sofa3
+    100020: sofa4
+    100022: sofa_swimming_pool
+    100024: swimming_pool
+    100026: table
+    100028: table1
+    100030: //RootNode
+    100032: ambientLight2
+    100034: directionalLight1
+    100036: Mansion
+    400000: Building
+    400002: chair
+    400004: chair1
+    400006: chair_table_set_left
+    400008: chair_table_set_right
+    400010: chair_table_set_top
+    400012: sofa
+    400014: sofa1
+    400016: sofa2
+    400018: sofa3
+    400020: sofa4
+    400022: sofa_swimming_pool
+    400024: swimming_pool
+    400026: table
+    400028: table1
+    400030: //RootNode
+    400032: ambientLight2
+    400034: directionalLight1
+    400036: Mansion
+    2300000: Building
+    2300002: chair
+    2300004: chair1
+    2300006: chair_table_set_right
+    2300008: sofa
+    2300010: sofa1
+    2300012: sofa2
+    2300014: sofa3
+    2300016: sofa4
+    2300018: swimming_pool
+    2300020: table
+    2300022: table1
+    3300000: Building
+    3300002: chair
+    3300004: chair1
+    3300006: chair_table_set_right
+    3300008: sofa
+    3300010: sofa1
+    3300012: sofa2
+    3300014: sofa3
+    3300016: sofa4
+    3300018: swimming_pool
+    3300020: table
+    3300022: table1
+    4300000: Building
+    4300002: swimming_pool
+    4300004: chair_table_set_right
+    4300006: sofa4
+    4300008: table1
+    4300010: sofa2
+    4300012: sofa1
+    4300014: sofa
+    4300016: sofa3
+    4300018: table
+    4300020: chair
+    4300022: chair1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

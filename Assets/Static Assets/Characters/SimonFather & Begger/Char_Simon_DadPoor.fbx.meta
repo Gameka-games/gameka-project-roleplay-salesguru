@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: bfa1366abdd4033479561ee2b2335247
+timeCreated: 1516871611
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: //RootNode
+    100004: cloth
+    100006: Ear_L
+    100008: Ear_R
+    100010: hat
+    100012: Head__
+    100014: Main_Arm_R
+    100016: Main_Arm_R1
+    100018: Main_Body
+    100020: Main_Hair1
+    100022: Main_Leg_L
+    100024: Main_Leg_R
+    100026: Main_Neck
+    100028: mustache
+    100030: Nose
+    100032: Sponsor_Face
+    400000: Body
+    400002: //RootNode
+    400004: cloth
+    400006: Ear_L
+    400008: Ear_R
+    400010: hat
+    400012: Head__
+    400014: Main_Arm_R
+    400016: Main_Arm_R1
+    400018: Main_Body
+    400020: Main_Hair1
+    400022: Main_Leg_L
+    400024: Main_Leg_R
+    400026: Main_Neck
+    400028: mustache
+    400030: Nose
+    400032: Sponsor_Face
+    2300000: cloth
+    2300002: Ear_L
+    2300004: Ear_R
+    2300006: hat
+    2300008: Main_Arm_R
+    2300010: Main_Arm_R1
+    2300012: Main_Body
+    2300014: Main_Hair1
+    2300016: Main_Leg_L
+    2300018: Main_Leg_R
+    2300020: Main_Neck
+    2300022: mustache
+    2300024: Nose
+    2300026: Sponsor_Face
+    3300000: cloth
+    3300002: Ear_L
+    3300004: Ear_R
+    3300006: hat
+    3300008: Main_Arm_R
+    3300010: Main_Arm_R1
+    3300012: Main_Body
+    3300014: Main_Hair1
+    3300016: Main_Leg_L
+    3300018: Main_Leg_R
+    3300020: Main_Neck
+    3300022: mustache
+    3300024: Nose
+    3300026: Sponsor_Face
+    4300000: hat
+    4300002: Ear_L
+    4300004: Ear_R
+    4300006: Nose
+    4300008: Sponsor_Face
+    4300010: mustache
+    4300012: Main_Hair1
+    4300014: cloth
+    4300016: Main_Body
+    4300018: Main_Leg_L
+    4300020: Main_Neck
+    4300022: Main_Leg_R
+    4300024: Main_Arm_R
+    4300026: Main_Arm_R1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

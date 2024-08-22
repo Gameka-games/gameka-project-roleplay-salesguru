@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: eb05430332968c5489ddce788cddaf0e
+timeCreated: 1511860381
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: aircon
+    100004: aircon1
+    100006: aircon2
+    100008: aircon3
+    100010: aircon4
+    100012: aircon5
+    100014: aircon6
+    100016: aircon7
+    100018: antenna_Tv
+    100020: antenna_Tv1
+    100022: antenna_Tv2
+    100024: Flat_T1 1
+    100026: Flat_T1_Aircon
+    100028: aircon8
+    100030: aircon9
+    100032: chimney
+    100034: cloth
+    100036: cloth2
+    100038: cloth3
+    100040: cloth4
+    100042: cloth5
+    100044: pCube11
+    100046: pCube12
+    100048: Stair
+    100050: Stair2
+    100052: Stair3
+    100054: Stair4
+    400000: //RootNode
+    400002: aircon
+    400004: aircon1
+    400006: aircon2
+    400008: aircon3
+    400010: aircon4
+    400012: aircon5
+    400014: aircon6
+    400016: aircon7
+    400018: antenna_Tv
+    400020: antenna_Tv1
+    400022: antenna_Tv2
+    400024: Flat_T1 1
+    400026: Flat_T1_Aircon
+    400028: aircon8
+    400030: aircon9
+    400032: chimney
+    400034: cloth
+    400036: cloth2
+    400038: cloth3
+    400040: cloth4
+    400042: cloth5
+    400044: pCube11
+    400046: pCube12
+    400048: Stair
+    400050: Stair2
+    400052: Stair3
+    400054: Stair4
+    2300000: //RootNode
+    2300002: aircon
+    2300004: aircon1
+    2300006: aircon2
+    2300008: aircon3
+    2300010: aircon4
+    2300012: aircon5
+    2300014: aircon6
+    2300016: aircon7
+    2300018: antenna_Tv
+    2300020: antenna_Tv1
+    2300022: antenna_Tv2
+    2300024: Flat_T1 1
+    2300026: Flat_T1_Aircon
+    2300028: aircon8
+    2300030: aircon9
+    2300032: chimney
+    2300034: cloth
+    2300036: cloth2
+    2300038: cloth3
+    2300040: cloth4
+    2300042: cloth5
+    2300044: pCube11
+    2300046: pCube12
+    2300048: Stair
+    2300050: Stair2
+    2300052: Stair3
+    2300054: Stair4
+    3300000: //RootNode
+    3300002: aircon
+    3300004: aircon1
+    3300006: aircon2
+    3300008: aircon3
+    3300010: aircon4
+    3300012: aircon5
+    3300014: aircon6
+    3300016: aircon7
+    3300018: antenna_Tv
+    3300020: antenna_Tv1
+    3300022: antenna_Tv2
+    3300024: Flat_T1 1
+    3300026: Flat_T1_Aircon
+    3300028: aircon8
+    3300030: aircon9
+    3300032: chimney
+    3300034: cloth
+    3300036: cloth2
+    3300038: cloth3
+    3300040: cloth4
+    3300042: cloth5
+    3300044: pCube11
+    3300046: pCube12
+    3300048: Stair
+    3300050: Stair2
+    3300052: Stair3
+    3300054: Stair4
+    4300000: Flat_T1
+    4300002: FlatT2:pCube1
+    4300004: Flat_T1_Aircon
+    4300006: antenna_Tv
+    4300008: antenna_Tv1
+    4300010: antenna_Tv2
+    4300012: aircon
+    4300014: aircon1
+    4300016: aircon2
+    4300018: aircon3
+    4300020: aircon4
+    4300022: aircon5
+    4300024: aircon6
+    4300026: aircon7
+    4300028: pCube11
+    4300030: pCube12
+    4300032: chimney
+    4300034: cloth
+    4300036: cloth2
+    4300038: cloth3
+    4300040: cloth4
+    4300042: cloth5
+    4300044: Stair
+    4300046: Stair2
+    4300048: Stair3
+    4300050: Stair4
+    4300052: aircon8
+    4300054: aircon9
+    7400000: Approach
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Approach
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

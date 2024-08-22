@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 917ab8557536eee479049fdde678b1a7
+timeCreated: 1513835180
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base_Male_Neck
+    100002: Basic_Male_Body
+    100004: beard
+    100006: Body
+    100008: body
+    100010: Char_Male_Head_6
+    100012: Chest
+    100014: collor
+    100016: Face
+    100018: Glasses_005
+    100020: hair
+    100022: Head
+    100024: Head1
+    100026: HIps
+    100028: l_arm
+    100030: L_Calf
+    100032: L_Clavicle
+    100034: L_Ear
+    100036: L_Foot
+    100038: L_Forearm
+    100040: L_Hand
+    100042: l_leg
+    100044: L_Thigh1
+    100046: L_Toe
+    100048: L_Upperarm
+    100050: mustache
+    100052: Neck
+    100054: Nose
+    100056: //RootNode
+    100058: Pelvis
+    100060: professor
+    100062: r_arm
+    100064: R_Calf
+    100066: R_Clavicle
+    100068: R_Ear
+    100070: R_Foot
+    100072: R_Forearm
+    100074: R_Hand
+    100076: r_leg
+    100078: R_Thigh
+    100080: R_Toe
+    100082: R_Upperarm
+    100084: scientist
+    100086: Spine
+    100088: Spine1
+    400000: Base_Male_Neck
+    400002: Basic_Male_Body
+    400004: beard
+    400006: Body
+    400008: body
+    400010: Char_Male_Head_6
+    400012: Chest
+    400014: collor
+    400016: Face
+    400018: Glasses_005
+    400020: hair
+    400022: Head
+    400024: Head1
+    400026: HIps
+    400028: l_arm
+    400030: L_Calf
+    400032: L_Clavicle
+    400034: L_Ear
+    400036: L_Foot
+    400038: L_Forearm
+    400040: L_Hand
+    400042: l_leg
+    400044: L_Thigh1
+    400046: L_Toe
+    400048: L_Upperarm
+    400050: mustache
+    400052: Neck
+    400054: Nose
+    400056: //RootNode
+    400058: Pelvis
+    400060: professor
+    400062: r_arm
+    400064: R_Calf
+    400066: R_Clavicle
+    400068: R_Ear
+    400070: R_Foot
+    400072: R_Forearm
+    400074: R_Hand
+    400076: r_leg
+    400078: R_Thigh
+    400080: R_Toe
+    400082: R_Upperarm
+    400084: scientist
+    400086: Spine
+    400088: Spine1
+    4300000: Base_Male_Neck
+    4300002: collor
+    4300004: r_arm
+    4300006: l_arm
+    4300008: l_leg
+    4300010: r_leg
+    4300012: body
+    4300014: Nose
+    4300016: Face
+    4300018: L_Ear
+    4300020: R_Ear
+    4300022: mustache
+    4300024: hair
+    4300026: beard
+    4300028: Glasses_005
+    7400000: Walk
+    9500000: //RootNode
+    13700000: Base_Male_Neck
+    13700002: beard
+    13700004: body
+    13700006: collor
+    13700008: Face
+    13700010: Glasses_005
+    13700012: hair
+    13700014: l_arm
+    13700016: L_Ear
+    13700018: l_leg
+    13700020: mustache
+    13700022: Nose
+    13700024: r_arm
+    13700026: R_Ear
+    13700028: r_leg
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HIps
+        weight: 1
+      - path: HIps/Pelvis
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot
+        weight: 1
+      - path: HIps/Pelvis/L_Thigh1/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: HIps/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: HIps/Pelvis/Spine
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/L_Clavicle/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/Neck/Head1
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm
+        weight: 1
+      - path: HIps/Pelvis/Spine/Spine1/Chest/R_Clavicle/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      - path: professor
+        weight: 1
+      - path: professor/Body
+        weight: 1
+      - path: professor/Body/Basic_Male_Body
+        weight: 1
+      - path: professor/Body/Basic_Male_Body/Base_Male_Neck
+        weight: 1
+      - path: professor/Body/body
+        weight: 1
+      - path: professor/Body/l_arm
+        weight: 1
+      - path: professor/Body/l_leg
+        weight: 1
+      - path: professor/Body/r_arm
+        weight: 1
+      - path: professor/Body/r_leg
+        weight: 1
+      - path: professor/Body/scientist
+        weight: 1
+      - path: professor/Body/scientist/collor
+        weight: 1
+      - path: professor/Char_Male_Head_6
+        weight: 1
+      - path: professor/Char_Male_Head_6/beard
+        weight: 1
+      - path: professor/Char_Male_Head_6/hair
+        weight: 1
+      - path: professor/Char_Male_Head_6/Head
+        weight: 1
+      - path: professor/Char_Male_Head_6/Head/Face
+        weight: 1
+      - path: professor/Char_Male_Head_6/Head/L_Ear
+        weight: 1
+      - path: professor/Char_Male_Head_6/Head/Nose
+        weight: 1
+      - path: professor/Char_Male_Head_6/Head/R_Ear
+        weight: 1
+      - path: professor/Char_Male_Head_6/mustache
+        weight: 1
+      - path: professor/Glasses_005
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

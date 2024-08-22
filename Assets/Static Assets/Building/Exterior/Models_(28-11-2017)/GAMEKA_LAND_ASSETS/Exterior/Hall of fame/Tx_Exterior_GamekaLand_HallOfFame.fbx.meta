@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 43ae884155745ec419ad4ed548e5c122
+timeCreated: 1512458040
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: banner
+    100002: flat1
+    100004: flat2
+    100006: Front
+    100008: MainBuilding
+    100010: mainbuilding
+    100012: pillar
+    100014: pillar1
+    100016: polySurface12
+    100018: polySurface13
+    100020: polySurface16
+    100022: polySurface17
+    100024: polySurface18
+    100026: polySurface19
+    100028: polySurface20
+    100030: polySurface21
+    100032: polySurface22
+    100034: polySurface23
+    100036: polySurface29
+    100038: polySurface31
+    100040: rooftop
+    100042: sign
+    100044: stair
+    100046: topfloor
+    100048: topfloor_2
+    100050: Trophy
+    100052: //RootNode
+    400000: banner
+    400002: flat1
+    400004: flat2
+    400006: Front
+    400008: MainBuilding
+    400010: mainbuilding
+    400012: pillar
+    400014: pillar1
+    400016: polySurface12
+    400018: polySurface13
+    400020: polySurface16
+    400022: polySurface17
+    400024: polySurface18
+    400026: polySurface19
+    400028: polySurface20
+    400030: polySurface21
+    400032: polySurface22
+    400034: polySurface23
+    400036: polySurface29
+    400038: polySurface31
+    400040: rooftop
+    400042: sign
+    400044: stair
+    400046: topfloor
+    400048: topfloor_2
+    400050: Trophy
+    400052: //RootNode
+    2300000: flat1
+    2300002: flat2
+    2300004: Front
+    2300006: mainbuilding
+    2300008: pillar
+    2300010: pillar1
+    2300012: polySurface12
+    2300014: polySurface13
+    2300016: polySurface16
+    2300018: polySurface17
+    2300020: polySurface18
+    2300022: polySurface19
+    2300024: polySurface20
+    2300026: polySurface21
+    2300028: polySurface22
+    2300030: polySurface23
+    2300032: polySurface29
+    2300034: polySurface31
+    2300036: rooftop
+    2300038: sign
+    2300040: stair
+    2300042: topfloor
+    2300044: topfloor_2
+    2300046: Trophy
+    3300000: flat1
+    3300002: flat2
+    3300004: Front
+    3300006: mainbuilding
+    3300008: pillar
+    3300010: pillar1
+    3300012: polySurface12
+    3300014: polySurface13
+    3300016: polySurface16
+    3300018: polySurface17
+    3300020: polySurface18
+    3300022: polySurface19
+    3300024: polySurface20
+    3300026: polySurface21
+    3300028: polySurface22
+    3300030: polySurface23
+    3300032: polySurface29
+    3300034: polySurface31
+    3300036: rooftop
+    3300038: sign
+    3300040: stair
+    3300042: topfloor
+    3300044: topfloor_2
+    3300046: Trophy
+    4300000: rooftop
+    4300002: topfloor
+    4300004: topfloor_2
+    4300006: mainbuilding
+    4300008: stair
+    4300010: Front
+    4300012: pillar
+    4300014: pillar1
+    4300016: flat2
+    4300018: flat1
+    4300020: sign
+    4300022: Trophy
+    4300024: polySurface31
+    4300026: polySurface29
+    4300028: polySurface23
+    4300030: polySurface22
+    4300032: polySurface21
+    4300034: polySurface20
+    4300036: polySurface19
+    4300038: polySurface18
+    4300040: polySurface12
+    4300042: polySurface13
+    4300044: polySurface17
+    4300046: polySurface16
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

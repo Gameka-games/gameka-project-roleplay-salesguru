@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 4b33fa06d73f26c4cb66c6f7a53f1797
+timeCreated: 1516871611
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Main_Hair1
+    100004: mustache
+    100006: SimonDadPoor:Body
+    100008: SimonDadPoor:Ear_L
+    100010: SimonDadPoor:Ear_R
+    100012: SimonDadPoor:Head__
+    100014: SimonDadPoor:Main_Arm_R
+    100016: SimonDadPoor:Main_Arm_R1
+    100018: SimonDadPoor:Main_Body
+    100020: SimonDadPoor:Main_Leg_L
+    100022: SimonDadPoor:Main_Leg_R
+    100024: SimonDadPoor:Main_Neck
+    100026: SimonDadPoor:Nose
+    100028: SimonDadPoor:Sponsor_Face
+    400000: //RootNode
+    400002: Main_Hair1
+    400004: mustache
+    400006: SimonDadPoor:Body
+    400008: SimonDadPoor:Ear_L
+    400010: SimonDadPoor:Ear_R
+    400012: SimonDadPoor:Head__
+    400014: SimonDadPoor:Main_Arm_R
+    400016: SimonDadPoor:Main_Arm_R1
+    400018: SimonDadPoor:Main_Body
+    400020: SimonDadPoor:Main_Leg_L
+    400022: SimonDadPoor:Main_Leg_R
+    400024: SimonDadPoor:Main_Neck
+    400026: SimonDadPoor:Nose
+    400028: SimonDadPoor:Sponsor_Face
+    2300000: Main_Hair1
+    2300002: mustache
+    2300004: SimonDadPoor:Ear_L
+    2300006: SimonDadPoor:Ear_R
+    2300008: SimonDadPoor:Main_Arm_R
+    2300010: SimonDadPoor:Main_Arm_R1
+    2300012: SimonDadPoor:Main_Body
+    2300014: SimonDadPoor:Main_Leg_L
+    2300016: SimonDadPoor:Main_Leg_R
+    2300018: SimonDadPoor:Main_Neck
+    2300020: SimonDadPoor:Nose
+    2300022: SimonDadPoor:Sponsor_Face
+    3300000: Main_Hair1
+    3300002: mustache
+    3300004: SimonDadPoor:Ear_L
+    3300006: SimonDadPoor:Ear_R
+    3300008: SimonDadPoor:Main_Arm_R
+    3300010: SimonDadPoor:Main_Arm_R1
+    3300012: SimonDadPoor:Main_Body
+    3300014: SimonDadPoor:Main_Leg_L
+    3300016: SimonDadPoor:Main_Leg_R
+    3300018: SimonDadPoor:Main_Neck
+    3300020: SimonDadPoor:Nose
+    3300022: SimonDadPoor:Sponsor_Face
+    4300000: SimonDadPoor:Ear_L
+    4300002: SimonDadPoor:Ear_R
+    4300004: SimonDadPoor:Nose
+    4300006: SimonDadPoor:Sponsor_Face
+    4300008: Main_Hair1
+    4300010: mustache
+    4300012: SimonDadPoor:Main_Body
+    4300014: SimonDadPoor:Main_Leg_L
+    4300016: SimonDadPoor:Main_Neck
+    4300018: SimonDadPoor:Main_Leg_R
+    4300020: SimonDadPoor:Main_Arm_R
+    4300022: SimonDadPoor:Main_Arm_R1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

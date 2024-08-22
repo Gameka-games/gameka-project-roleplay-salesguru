@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: 27e818d037c97d24fbc2700ee9a7e19f
+timeCreated: 1501669274
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: air_con1
+    100002: air_con1 1
+    100004: air_con2
+    100006: air_con2 1
+    100008: air_con3
+    100010: air_con3 1
+    100012: air_con_1
+    100014: air_con_2
+    100016: air_con_big_1
+    100018: air_con_big_1 1
+    100020: ambu
+    100022: ambulance_scale
+    100024: bush
+    100026: bush1
+    100028: bush2
+    100030: camera2
+    100032: camera3
+    100034: door_frame
+    100036: floor
+    100038: floor_building
+    100040: floor_garden
+    100042: floor_route
+    100044: glass_floor1
+    100046: glass_floor2
+    100048: glass_floor3
+    100050: glass_floor4
+    100052: glass_floor5
+    100054: glass_floorG
+    100056: glasses_tiangs
+    100058: heli_stage
+    100060: left
+    100062: light
+    100064: main
+    100066: main_building
+    100068: main_glasses
+    100070: main_side_bottom
+    100072: main_side_top
+    100074: no_touch
+    100076: outdoor_bench0
+    100078: outdoor_bench1
+    100080: outdoor_bench2
+    100082: outdoor_bench3
+    100084: outdoor_bench4
+    100086: outdoor_ele
+    100088: roof
+    100090: roof_entrance
+    100092: sign_cross
+    100094: sign_hospital
+    100096: sign_hospital_body
+    100098: sign_hospital_bottom
+    100100: sign_hospital_left
+    100102: sign_hospital_left1
+    100104: spotLight1
+    100106: tire_frt
+    100108: tower
+    100110: tower 1
+    100112: tree
+    100114: tree1
+    100116: tree2
+    100118: tree3
+    100120: tree4
+    100122: //RootNode
+    100124: Tx_interior_template_20170613:directionalLight1
+    100126: wire_short
+    100128: wire_tall
+    100130: ambulance
+    100132: main1
+    100134: outdoor_bench5
+    100136: outdoor_bench6
+    100138: sign
+    100140: transform1
+    100142: transform2
+    100144: transform3
+    100146: transform4
+    100148: transform5
+    100150: building
+    400000: air_con1
+    400002: air_con1 1
+    400004: air_con2
+    400006: air_con2 1
+    400008: air_con3
+    400010: air_con3 1
+    400012: air_con_1
+    400014: air_con_2
+    400016: air_con_big_1
+    400018: air_con_big_1 1
+    400020: ambu
+    400022: ambulance_scale
+    400024: bush
+    400026: bush1
+    400028: bush2
+    400030: camera2
+    400032: camera3
+    400034: door_frame
+    400036: floor
+    400038: floor_building
+    400040: floor_garden
+    400042: floor_route
+    400044: glass_floor1
+    400046: glass_floor2
+    400048: glass_floor3
+    400050: glass_floor4
+    400052: glass_floor5
+    400054: glass_floorG
+    400056: glasses_tiangs
+    400058: heli_stage
+    400060: left
+    400062: light
+    400064: main
+    400066: main_building
+    400068: main_glasses
+    400070: main_side_bottom
+    400072: main_side_top
+    400074: no_touch
+    400076: outdoor_bench0
+    400078: outdoor_bench1
+    400080: outdoor_bench2
+    400082: outdoor_bench3
+    400084: outdoor_bench4
+    400086: outdoor_ele
+    400088: roof
+    400090: roof_entrance
+    400092: sign_cross
+    400094: sign_hospital
+    400096: sign_hospital_body
+    400098: sign_hospital_bottom
+    400100: sign_hospital_left
+    400102: sign_hospital_left1
+    400104: spotLight1
+    400106: tire_frt
+    400108: tower
+    400110: tower 1
+    400112: tree
+    400114: tree1
+    400116: tree2
+    400118: tree3
+    400120: tree4
+    400122: //RootNode
+    400124: Tx_interior_template_20170613:directionalLight1
+    400126: wire_short
+    400128: wire_tall
+    400130: ambulance
+    400132: main1
+    400134: outdoor_bench5
+    400136: outdoor_bench6
+    400138: sign
+    400140: transform1
+    400142: transform2
+    400144: transform3
+    400146: transform4
+    400148: transform5
+    400150: building
+    2300000: air_con1
+    2300002: air_con1 1
+    2300004: air_con2
+    2300006: air_con2 1
+    2300008: air_con3
+    2300010: air_con3 1
+    2300012: air_con_big_1
+    2300014: air_con_big_1 1
+    2300016: ambulance_scale
+    2300018: bush
+    2300020: bush1
+    2300022: bush2
+    2300024: door_frame
+    2300026: floor_building
+    2300028: floor_garden
+    2300030: floor_route
+    2300032: glass_floor1
+    2300034: glass_floor2
+    2300036: glass_floor3
+    2300038: glass_floor4
+    2300040: glass_floor5
+    2300042: glass_floorG
+    2300044: glasses_tiangs
+    2300046: heli_stage
+    2300048: light
+    2300050: main_building
+    2300052: main_glasses
+    2300054: main_side_bottom
+    2300056: main_side_top
+    2300058: outdoor_bench0
+    2300060: outdoor_bench1
+    2300062: outdoor_bench2
+    2300064: outdoor_bench3
+    2300066: outdoor_bench4
+    2300068: roof
+    2300070: roof_entrance
+    2300072: sign_cross
+    2300074: sign_hospital
+    2300076: sign_hospital_body
+    2300078: sign_hospital_bottom
+    2300080: sign_hospital_left
+    2300082: sign_hospital_left1
+    2300084: tire_frt
+    2300086: tower 1
+    2300088: tree
+    2300090: tree1
+    2300092: tree2
+    2300094: tree3
+    2300096: tree4
+    2300098: wire_short
+    2300100: wire_tall
+    2300102: ambulance
+    2300104: main1
+    2300106: outdoor_bench5
+    2300108: outdoor_bench6
+    2300110: sign
+    2300112: tower
+    3300000: air_con1
+    3300002: air_con1 1
+    3300004: air_con2
+    3300006: air_con2 1
+    3300008: air_con3
+    3300010: air_con3 1
+    3300012: air_con_big_1
+    3300014: air_con_big_1 1
+    3300016: ambulance_scale
+    3300018: bush
+    3300020: bush1
+    3300022: bush2
+    3300024: door_frame
+    3300026: floor_building
+    3300028: floor_garden
+    3300030: floor_route
+    3300032: glass_floor1
+    3300034: glass_floor2
+    3300036: glass_floor3
+    3300038: glass_floor4
+    3300040: glass_floor5
+    3300042: glass_floorG
+    3300044: glasses_tiangs
+    3300046: heli_stage
+    3300048: light
+    3300050: main_building
+    3300052: main_glasses
+    3300054: main_side_bottom
+    3300056: main_side_top
+    3300058: outdoor_bench0
+    3300060: outdoor_bench1
+    3300062: outdoor_bench2
+    3300064: outdoor_bench3
+    3300066: outdoor_bench4
+    3300068: roof
+    3300070: roof_entrance
+    3300072: sign_cross
+    3300074: sign_hospital
+    3300076: sign_hospital_body
+    3300078: sign_hospital_bottom
+    3300080: sign_hospital_left
+    3300082: sign_hospital_left1
+    3300084: tire_frt
+    3300086: tower 1
+    3300088: tree
+    3300090: tree1
+    3300092: tree2
+    3300094: tree3
+    3300096: tree4
+    3300098: wire_short
+    3300100: wire_tall
+    3300102: ambulance
+    3300104: main1
+    3300106: outdoor_bench5
+    3300108: outdoor_bench6
+    3300110: sign
+    3300112: tower
+    4300000: tower
+    4300002: glass_floor5
+    4300004: glass_floor4
+    4300006: glass_floor3
+    4300008: glass_floor2
+    4300010: glass_floor1
+    4300012: roof
+    4300014: glasses_tiangs
+    4300016: glass_floorG
+    4300018: sign_cross
+    4300020: wire_short
+    4300022: wire_tall
+    4300024: air_con_big_1
+    4300026: air_con1
+    4300028: air_con2
+    4300030: air_con3
+    4300032: air_con_big_1
+    4300034: air_con1
+    4300036: air_con2
+    4300038: air_con3
+    4300040: roof_entrance
+    4300042: door_frame
+    4300044: heli_stage
+    4300046: sign_hospital
+    4300048: main_side_bottom
+    4300050: main_building
+    4300052: main_side_top
+    4300054: main_glasses
+    4300056: light
+    4300058: ambulance_scale
+    4300060: tire_frt
+    4300062: tree2
+    4300064: tree1
+    4300066: tree
+    4300068: outdoor_bench1
+    4300070: outdoor_bench0
+    4300072: bush
+    4300074: bush1
+    4300076: sign_hospital_body
+    4300078: sign_hospital_bottom
+    4300080: sign_hospital_left
+    4300082: bush2
+    4300084: outdoor_bench2
+    4300086: outdoor_bench4
+    4300088: outdoor_bench3
+    4300090: tree3
+    4300092: tree4
+    4300094: sign_hospital_left1
+    4300096: floor_route
+    4300098: floor_garden
+    4300100: floor_building
+    4300102: ambulance
+    4300104: main1
+    4300106: sign
+    4300108: outdoor_bench5
+    4300110: outdoor_bench6
+    7400000: Approached
+    7400002: OnClick
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Approached
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ambulance
+        weight: 1
+      - path: building
+        weight: 1
+      - path: building/main1
+        weight: 1
+      - path: building/outdoor_bench5
+        weight: 1
+      - path: building/outdoor_bench6
+        weight: 1
+      - path: building/tower
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: OnClick
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ambulance
+        weight: 1
+      - path: building
+        weight: 1
+      - path: building/main1
+        weight: 1
+      - path: building/outdoor_bench5
+        weight: 1
+      - path: building/outdoor_bench6
+        weight: 1
+      - path: building/tower
+        weight: 1
+      - path: sign
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 9180f1b66421177418c410ddd5d1ea5c
+timeCreated: 1537253047
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: floor
+    100002: lamp_2
+    100004: lamp_3
+    100006: lamp_4
+    100008: Lamp_Plant1
+    100010: Lamp_Plant2
+    100012: Lamp_Plant3
+    100014: Lamp_Plant4
+    100016: plant
+    100018: //RootNode
+    100020: table_1
+    100022: table_2
+    100024: table_3
+    100026: wall
+    400000: floor
+    400002: lamp_2
+    400004: lamp_3
+    400006: lamp_4
+    400008: Lamp_Plant1
+    400010: Lamp_Plant2
+    400012: Lamp_Plant3
+    400014: Lamp_Plant4
+    400016: plant
+    400018: //RootNode
+    400020: table_1
+    400022: table_2
+    400024: table_3
+    400026: wall
+    2300000: floor
+    2300002: lamp_2
+    2300004: lamp_3
+    2300006: lamp_4
+    2300008: Lamp_Plant1
+    2300010: Lamp_Plant2
+    2300012: Lamp_Plant3
+    2300014: Lamp_Plant4
+    2300016: plant
+    2300018: table_1
+    2300020: table_2
+    2300022: table_3
+    2300024: wall
+    3300000: floor
+    3300002: lamp_2
+    3300004: lamp_3
+    3300006: lamp_4
+    3300008: Lamp_Plant1
+    3300010: Lamp_Plant2
+    3300012: Lamp_Plant3
+    3300014: Lamp_Plant4
+    3300016: plant
+    3300018: table_1
+    3300020: table_2
+    3300022: table_3
+    3300024: wall
+    4300000: floor
+    4300002: wall
+    4300004: plant
+    4300006: lamp_4
+    4300008: lamp_3
+    4300010: lamp_2
+    4300012: table_1
+    4300014: table_3
+    4300016: table_2
+    4300018: Lamp_Plant1
+    4300020: Lamp_Plant2
+    4300022: Lamp_Plant3
+    4300024: Lamp_Plant4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 3
+    secondaryUVAreaDistortion: 9
+    secondaryUVHardAngle: 80
+    secondaryUVPackMargin: 10
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

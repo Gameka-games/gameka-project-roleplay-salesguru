@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 04664d3ffa386164fb52d2d1650ffcfc
+timeCreated: 1543567413
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: base
+    100002: Base_Male_Body
+    100004: Base_Male_Leg
+    100006: Base_Male_Leg1
+    100008: Base_Male_Neck
+    100010: Basic_Male_Body
+    100012: Body
+    100014: Chest
+    100016: collor
+    100018: controller
+    100020: //RootNode
+    100022: Hair
+    100024: Head1
+    100026: Head2
+    100028: HIps
+    100030: l_arm
+    100032: l_button
+    100034: L_Calf
+    100036: L_Clavicle
+    100038: L_Foot
+    100040: L_Forearm
+    100042: L_Hand
+    100044: L_Thigh1
+    100046: L_Toe
+    100048: L_Upperarm
+    100050: nametag
+    100052: Neck
+    100054: Normal_Male_2_Body
+    100056: pCube1
+    100058: Pelvis
+    100060: polySurface1
+    100062: polySurface14
+    100064: polySurface3
+    100066: polySurface5
+    100068: polySurface6
+    100070: pPlane1
+    100072: pSphere1
+    100074: pSphere2
+    100076: r_arm
+    100078: r_button
+    100080: R_Calf
+    100082: R_Clavicle
+    100084: R_Foot
+    100086: R_Forearm
+    100088: R_Hand
+    100090: R_Thigh
+    100092: R_Toe
+    100094: R_Upperarm
+    100096: robot
+    100098: Spine
+    100100: Spine1
+    100102: stick
+    400000: base
+    400002: Base_Male_Body
+    400004: Base_Male_Leg
+    400006: Base_Male_Leg1
+    400008: Base_Male_Neck
+    400010: Basic_Male_Body
+    400012: Body
+    400014: Chest
+    400016: collor
+    400018: controller
+    400020: //RootNode
+    400022: Hair
+    400024: Head1
+    400026: Head2
+    400028: HIps
+    400030: l_arm
+    400032: l_button
+    400034: L_Calf
+    400036: L_Clavicle
+    400038: L_Foot
+    400040: L_Forearm
+    400042: L_Hand
+    400044: L_Thigh1
+    400046: L_Toe
+    400048: L_Upperarm
+    400050: nametag
+    400052: Neck
+    400054: Normal_Male_2_Body
+    400056: pCube1
+    400058: Pelvis
+    400060: polySurface1
+    400062: polySurface14
+    400064: polySurface3
+    400066: polySurface5
+    400068: polySurface6
+    400070: pPlane1
+    400072: pSphere1
+    400074: pSphere2
+    400076: r_arm
+    400078: r_button
+    400080: R_Calf
+    400082: R_Clavicle
+    400084: R_Foot
+    400086: R_Forearm
+    400088: R_Hand
+    400090: R_Thigh
+    400092: R_Toe
+    400094: R_Upperarm
+    400096: robot
+    400098: Spine
+    400100: Spine1
+    400102: stick
+    4300000: Base_Male_Body
+    4300002: Base_Male_Leg
+    4300004: Base_Male_Neck
+    4300006: Base_Male_Leg1
+    4300008: r_arm
+    4300010: r_button
+    4300012: pSphere1
+    4300014: pSphere2
+    4300016: l_arm
+    4300018: l_button
+    4300020: stick
+    4300022: base
+    4300024: collor
+    4300026: polySurface14
+    4300028: polySurface5
+    4300030: polySurface6
+    4300032: polySurface1
+    4300034: polySurface3
+    4300036: pCube1
+    4300038: pPlane1
+    9500000: //RootNode
+    13700000: base
+    13700002: Base_Male_Body
+    13700004: Base_Male_Leg
+    13700006: Base_Male_Leg1
+    13700008: Base_Male_Neck
+    13700010: collor
+    13700012: l_arm
+    13700014: l_button
+    13700016: pCube1
+    13700018: polySurface1
+    13700020: polySurface14
+    13700022: polySurface3
+    13700024: polySurface5
+    13700026: polySurface6
+    13700028: pPlane1
+    13700030: pSphere1
+    13700032: pSphere2
+    13700034: r_arm
+    13700036: r_button
+    13700038: stick
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
