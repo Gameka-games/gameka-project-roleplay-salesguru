@@ -31,9 +31,9 @@ public class PlayerInterior : MonoBehaviour
     // Returns: None
     void Update()
     {
-        if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
+        if (Input.GetMouseButtonDown(0))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
@@ -67,3 +67,4 @@ public class PlayerInterior : MonoBehaviour
         }
     }
 }
+

@@ -15,25 +15,32 @@ public class PlayerOverworld : MonoBehaviour
 
     void Update()
     {
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.touches[0];
+        bool isTouching = Input.touchCount > 0;
+        bool isClicking = Input.GetMouseButton(0);
 
-            if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved)
+        if (isTouching || isClicking)
+        {
+            Ray ray;
+            if (isTouching)
             {
-                Ray ray = Camera.main.ScreenPointToRay(touch.position);
-                RaycastHit hit;
-                if (Physics.Raycast(ray, out hit))
-                {
-                    targetPosition = hit.point;
-                    targetPosition.y = transform.position.y;
-                    moveDirection = (targetPosition - transform.position).normalized;
-                }
+                ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
             }
-            else if (touch.phase == TouchPhase.Ended)
+            else
             {
-                moveDirection = Vector3.zero;
+                ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             }
+
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+            {
+                targetPosition = hit.point;
+                targetPosition.y = transform.position.y;
+                moveDirection = (targetPosition - transform.position).normalized;
+            }
+        }
+        else
+        {
+            moveDirection = Vector3.zero;
         }
 
         // Move towards target position
