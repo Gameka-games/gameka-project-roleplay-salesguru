@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -11,12 +12,24 @@ public class BuildingEntrance : MonoBehaviour
     // }
     public InteriorType targetInterior = InteriorType.Home;
     public int tier = 0;
+    
+    private GameObject player;
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
 
     private void Update()
     {
         if (SceneManager.sceneCount == 1 && SceneManager.GetActiveScene().name == "Overworld")
         {
-            if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
+            float distance = Vector3.Distance(transform.position, player.transform.position);
+            if (Input.touchCount > 0 && 
+                Input.touches[0].phase == TouchPhase.Began && 
+                distance < 5f && 
+                (transform.position.z - player.transform.position.z) > 1.5f && 
+                Math.Abs(transform.position.x - player.transform.position.x) < 3f)
             {
                 TryLoadTargetScene();
             }
@@ -25,7 +38,7 @@ public class BuildingEntrance : MonoBehaviour
 
     private void TryLoadTargetScene()
     {
-        if (IsRaycastHit(out var hit) && hit.transform.gameObject == gameObject)
+        if (IsRaycastHit(out RaycastHit hit) && hit.transform.gameObject == gameObject)
         {
             LoadTargetScene();
         }
@@ -44,9 +57,9 @@ public class BuildingEntrance : MonoBehaviour
         {
             SceneManager.sceneLoaded -= InteriorSceneLoaded;
 
-            var rootObjects = scene.GetRootGameObjects();
-            var interiorObject = rootObjects.First(go => go.name == "Interior");
-            var interiorSceneChooser = interiorObject.GetComponent<InteriorSceneChooser>();
+            GameObject[] rootObjects = scene.GetRootGameObjects();
+            GameObject interiorObject = rootObjects.First(go => go.name == "Interior");
+            InteriorSceneChooser interiorSceneChooser = interiorObject.GetComponent<InteriorSceneChooser>();
 
             InteriorSceneData data = new InteriorSceneData();
             data.InteriorType = targetInterior; // Pass the data to the new scene
@@ -58,9 +71,9 @@ public class BuildingEntrance : MonoBehaviour
 
     private static void SetActiveSceneRootObjects(bool active)
     {
-        var namesToExclude = OverworldSceneData.NamesToExclude;
+        string[] namesToExclude = OverworldSceneData.NamesToExclude;
 
-        foreach (var rootGameObject in SceneManager.GetSceneAt(0).GetRootGameObjects())
+        foreach (GameObject rootGameObject in SceneManager.GetSceneAt(0).GetRootGameObjects())
         {
             if (!namesToExclude.Contains(rootGameObject.name))
             {
@@ -74,6 +87,4 @@ public class BuildingEntrance : MonoBehaviour
         return Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit);
     }
 }
-
-
 
