@@ -65,7 +65,6 @@ public class BuildingEntrance : MonoBehaviour
             data.InteriorType = targetInterior; // Pass the data to the new scene
             data.Tier = tier;
             interiorSceneChooser.data = data;
-            Debug.Log(interiorSceneChooser.data.InteriorType);
         }
     }
 
