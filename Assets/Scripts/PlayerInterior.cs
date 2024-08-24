@@ -46,12 +46,19 @@ public class PlayerInterior : MonoBehaviour
             }
         }
 
-        // Move towards target position
-        Vector3 direction = (targetPosition - transform.position).normalized;
-        rb.velocity = direction * smoothSpeed * speed;
+        if (Vector3.Distance(transform.position, targetPosition) > 0.1f)
+        {
+            // Move towards target position
+            Vector3 direction = (targetPosition - transform.position).normalized;
+            rb.velocity = direction * smoothSpeed * speed;
 
-        // Rotate towards target rotation
-        transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            // Rotate towards target rotation
+            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        }
+        else
+        {
+            rb.velocity = Vector3.zero;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
