@@ -18,6 +18,7 @@ public class MultiTurnChatManager : MonoBehaviour
     [SerializeField] private InputField _chatInput;
     [SerializeField] private Transform _chatMessages;
     [SerializeField] private GameObject _chatMessagePrefab;
+    [SerializeField] private ScrollRect _chatScrollRect;
 
     private readonly List<GeminiContent> _chatHistory = new();
     private readonly List<GeminiContentPart> _uploadedData = new();
@@ -187,6 +188,9 @@ public class MultiTurnChatManager : MonoBehaviour
     {
         GameObject message = Instantiate(_chatMessagePrefab, _chatMessages);
         message.GetComponentInChildren<UIChatMessage>().Setup(content, isSystemPrompt);
+
+        Canvas.ForceUpdateCanvases();
+        _chatScrollRect.normalizedPosition = new Vector2(0, 0);
     }
 }
 

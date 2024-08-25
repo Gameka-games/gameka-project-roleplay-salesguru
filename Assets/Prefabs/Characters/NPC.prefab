@@ -1480,7 +1480,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8230979311033134520}
   m_HandleRect: {fileID: 8822853758847490077}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1614,13 +1614,15 @@ GameObject:
   - component: {fileID: 6854806550581045262}
   - component: {fileID: 3338680752169342619}
   - component: {fileID: 3304070975335514534}
+  - component: {fileID: 1645405496387802446}
+  - component: {fileID: 3444635553148270713}
   m_Layer: 5
   m_Name: Chat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3006135639441173340
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1723,6 +1725,47 @@ MonoBehaviour:
   _chatMessages: {fileID: 6153265069584923373}
   _chatMessagePrefab: {fileID: 2793962556663548424, guid: 615151dab7c24584ca950cf81f5408f7,
     type: 3}
+  _chatScrollRect: {fileID: 9221155417765577201}
+  npcName: 
+  npcProfile: 
+--- !u!222 &1645405496387802446
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153491207469076726}
+  m_CullTransparentMesh: 1
+--- !u!114 &3444635553148270713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153491207469076726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &4223606077293313058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2999,6 +3042,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17bee40f234151d879194ae372cc7f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcName: Badrul
+  npcProfile: "My name is Badrul. I am a 28 this year and I recently graduated with
+    an IT Degree. I wish to expand my career in games development. I am not married
+    but I do hope to get married one day. I enjoy reading and when I retire, I would
+    like to create a writing club where I bring people who are interested in reading
+    and writing together. As for my investment risk appetite, I am quite adventurous.
+    I have invested before in Bitcoin and FOREX. I know these are high risk investments
+    so the moment I gained some profits, I took my profit and left. I do wish to
+    put some of my money aside in some safer investments for my future. As to what
+    it is, I do not know. The traditional investment that I know off is Amanah Saham
+    Bumiputera (ASB) and EPF which I think yields decent returns. If I can get something
+    equally safe but with slightly higher returns, I would be happy. I wish to have
+    enough money to not worry about money and frankly, I do not need a lot. Maybe
+    enough to purchase a decent house. When I retire, aside from my writing club,
+    I see myself going off for long fishing trips. That would make me happy. \n"
 --- !u!1 &6072941618206456400
 GameObject:
   m_ObjectHideFlags: 0
@@ -3902,7 +3960,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0002746582}
+  m_AnchoredPosition: {x: 0, y: 0.00016625226}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1761216311922641800
@@ -3963,7 +4021,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2712224804770217718
 RectTransform:
   m_ObjectHideFlags: 0

@@ -1983,30 +1983,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1271396005587893091, guid: 7afb9dc50777585d98b26193a0e94e04,
-        type: 3}
-      propertyPath: npcName
-      value: Badrul
-      objectReference: {fileID: 0}
-    - target: {fileID: 1271396005587893091, guid: 7afb9dc50777585d98b26193a0e94e04,
-        type: 3}
-      propertyPath: npcProfile
-      value: "My name is Badrul. I am a 28 this year and I recently graduated with
-        an IT Degree. I wish to expand my career in games development. I am not married
-        but I do hope to get married one day. I enjoy reading and when I retire,
-        I would like to create a writing club where I bring people who are interested
-        in reading and writing together. As for my investment risk appetite, I am
-        quite adventurous. I have invested before in Bitcoin and FOREX. I know these
-        are high risk investments so the moment I gained some profits, I took my
-        profit and left. I do wish to put some of my money aside in some safer investments
-        for my future. As to what it is, I do not know. The traditional investment
-        that I know off is Amanah Saham Bumiputera (ASB) and EPF which I think yields
-        decent returns. If I can get something equally safe but with slightly higher
-        returns, I would be happy. I wish to have enough money to not worry about
-        money and frankly, I do not need a lot. Maybe enough to purchase a decent
-        house. When I retire, aside from my writing club, I see myself going off
-        for long fishing trips. That would make me happy. \n"
-      objectReference: {fileID: 0}
     - target: {fileID: 1562472750930039975, guid: 7afb9dc50777585d98b26193a0e94e04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2085,12 +2061,12 @@ PrefabInstance:
     - target: {fileID: 6153265069584923373, guid: 7afb9dc50777585d98b26193a0e94e04,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000061035156
+      value: -0.000011444092
       objectReference: {fileID: 0}
-    - target: {fileID: 7423519940914296930, guid: 7afb9dc50777585d98b26193a0e94e04,
+    - target: {fileID: 7172872702695257671, guid: 7afb9dc50777585d98b26193a0e94e04,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_Value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8822853758847490077, guid: 7afb9dc50777585d98b26193a0e94e04,
         type: 3}
@@ -2110,60 +2086,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4153491207469076726, guid: 7afb9dc50777585d98b26193a0e94e04,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1692864376}
-    - targetCorrespondingSourceObject: {fileID: 4153491207469076726, guid: 7afb9dc50777585d98b26193a0e94e04,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1692864375}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7afb9dc50777585d98b26193a0e94e04, type: 3}
---- !u!1 &1692864369 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4153491207469076726, guid: 7afb9dc50777585d98b26193a0e94e04,
-    type: 3}
-  m_PrefabInstance: {fileID: 1614469325}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1692864375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1692864369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1692864376
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1692864369}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1883751440
 PrefabInstance:
   m_ObjectHideFlags: 0
