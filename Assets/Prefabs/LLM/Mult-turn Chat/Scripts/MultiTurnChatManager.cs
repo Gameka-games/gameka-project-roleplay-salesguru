@@ -27,17 +27,20 @@ public class MultiTurnChatManager : MonoBehaviour
     public string npcProfile;
 
     private string[] systemMessages = new string[2];
+    private int phase = 0;
     private GeminiContent _systemPrompt = null;
 
     private GeminiRole _senderRole = GeminiRole.User;
     private bool _settingSystemPrompt = false;
+
+    private int _patiencePoints = 10;
 
     private void OnEnable() 
     {
         npcName = gameObject.transform.parent.GetComponent<NPCInterior>().npcName;
         npcProfile = gameObject.transform.parent.GetComponent<NPCInterior>().npcProfile;
 
-        systemMessages[0] = npcProfile + @".
+        systemMessages[phase] = npcProfile + @".
             The text from the start to before this sentence was you introducing yourself. 
             You are this person, I am NOT this person, that was you. 
             You must respond only as this person and no one else. 
@@ -64,30 +67,17 @@ public class MultiTurnChatManager : MonoBehaviour
         _chatInput.text = string.Empty;
         GeminiContent addedContent;
 
-        // if (_settingSystemPrompt)
-        // {
-        //     if (!_useBeta)
-        //     {
-        //         Debug.LogError("System prompts are not yet supported in the non-beta API!");
-        //         return;
-        //     }
-
-        //     addedContent = _systemPrompt = GeminiContent.GetContent(text);
-        // }
-        // else
-        // {
-
-        _systemPrompt = GeminiContent.GetContent(systemMessages[0]);
-            addedContent = GeminiContent.GetContent(text, _senderRole);
-            if (_uploadedData.Count > 0)
-            {
-                addedContent.Parts = addedContent.Parts.Concat(_uploadedData).ToArray();
-                _uploadedData.Clear();
-            }
-            
-            _chatHistory.Add(addedContent);
-        // }
+        _systemPrompt = GeminiContent.GetContent(systemMessages[phase]);
+        addedContent = GeminiContent.GetContent(text, _senderRole);
+        if (_uploadedData.Count > 0)
+        {
+            addedContent.Parts = addedContent.Parts.Concat(_uploadedData).ToArray();
+            _uploadedData.Clear();
+        }
         
+        _chatHistory.Add(addedContent);
+    
+    
         if (!isHidden)
         AddMessage(addedContent, _settingSystemPrompt);
 
@@ -95,15 +85,16 @@ public class MultiTurnChatManager : MonoBehaviour
         if (_chatHistory.Count == 0)
             return;
 
-        GeminiChatResponse response = await GeminiManager.Instance.Request<GeminiChatResponse>(new GeminiChatRequest(GeminiModel.Gemini1_5Flash, _useBeta)
-        {
-            Contents = _chatHistory.ToArray(),
-            SystemInstruction = _systemPrompt,
-        });
+        GeminiContent phase1Gauge = GeminiContent.GetContent("Have I been asking the same question to " + npcName + " or did I ask about something that was already explained? Respond with only a yes or a no, cannot respond with anything else. Answer must realy be just 'yes' or 'no'!!! If you can't answer, say 'no'! Stay within the allowed responses or the code will not work!", GeminiRole.User);
+                
+        List<GeminiContent> phase1GaugeHistory = new();
+
+        phase1GaugeHistory.AddRange(_chatHistory);
+        phase1GaugeHistory.Add(phase1Gauge);
 
         GeminiChatResponse responseJson = await GeminiManager.Instance.Request<GeminiChatResponse>(new GeminiChatRequest(GeminiModel.Gemini1_5Flash, _useBeta)
         {
-            Contents = _chatHistory.ToArray(),
+            Contents = phase1GaugeHistory.ToArray(),
             SystemInstruction = _systemPrompt,
             GenerationConfig = new GeminiGenerationConfiguration()
             {
@@ -130,7 +121,16 @@ public class MultiTurnChatManager : MonoBehaviour
                 },
             }
         });
+
+        Debug.Log($"Response: {JsonConvert.SerializeObject(responseJson, Formatting.Indented)}");
+
         
+        GeminiChatResponse response = await GeminiManager.Instance.Request<GeminiChatResponse>(new GeminiChatRequest(GeminiModel.Gemini1_5Flash, _useBeta)
+        {
+            Contents = _chatHistory.ToArray(),
+            SystemInstruction = _systemPrompt,
+        });
+
         // if (responseJson.Candidates[0].Content != null) 
         // {
         //     dynamic responseText = JsonConvert.DeserializeObject(responseJson.Candidates[0].Content.Parts[0].Text);
@@ -139,8 +139,6 @@ public class MultiTurnChatManager : MonoBehaviour
 
         _chatHistory.Add(response.Candidates[0].Content);
         AddMessage(response.Candidates[0].Content);
-        
-        Debug.Log($"Response: {JsonConvert.SerializeObject(responseJson, Formatting.Indented)}");
 
         string responseTextExpression = null;
         string responseTextExplanation = null;
@@ -150,6 +148,17 @@ public class MultiTurnChatManager : MonoBehaviour
             responseTextExpression = responseTextDynamic.expression?.Value ?? "";
             responseTextExplanation = responseTextDynamic.explanation?.Value ?? "";
         }
+
+        responseTextExpression = responseTextExpression?.ToLowerInvariant();
+        if (responseTextExpression == "yes")
+        {
+            _patiencePoints -= 2;
+            if (_patiencePoints <= 0)
+            {
+                Debug.Log("You have lost your patience!");
+            }
+        }
+        Debug.Log($"Patience: {_patiencePoints}");
         Debug.Log($"Response Expression: {responseTextExpression}");
         Debug.Log($"Response Explanation: {responseTextExplanation}");
     }
