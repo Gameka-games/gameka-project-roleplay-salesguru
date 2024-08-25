@@ -22,6 +22,8 @@ public class MultiTurnChatManager : MonoBehaviour
     [SerializeField] private Slider _patienceSlider;
     [SerializeField] private Slider _trustSlider;
 
+    [SerializeField] private GameObject _patiencePanel;
+
     private readonly List<GeminiContent> _chatHistory = new();
     private readonly List<GeminiContentPart> _uploadedData = new();
 
@@ -50,6 +52,8 @@ public class MultiTurnChatManager : MonoBehaviour
 
         _patiencePoints = npcPatiencePoints;
         _trustPoints = 0;
+
+        _patiencePanel.SetActive(false);
 
         _systemMessages[0] = npcProfile + @".
             The text from the start to before this sentence was you introducing yourself. 
@@ -173,6 +177,7 @@ public class MultiTurnChatManager : MonoBehaviour
                 if (_patiencePoints <= 0)
                 {
                     Debug.Log("You have lost your patience!");
+                    _patiencePanel.SetActive(true);
                 }
             }
         }
@@ -268,12 +273,20 @@ public class MultiTurnChatManager : MonoBehaviour
 
     private void OnDisable()
     {
+        _patiencePanel.SetActive(false);
+
         _chatHistory.Clear();
         _uploadedData.Clear();
+
         foreach (Transform child in _chatMessages)
         {
             Destroy(child.gameObject);
         }
+    }
+
+    public void PatienceOut() 
+    {
+        this.gameObject.SetActive(false);
     }
 }
 
