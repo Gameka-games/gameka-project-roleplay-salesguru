@@ -100,5 +100,16 @@ public class NPCInterior : MonoBehaviour
         // Rotate towards target rotation
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
+
+    // When the NPC is tapped, activate the Chat component
+    void OnMouseDown()
+    {
+        // Check if the player is close enough to the NPC
+        if (Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position) < 1f)
+        {
+            // Activate the Chat component
+            transform.Find("Chat").gameObject.SetActive(true);
+        }
+    }
 }
 

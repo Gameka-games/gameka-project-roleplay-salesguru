@@ -43,6 +43,11 @@ public class MultiTurnChatManager : MonoBehaviour
     private int _trustPoints = 0;
     
 
+    private void Start() 
+    {
+        OnEnable();
+    }
+
     private void OnEnable() 
     {
         npcName = gameObject.transform.parent.GetComponent<NPCInterior>().npcName;
