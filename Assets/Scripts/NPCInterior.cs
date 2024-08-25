@@ -25,6 +25,13 @@ public class NPCInterior : MonoBehaviour
 
     void Update()
     {
+        // Stop moving if the child gameobject Chat is active
+        if (transform.Find("Chat").gameObject.activeSelf)
+        {
+            rb.velocity = Vector3.zero;
+            return;
+        }
+
         // Move randomly
         if (Time.time > nextChangeTime)
         {
