@@ -68,8 +68,11 @@ public class MultiTurnChatManager : MonoBehaviour
 
         _systemMessages[1] = _systemMessages [0];
         
-
-        Chat("You are looking for a financial product for your investment. Greet me and introduce yourself. Start the conversation.", true);
+        // if chathistory is empty
+        if (_chatHistory.Count == 0)
+        {
+            Chat("You are looking for a financial product for your investment. Greet me and introduce yourself. Start the conversation.", true);
+        }
     }
 
     private async void Chat(string text, bool isHidden = false) {
@@ -275,13 +278,13 @@ public class MultiTurnChatManager : MonoBehaviour
     {
         _patiencePanel.SetActive(false);
 
-        _chatHistory.Clear();
-        _uploadedData.Clear();
+        // _chatHistory.Clear();
+        // _uploadedData.Clear();
 
-        foreach (Transform child in _chatMessages)
-        {
-            Destroy(child.gameObject);
-        }
+        // foreach (Transform child in _chatMessages)
+        // {
+        //     Destroy(child.gameObject);
+        // }
     }
 
     public void PatienceOut() 
