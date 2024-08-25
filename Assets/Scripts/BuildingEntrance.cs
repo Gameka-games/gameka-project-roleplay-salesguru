@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class BuildingEntrance : MonoBehaviour
 {
-    // private void OnMouseDown()
-    // {
-    //     TryLoadTargetScene();
-    // }
+    private void OnMouseDown()
+    {
+        TryLoadTargetScene();
+    }
     public InteriorType targetInterior = InteriorType.Home;
     public int tier = 0;
     
