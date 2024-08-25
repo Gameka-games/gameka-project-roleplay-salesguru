@@ -179,6 +179,14 @@ public class MultiTurnChatManager : MonoBehaviour
         Debug.Log("Added file!");
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+        {
+            OnChat();
+        }
+    }
+    
     public async void OnChat()
     {
         Chat(_chatInput.text);
