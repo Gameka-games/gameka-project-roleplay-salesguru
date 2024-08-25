@@ -21,8 +21,9 @@ public class MultiTurnChatManager : MonoBehaviour
     [SerializeField] private ScrollRect _chatScrollRect;
     [SerializeField] private Slider _patienceSlider;
     [SerializeField] private Slider _trustSlider;
-
     [SerializeField] private GameObject _patiencePanel;
+    [SerializeField] private GameObject _productPanel;
+
 
     private readonly List<GeminiContent> _chatHistory = new();
     private readonly List<GeminiContentPart> _uploadedData = new();
@@ -41,7 +42,34 @@ public class MultiTurnChatManager : MonoBehaviour
 
     private int _patiencePoints = 50;
     private int _trustPoints = 0;
-    
+
+    private struct Product
+    {
+        public string name;
+        public string description;
+    }
+    private Product[] _products = new Product[3]
+    {
+        new Product
+        {
+            name = "Fixed Income Fund",
+            description = @"
+                Fixed Income Fund (FIF) is mostly invested in AAA and AA bonds. 25% of its funds is kept in money market funds to ensure enough liquidity. This funds provides an average annual return of 5.75% over the past 5 years. It is generally safe from market volatility. It is suitable for investors who are looking for a more forecastable returns over the shorter period. If the investor is unable to bear with high changes in the fund value, this would be suitable for them.
+            "
+        },
+        new Product
+        {
+            name = "Mixed Income Fund",
+            description = @"
+                Mixed Income Fund (MIF) has a mix of bonds, equity and money market. The goal of MIF is to provide investors with slightly higher returns thatn FIF if they investor can invest over longer periods of time. The average return of this fund over the last 5 years is 7.5% whilst the average return over the last 8 years is 8.25%. Although the value of MIF does not fluctuate greatly, investors can see their money drop by 15% when the market is not doing well. That said, investors who are able to withstand these emotional shocks from a 15% drop are advised invest into this fund.             "
+        },
+        new Product
+        {
+            name = "Growth Income Fund",
+            description = @"
+                Growth Income Fund (GIF) invest predominantly in equity with a small portion in money market fund. The purpose of having cash in the money market fund is to make full use of market dips. This fund is highly volatile. In other words, the fund value can drop by up to 30% when the market is not doing well. Alternatively, the fund can also rise by 30% if the market is doing well. The best approach to investing in this fund is the step approach. It means investors who can periodically put in a fixed amount of money into the fund will fully benefit from it. The average returns in the last 5 years for this fund is only 6% but the average return in the last 8 years is 11%. The key to making money through this fund is to buy and keep until your financial goals are met.             "
+        },
+    };
 
     private void Start() 
     {
@@ -59,6 +87,7 @@ public class MultiTurnChatManager : MonoBehaviour
         _trustPoints = 0;
 
         _patiencePanel.SetActive(false);
+        _productPanel.SetActive(false);
 
         _systemMessages[0] = npcProfile + @".
             The text from the start to before this sentence was you introducing yourself. 
@@ -71,7 +100,7 @@ public class MultiTurnChatManager : MonoBehaviour
             Speak mostly Manglish and or some Malay. You are Malaysian with an extremely Malaysian accent.
         ";
 
-        _systemMessages[1] = _systemMessages [0];
+        _systemMessages[1] = _systemMessages[0];
         
         // if chathistory is empty
         if (_chatHistory.Count == 0)
@@ -282,6 +311,7 @@ public class MultiTurnChatManager : MonoBehaviour
     private void OnDisable()
     {
         _patiencePanel.SetActive(false);
+        _productPanel.SetActive(false);
 
         // _chatHistory.Clear();
         // _uploadedData.Clear();
@@ -295,6 +325,27 @@ public class MultiTurnChatManager : MonoBehaviour
     public void PatienceOut() 
     {
         this.gameObject.SetActive(false);
+    }
+
+    public void SellProduct(int which) 
+    {
+
+        string message = @"
+            You are being sold a financial product called " + _products[which].name + @". You don't know anything about it at all, so you are here to find out. As such you are suppose to be asking questions, NEVER explain the ${sysMsgProductName.value}. You are inquisitive, and very curious, you ask detailed questions.
+        " + _products[which].description + "You got curious about it and wonder if it's really suitable for your needs";
+
+        _systemMessages[1] += _systemMessages[0] + message;
+
+        _phase = 1;
+
+        Chat("I recommend you " + _products[which].name + " for your needs!", false);
+        _productPanel.SetActive(false);
+    }
+
+    public void ChooseProduct() 
+    {
+        if (_phase == 0)
+        _productPanel.SetActive(true);
     }
 }
 
