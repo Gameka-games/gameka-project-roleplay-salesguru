@@ -32,7 +32,7 @@ public class MultiTurnChatManager : MonoBehaviour
     private GeminiRole _senderRole = GeminiRole.User;
     private bool _settingSystemPrompt = false;
 
-    private void Start() 
+    private void OnEnable() 
     {
         npcName = gameObject.transform.parent.GetComponent<NPCInterior>().npcName;
         npcProfile = gameObject.transform.parent.GetComponent<NPCInterior>().npcProfile;
@@ -131,16 +131,27 @@ public class MultiTurnChatManager : MonoBehaviour
             }
         });
         
-        if (responseJson.Candidates[0].Content != null) 
-        {
-            dynamic responseText = JsonConvert.DeserializeObject(responseJson.Candidates[0].Content.Parts[0].Text);
-            Debug.Log($"Expression: {responseText.expression}, Explanation: {responseText.explanation}");
-        }
+        // if (responseJson.Candidates[0].Content != null) 
+        // {
+        //     dynamic responseText = JsonConvert.DeserializeObject(responseJson.Candidates[0].Content.Parts[0].Text);
+        //     Debug.Log($"Expression: {responseText.expression}, Explanation: {responseText.explanation}");
+        // }
 
         _chatHistory.Add(response.Candidates[0].Content);
         AddMessage(response.Candidates[0].Content);
         
         Debug.Log($"Response: {JsonConvert.SerializeObject(responseJson, Formatting.Indented)}");
+
+        string responseTextExpression = null;
+        string responseTextExplanation = null;
+        if (responseJson.Candidates[0].Content != null) 
+        {
+            dynamic responseTextDynamic = JsonConvert.DeserializeObject(responseJson.Candidates[0].Content.Parts[0].Text);
+            responseTextExpression = responseTextDynamic.expression?.Value ?? "";
+            responseTextExplanation = responseTextDynamic.explanation?.Value ?? "";
+        }
+        Debug.Log($"Response Expression: {responseTextExpression}");
+        Debug.Log($"Response Explanation: {responseTextExplanation}");
     }
 
     public void SetRole(int role)
@@ -195,10 +206,20 @@ public class MultiTurnChatManager : MonoBehaviour
     private void AddMessage(GeminiContent content, bool isSystemPrompt = false)
     {
         GameObject message = Instantiate(_chatMessagePrefab, _chatMessages);
-        message.GetComponentInChildren<UIChatMessage>().Setup(content, isSystemPrompt);
+        message.GetComponentInChildren<UIChatMessage>().Setup(content, isSystemPrompt, npcName);
 
         Canvas.ForceUpdateCanvases();
         _chatScrollRect.normalizedPosition = new Vector2(0, 0);
+    }
+
+    private void OnDisable()
+    {
+        _chatHistory.Clear();
+        _uploadedData.Clear();
+        foreach (Transform child in _chatMessages)
+        {
+            Destroy(child.gameObject);
+        }
     }
 }
 

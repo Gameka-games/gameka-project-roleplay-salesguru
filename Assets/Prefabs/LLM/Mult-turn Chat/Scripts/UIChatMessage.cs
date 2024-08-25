@@ -13,7 +13,7 @@ public class UIChatMessage : MonoBehaviour
     [SerializeField] private Text _messageText;
     [SerializeField] private RawImage _messageImage;
 
-    public void Setup(GeminiContent content, bool isSystemPrompt)
+    public void Setup(GeminiContent content, bool isSystemPrompt, string npcName)
     {
         if (content == null) {
             content.Parts[0].Text = "I can't say anything to that!";
@@ -41,6 +41,6 @@ public class UIChatMessage : MonoBehaviour
             }
         }
 
-        _senderText.text = isSystemPrompt ? "System" : content.Role.ToString();
+        _senderText.text = isSystemPrompt ? "System" : content.Role.ToString() == "User" ? "You" : npcName;
     }
 }
