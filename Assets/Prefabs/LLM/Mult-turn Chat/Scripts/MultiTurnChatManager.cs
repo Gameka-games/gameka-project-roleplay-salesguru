@@ -51,6 +51,8 @@ public class MultiTurnChatManager : MonoBehaviour
     private int _patiencePoints = 50;
     private int _trustPoints = 0;
 
+    private InteriorSceneData _interiorSceneData;
+
     private struct Product
     {
         public string name;
@@ -82,6 +84,7 @@ public class MultiTurnChatManager : MonoBehaviour
     private void Start() 
     {
         OnEnable();
+        _interiorSceneData = GameObject.FindObjectOfType<InteriorSceneChooser>().data;
     }
 
     private void OnEnable() 
@@ -266,7 +269,8 @@ public class MultiTurnChatManager : MonoBehaviour
                 Invoke(nameof(HideCloseDealPanel), 5f);
             });
 
-            
+                // Get data on Interior gameobject in this scene, data is of type InteriorSceneChooser
+
             _proposeButtonText.text = "Close Deal";
         }      
         
@@ -278,10 +282,31 @@ public class MultiTurnChatManager : MonoBehaviour
     {
         _closeDealPanel.SetActive(false);
 
+        int money = 0;
+        switch (_interiorSceneData.Tier)
+        {
+            case 1:
+                money = 100;
+                break;
+            case 2:
+                money = 500;
+                break;
+            case 3:
+                money = 1000;
+                break;
+            case 4:
+                money = 2000;
+                break;
+            case 5:
+                money = 5000;
+                break;
+        }
+
         _dealPanelText.text = "Try harder next time.";
 
         if (_trustPoints >= npcTrustPoints / 2)
         {
+            ProgressionManager.instance.EarnMoney(money);
             _dealPanelText.text = "Congratulations, you have closed the deal!";
         }
 
