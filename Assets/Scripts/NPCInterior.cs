@@ -4,6 +4,12 @@ using UnityEngine.SceneManagement;
 
 public class NPCInterior : MonoBehaviour
 {
+    [SerializeField]
+    public string npcName;
+    [TextArea(10, 20)]
+    [SerializeField]
+    public string npcProfile;
+
     private Rigidbody rb;
     private Vector3 targetPosition;
     private Quaternion targetRotation;
@@ -14,6 +20,8 @@ public class NPCInterior : MonoBehaviour
     private float timeBetweenChanges = 2f;
     private float nextChangeTime;
 
+    private MultiTurnChatManager chat;
+
     // Use this for initialization
     void Start()
     {
@@ -21,6 +29,9 @@ public class NPCInterior : MonoBehaviour
         targetPosition = transform.position;
         startY = transform.position.y;
         nextChangeTime = Time.time + timeBetweenChanges;
+
+        // Find the Chat component
+        chat = transform.Find("Chat").GetComponent<MultiTurnChatManager>();
     }
 
     void Update()
@@ -29,6 +40,13 @@ public class NPCInterior : MonoBehaviour
         if (transform.Find("Chat").gameObject.activeSelf)
         {
             rb.velocity = Vector3.zero;
+
+            // Set the npcName and npcProfile when Chat is set active
+            if (chat.gameObject.activeSelf)
+            {
+                chat.npcName = npcName;
+                chat.npcProfile = npcProfile;
+            }
             return;
         }
 
