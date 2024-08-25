@@ -5512,7 +5512,7 @@ GameObject:
   - component: {fileID: 3992736683623981003}
   - component: {fileID: 1271396005587893091}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: NPCBadrul
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
