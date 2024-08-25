@@ -15,8 +15,9 @@ public class UIChatMessage : MonoBehaviour
 
     public void Setup(GeminiContent content, bool isSystemPrompt, string npcName)
     {
-        if (content == null) {
-            content.Parts[0].Text = "I can't say anything to that!";
+        if (content == null || content.Parts == null || content.Parts.Length == 0) {
+            content = new GeminiContent();
+            content.Parts = new[] { new GeminiContentPart { Text = "I can't say anything to that!" } };
         };
         Texture2D image = new(1, 1);
         foreach (GeminiContentPart part in content.Parts)
@@ -44,3 +45,4 @@ public class UIChatMessage : MonoBehaviour
         _senderText.text = isSystemPrompt ? "System" : content.Role.ToString() == "User" ? "You" : npcName;
     }
 }
+
