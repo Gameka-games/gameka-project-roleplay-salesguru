@@ -10,6 +10,7 @@ using Uralstech.UGemini.Chat;
 using Uralstech.UGemini.Models;
 using Uralstech.UGemini.Schema;
 using Newtonsoft.Json;
+using System.Collections;
 
 public class MultiTurnChatManager : MonoBehaviour
 {
@@ -23,6 +24,13 @@ public class MultiTurnChatManager : MonoBehaviour
     [SerializeField] private Slider _trustSlider;
     [SerializeField] private GameObject _patiencePanel;
     [SerializeField] private GameObject _productPanel;
+    [SerializeField] private GameObject _closeDealPanel;
+    [SerializeField] private GameObject _dealPanel;
+    [SerializeField] private Text _dealPanelText;
+    [SerializeField] private Button _proposeButton;
+    [SerializeField] private Text _proposeButtonText;
+
+
 
 
     private readonly List<GeminiContent> _chatHistory = new();
@@ -88,6 +96,8 @@ public class MultiTurnChatManager : MonoBehaviour
 
         _patiencePanel.SetActive(false);
         _productPanel.SetActive(false);
+        _closeDealPanel.SetActive(false);
+        _dealPanel.SetActive(false);
 
         _systemMessages[0] = npcProfile + @".
             The text from the start to before this sentence was you introducing yourself. 
@@ -223,7 +233,7 @@ public class MultiTurnChatManager : MonoBehaviour
             if (_phase == 1) 
             {
                 _trustPoints += (int.Parse(responseTextExpression) - 1) * 2;
-                if (_trustPoints >= npcTrustPoints)
+                if (_trustPoints >= npcTrustPoints / 2)
                 {
                     Debug.Log("You want to close the deal!");
                 }
@@ -236,6 +246,9 @@ public class MultiTurnChatManager : MonoBehaviour
             _trustSlider.gameObject.SetActive(false);
             _patienceSlider.maxValue = npcPatiencePoints;
             _patienceSlider.value = (float)_patiencePoints;
+
+            _proposeButtonText.text = "Propose";
+
         }
 
         if (_phase == 1) {
@@ -244,10 +257,35 @@ public class MultiTurnChatManager : MonoBehaviour
             _trustSlider.gameObject.SetActive(true);
             _trustSlider.maxValue = npcTrustPoints;
             _trustSlider.value = (float)_trustPoints;
+
+            _proposeButton.onClick.RemoveAllListeners();
+            _proposeButton.onClick.AddListener(() => {
+                Debug.Log("Clicked!");
+                _closeDealPanel.SetActive(true);
+
+                Invoke(nameof(HideCloseDealPanel), 5f);
+            });
+
+            
+            _proposeButtonText.text = "Close Deal";
         }      
         
         Debug.Log($"Response Expression: {responseTextExpression}");
         Debug.Log($"Response Explanation: {responseTextExplanation}");
+    }
+
+    void HideCloseDealPanel()
+    {
+        _closeDealPanel.SetActive(false);
+
+        _dealPanelText.text = "Try harder next time.";
+
+        if (_trustPoints >= npcTrustPoints / 2)
+        {
+            _dealPanelText.text = "Congratulations, you have closed the deal!";
+        }
+
+        _dealPanel.SetActive(true);
     }
 
     public void SetRole(int role)
@@ -310,16 +348,23 @@ public class MultiTurnChatManager : MonoBehaviour
 
     private void OnDisable()
     {
+        _phase = 0;
+        _proposeButton.onClick.RemoveAllListeners();
+
         _patiencePanel.SetActive(false);
         _productPanel.SetActive(false);
+        _closeDealPanel.SetActive(false);
+        _dealPanel.SetActive(false);
+        _patienceSlider.gameObject.SetActive(false);
+        // _trustSlider.gameObject.SetActive(false);
 
-        // _chatHistory.Clear();
-        // _uploadedData.Clear();
+        _chatHistory.Clear();
+        _uploadedData.Clear();
 
-        // foreach (Transform child in _chatMessages)
-        // {
-        //     Destroy(child.gameObject);
-        // }
+        foreach (Transform child in _chatMessages)
+        {
+            Destroy(child.gameObject);
+        }
     }
 
     public void PatienceOut() 
