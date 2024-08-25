@@ -19,6 +19,8 @@ public class MultiTurnChatManager : MonoBehaviour
     [SerializeField] private Transform _chatMessages;
     [SerializeField] private GameObject _chatMessagePrefab;
     [SerializeField] private ScrollRect _chatScrollRect;
+    [SerializeField] private Slider _patienceSlider;
+    [SerializeField] private Slider _trustSlider;
 
     private readonly List<GeminiContent> _chatHistory = new();
     private readonly List<GeminiContentPart> _uploadedData = new();
@@ -95,7 +97,7 @@ public class MultiTurnChatManager : MonoBehaviour
             return;
 
         string[] _phaseMessages = new string[2];
-        _phaseMessages[0] = "If this is not the first question: Have I been asking the same question to " + npcName + " or did I ask about something that was already explained? Respond with only a yes or a no, cannot respond with anything else. Answer must realy be just 'yes' or 'no'!!! If you can't answer, say 'no'! Stay within the allowed responses or the code will not work!";
+        _phaseMessages[0] = "If this is not the first question: Am I offensive or have I been asking the same question to " + npcName + " or did I ask about something that was already explained, or am I being annoying or rude to " + npcName + "? Respond with only a yes or a no, cannot respond with anything else. Answer must realy be just 'yes' or 'no'!!! If you can't answer, say 'no'! Stay within the allowed responses or the code will not work!";
         _phaseMessages[1] = "How factually real-world accurate was my answer and relevance to the product proposed, how consistent? On a scale of 0 to 3, respond strictly one of the numbers. If my answer is irrelevant or gibberish, answer -1. Respond only with one of these numbers or else the code will break!";
 
         GeminiContent phaseGauge = GeminiContent.GetContent(_phaseMessages[_phase], GeminiRole.User);
@@ -186,11 +188,21 @@ public class MultiTurnChatManager : MonoBehaviour
             }
         }
 
-        if (_phase == 0)
+        if (_phase == 0) {
             Debug.Log($"Patience: {_patiencePoints}");
+            _patienceSlider.gameObject.SetActive(true);
+            _trustSlider.gameObject.SetActive(false);
+            _patienceSlider.maxValue = npcPatiencePoints;
+            _patienceSlider.value = (float)_patiencePoints;
+        }
 
-        if (_phase == 1)
+        if (_phase == 1) {
             Debug.Log($"Trust: {_trustPoints}");
+            _patienceSlider.gameObject.SetActive(false);
+            _trustSlider.gameObject.SetActive(true);
+            _trustSlider.maxValue = npcTrustPoints;
+            _trustSlider.value = (float)_trustPoints;
+        }      
         
         Debug.Log($"Response Expression: {responseTextExpression}");
         Debug.Log($"Response Explanation: {responseTextExplanation}");
