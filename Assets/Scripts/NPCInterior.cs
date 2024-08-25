@@ -9,6 +9,10 @@ public class NPCInterior : MonoBehaviour
     [TextArea(10, 20)]
     [SerializeField]
     public string npcProfile;
+    [SerializeField]
+    public int npcPatiencePoints = 20;
+    [SerializeField]
+    public int npcTrustPoints = 30;
 
     private Rigidbody rb;
     private Vector3 targetPosition;

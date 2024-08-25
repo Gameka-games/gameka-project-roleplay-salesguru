@@ -25,22 +25,31 @@ public class MultiTurnChatManager : MonoBehaviour
 
     public string npcName;
     public string npcProfile;
+    private int npcPatiencePoints;
+    private int npcTrustPoints;
 
-    private string[] systemMessages = new string[2];
-    private int phase = 0;
+    private string[] _systemMessages = new string[2];
+    private int _phase = 0;
     private GeminiContent _systemPrompt = null;
 
     private GeminiRole _senderRole = GeminiRole.User;
     private bool _settingSystemPrompt = false;
 
-    private int _patiencePoints = 10;
+    private int _patiencePoints = 50;
+    private int _trustPoints = 0;
+    
 
     private void OnEnable() 
     {
         npcName = gameObject.transform.parent.GetComponent<NPCInterior>().npcName;
         npcProfile = gameObject.transform.parent.GetComponent<NPCInterior>().npcProfile;
+        npcPatiencePoints = gameObject.transform.parent.GetComponent<NPCInterior>().npcPatiencePoints;
+        npcTrustPoints = gameObject.transform.parent.GetComponent<NPCInterior>().npcTrustPoints;
 
-        systemMessages[phase] = npcProfile + @".
+        _patiencePoints = npcPatiencePoints;
+        _trustPoints = 0;
+
+        _systemMessages[0] = npcProfile + @".
             The text from the start to before this sentence was you introducing yourself. 
             You are this person, I am NOT this person, that was you. 
             You must respond only as this person and no one else. 
@@ -51,7 +60,7 @@ public class MultiTurnChatManager : MonoBehaviour
             Speak mostly Manglish and or some Malay. You are Malaysian with an extremely Malaysian accent.
         ";
 
-        systemMessages[1] = systemMessages [0];
+        _systemMessages[1] = _systemMessages [0];
         
 
         Chat("You are looking for a financial product for your investment. Greet me and introduce yourself. Start the conversation.", true);
@@ -67,7 +76,7 @@ public class MultiTurnChatManager : MonoBehaviour
         _chatInput.text = string.Empty;
         GeminiContent addedContent;
 
-        _systemPrompt = GeminiContent.GetContent(systemMessages[phase]);
+        _systemPrompt = GeminiContent.GetContent(_systemMessages[_phase]);
         addedContent = GeminiContent.GetContent(text, _senderRole);
         if (_uploadedData.Count > 0)
         {
@@ -85,16 +94,20 @@ public class MultiTurnChatManager : MonoBehaviour
         if (_chatHistory.Count == 0)
             return;
 
-        GeminiContent phase1Gauge = GeminiContent.GetContent("Have I been asking the same question to " + npcName + " or did I ask about something that was already explained? Respond with only a yes or a no, cannot respond with anything else. Answer must realy be just 'yes' or 'no'!!! If you can't answer, say 'no'! Stay within the allowed responses or the code will not work!", GeminiRole.User);
-                
-        List<GeminiContent> phase1GaugeHistory = new();
+        string[] _phaseMessages = new string[2];
+        _phaseMessages[0] = "If this is not the first question: Have I been asking the same question to " + npcName + " or did I ask about something that was already explained? Respond with only a yes or a no, cannot respond with anything else. Answer must realy be just 'yes' or 'no'!!! If you can't answer, say 'no'! Stay within the allowed responses or the code will not work!";
+        _phaseMessages[1] = "How factually real-world accurate was my answer and relevance to the product proposed, how consistent? On a scale of 0 to 3, respond strictly one of the numbers. If my answer is irrelevant or gibberish, answer -1. Respond only with one of these numbers or else the code will break!";
 
-        phase1GaugeHistory.AddRange(_chatHistory);
-        phase1GaugeHistory.Add(phase1Gauge);
+        GeminiContent phaseGauge = GeminiContent.GetContent(_phaseMessages[_phase], GeminiRole.User);
+                
+        List<GeminiContent> phaseGaugeHistory = new();
+
+        phaseGaugeHistory.AddRange(_chatHistory);
+        phaseGaugeHistory.Add(phaseGauge);
 
         GeminiChatResponse responseJson = await GeminiManager.Instance.Request<GeminiChatResponse>(new GeminiChatRequest(GeminiModel.Gemini1_5Flash, _useBeta)
         {
-            Contents = phase1GaugeHistory.ToArray(),
+            Contents = phaseGaugeHistory.ToArray(),
             SystemInstruction = _systemPrompt,
             GenerationConfig = new GeminiGenerationConfiguration()
             {
@@ -152,13 +165,33 @@ public class MultiTurnChatManager : MonoBehaviour
         responseTextExpression = responseTextExpression?.ToLowerInvariant();
         if (responseTextExpression == "yes")
         {
-            _patiencePoints -= 2;
-            if (_patiencePoints <= 0)
+            if (_phase == 0) 
             {
-                Debug.Log("You have lost your patience!");
+                if (_patiencePoints > 0) _patiencePoints -= 2;
+                if (_patiencePoints <= 0)
+                {
+                    Debug.Log("You have lost your patience!");
+                }
             }
         }
-        Debug.Log($"Patience: {_patiencePoints}");
+        else if (int.TryParse(responseTextExpression, out _))
+        {
+            if (_phase == 1) 
+            {
+                _trustPoints += (int.Parse(responseTextExpression) - 1) * 2;
+                if (_trustPoints >= npcTrustPoints)
+                {
+                    Debug.Log("You want to close the deal!");
+                }
+            }
+        }
+
+        if (_phase == 0)
+            Debug.Log($"Patience: {_patiencePoints}");
+
+        if (_phase == 1)
+            Debug.Log($"Trust: {_trustPoints}");
+        
         Debug.Log($"Response Expression: {responseTextExpression}");
         Debug.Log($"Response Explanation: {responseTextExplanation}");
     }
@@ -206,8 +239,8 @@ public class MultiTurnChatManager : MonoBehaviour
             OnChat();
         }
     }
-    
-    public async void OnChat()
+
+    public void OnChat()
     {
         Chat(_chatInput.text);
     }
