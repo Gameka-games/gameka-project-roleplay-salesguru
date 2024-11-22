@@ -13,7 +13,11 @@ public class CameraOverworld : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (SystemInfo.deviceType == DeviceType.Desktop)
+        {
+            Screen.SetResolution(375, 812, false);
+            // Screen.SetResolution(810, 1824, false);
+        }    
     }
 
     // Update is called once per frame
