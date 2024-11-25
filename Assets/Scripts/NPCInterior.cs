@@ -27,6 +27,11 @@ public class NPCInterior : MonoBehaviour
     private MultiTurnChatManager chat;
 
     // Use this for initialization
+    void Awake() 
+    {
+        chat = GetComponentInChildren<MultiTurnChatManager>(includeInactive: true);
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -34,14 +39,13 @@ public class NPCInterior : MonoBehaviour
         startY = transform.position.y;
         nextChangeTime = Time.time + timeBetweenChanges;
 
-        // Find the Chat component
-        chat = transform.Find("Chat").GetComponent<MultiTurnChatManager>();
+        chat.gameObject.SetActive(false);
     }
 
     void Update()
     {
         // Stop moving if the child gameobject Chat is active
-        if (transform.Find("Chat").gameObject.activeSelf)
+        if (chat.gameObject.activeSelf)
         {
             rb.velocity = Vector3.zero;
 
@@ -108,7 +112,7 @@ public class NPCInterior : MonoBehaviour
         if (Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position) < 1f)
         {
             // Activate the Chat component
-            transform.Find("Chat").gameObject.SetActive(true);
+            chat.gameObject.SetActive(true);
         }
     }
 }

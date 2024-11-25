@@ -17,6 +17,10 @@ public class PlayerOverworld : MonoBehaviour
     {
         bool isTouching = Input.touchCount > 0;
         bool isClicking = Input.GetMouseButton(0);
+        
+        if (ProgressionManager.instance.PoppedUp) {
+            return;
+        }
 
         if (isTouching || isClicking)
         {

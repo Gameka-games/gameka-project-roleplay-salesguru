@@ -6,11 +6,19 @@ public class ProgressionManager : MonoBehaviour
 {
     public static ProgressionManager instance;
 
-    public Text moneyText;
-    public Text statusPointsText;
-
     public int money = 0;
     public int statusPoints = 0;
+    public int buildingStatusPointsCostPerTier = 10;
+    
+    public bool PoppedUp {
+        get {
+            return popUpPanelNotEnoughStatusPoints.activeSelf;
+        }
+    }
+
+    [SerializeField] private Text moneyText;
+    [SerializeField] private Text statusPointsText;
+    [SerializeField] private GameObject popUpPanelNotEnoughStatusPoints;
 
     public int Tier
     {
@@ -28,6 +36,21 @@ public class ProgressionManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+    
+    private void Start()
+    {
+        popUpPanelNotEnoughStatusPoints.SetActive(false); 
+    }
+    
+    public void ClosePopUp(GameObject popUp = null) {
+        GameObject _popUp = popUp ? popUp : popUpPanelNotEnoughStatusPoints;
+        _popUp.SetActive(false);
+    }
+
+    public void OpenPopUp(GameObject popUp = null) {
+        GameObject _popUp = popUp ? popUp : popUpPanelNotEnoughStatusPoints;
+        _popUp.SetActive(true);
     }
 
     public void EarnMoney(int amount)
