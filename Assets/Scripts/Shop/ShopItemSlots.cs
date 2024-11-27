@@ -7,8 +7,16 @@ using UnityEngine.UI;
 public class ShopItemSlots : MonoBehaviour
 {
     [SerializeField] private List<ShopItemScriptableObject> shopItems = new List<ShopItemScriptableObject>();
+    
+    private Shop shop;
 
-    void Start() {
+    void Awake() 
+    {
+       shop = GetComponentInParent<Transform>().GetComponentInParent<Shop>();
+    }
+
+    void Start() 
+    {
         Reload();
     }
 
@@ -58,6 +66,7 @@ public class ShopItemSlots : MonoBehaviour
                 _shopItemSlot.Buy(_shopItemSlot.Bought);
             }
         }
-        shopItemSlot.Select(!shopItemSlot.Selected);
+        int index = shopItemSlot.Select(!shopItemSlot.Selected);
+        shop.SelectItem(index);
     }
 }

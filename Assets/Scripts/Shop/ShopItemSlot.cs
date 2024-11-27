@@ -48,8 +48,10 @@ public class ShopItemSlot : MonoBehaviour
         }
     }
     
-    public void Select(bool selected = true) {
+    public int Select(bool selected = true) {
         selectedImage.enabled = selected;
+        int index = transform.GetSiblingIndex();
+        return index;
     }
     
     public void Buy(bool bought = true) {
