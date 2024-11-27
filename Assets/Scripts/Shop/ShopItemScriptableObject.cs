@@ -4,7 +4,7 @@ using UnityEngine;
 public class ShopItemScriptableObject : ScriptableObject
 {
     public string itemName;
-    public Sprite itemIcon;
+    public Sprite itemImage;
     public int cost;
     public int statusPoints;
     public string description;
