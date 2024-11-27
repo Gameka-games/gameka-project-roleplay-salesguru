@@ -8,6 +8,10 @@ public class BuildingEntrance : MonoBehaviour
 {
     private void OnMouseDown()
     {
+        if (ProgressionManager.instance.PoppedUp) {
+            return;
+        }
+
         TryLoadTargetScene();
     }
     public InteriorType targetInterior = InteriorType.Home;
@@ -24,6 +28,10 @@ public class BuildingEntrance : MonoBehaviour
     {
         if (SceneManager.sceneCount == 1 && SceneManager.GetActiveScene().name == "Overworld")
         {
+            if (ProgressionManager.instance.PoppedUp) {
+                return;
+            }
+
             float distance = Vector3.Distance(transform.position, player.transform.position);
             if (Input.touchCount > 0 && 
                 Input.touches[0].phase == TouchPhase.Began && 
