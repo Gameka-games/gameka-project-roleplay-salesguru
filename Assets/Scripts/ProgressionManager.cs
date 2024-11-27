@@ -12,13 +12,14 @@ public class ProgressionManager : MonoBehaviour
     
     public bool PoppedUp {
         get {
-            return popUpPanelNotEnoughStatusPoints.activeSelf;
+            return popUpPanelNotEnoughStatusPoints.activeSelf || popUpPanelShop.activeSelf;
         }
     }
 
     [SerializeField] private Text moneyText;
     [SerializeField] private Text statusPointsText;
     [SerializeField] private GameObject popUpPanelNotEnoughStatusPoints;
+    [SerializeField] private GameObject popUpPanelShop;
 
     public int Tier
     {
