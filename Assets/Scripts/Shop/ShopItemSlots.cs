@@ -17,10 +17,10 @@ public class ShopItemSlots : MonoBehaviour
 
     void Start() 
     {
-        Reload();
+       Reload();
     }
 
-    void Reload()
+    public void Reload()
     {
         for (int i = 0; i < shopItems.Count; i++)
         {

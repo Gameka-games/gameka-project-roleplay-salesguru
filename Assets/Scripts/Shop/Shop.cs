@@ -7,7 +7,12 @@ public class Shop : MonoBehaviour
     private int currentTab = 0;
     private int selectedItem = -1;
 
-    [SerializeField] private List<ShopItemSlots> tabs = new List<ShopItemSlots>();
+    [SerializeField] private List<GameObject> tabs = new List<GameObject>();
+
+    public int CurrentTab 
+    {
+       get { return currentTab;} 
+    }
 
     public void SwitchTab(int tab = -1) 
     {
@@ -15,13 +20,14 @@ public class Shop : MonoBehaviour
 
         for (int i = 0; i < tabs.Count; i++) 
         {
-            tabs[i].gameObject.SetActive(i == tab);
-            // if (tabs[i].Selected) {
-
-            // }
+            tabs[i].SetActive(i == tab);
+            if (tabs[i].activeSelf) { 
+                tabs[i].GetComponent<ShopItemSlots>().Reload();
+            }
         }
 
         currentTab = tab;
+        Debug.Log("Selected tab: " + currentTab);
     }
     
     public void SelectItem(int index = -1) 
@@ -30,7 +36,7 @@ public class Shop : MonoBehaviour
 
         selectedItem = index;
         
-        Debug.Log(selectedItem);
+        Debug.Log("Selected item: " + selectedItem);
     }
 
     void Awake ()
@@ -40,7 +46,7 @@ public class Shop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        SwitchTab(currentTab);
     }
 
     // Update is called once per frame
