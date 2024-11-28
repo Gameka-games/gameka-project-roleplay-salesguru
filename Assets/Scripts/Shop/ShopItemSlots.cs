@@ -7,6 +7,10 @@ using UnityEngine.UI;
 public class ShopItemSlots : MonoBehaviour
 {
     [SerializeField] private List<ShopItemScriptableObject> shopItems = new List<ShopItemScriptableObject>();
+    public List<ShopItemScriptableObject> ShopItems   
+    {
+        get { return shopItems; }
+    }
     
     private Shop shop;
 
@@ -17,15 +21,18 @@ public class ShopItemSlots : MonoBehaviour
 
     void Start() 
     {
-       Reload();
+       Reload(true);
     }
 
-    public void Reload()
+    public void Reload(bool reset = false)
     {
         for (int i = 0; i < shopItems.Count; i++)
         {
             if (transform.childCount > i)
             {
+                if (reset) {
+                    shopItems[i].bought = false;
+                }
                 ShopItemSlot shopItemSlot = transform.GetChild(i).GetComponent<ShopItemSlot>();
                 if (shopItemSlot == null) continue;
 

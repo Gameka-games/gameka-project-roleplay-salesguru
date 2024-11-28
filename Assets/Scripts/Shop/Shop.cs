@@ -13,6 +13,14 @@ public class Shop : MonoBehaviour
     {
        get { return currentTab;} 
     }
+    
+    public ShopItemScriptableObject SelectedItem 
+    {
+        get { 
+            if (selectedItem < 0 || selectedItem >= tabs[currentTab].GetComponent<ShopItemSlots>().ShopItems.Count) return null;
+            return tabs[currentTab].GetComponent<ShopItemSlots>().ShopItems[selectedItem];
+        }
+    }
 
     public void SwitchTab(int tab = -1) 
     {
@@ -37,6 +45,17 @@ public class Shop : MonoBehaviour
         selectedItem = index;
         
         Debug.Log("Selected item: " + selectedItem);
+    }
+    
+    public void Purchase() {
+        if (ProgressionManager.instance.money >= SelectedItem.cost && !SelectedItem.bought) {
+            ProgressionManager.instance.SpendMoney(SelectedItem.cost);
+            ProgressionManager.instance.EarnStatusPoints(SelectedItem.statusPoints);
+
+            SelectedItem.bought = true;
+            SwitchTab(currentTab);
+        }
+        Debug.Log(SelectedItem);
     }
 
     void Awake ()

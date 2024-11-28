@@ -42,6 +42,8 @@ public class ProgressionManager : MonoBehaviour
     private void Start()
     {
         popUpPanelNotEnoughStatusPoints.SetActive(false); 
+        moneyText.text = money.ToString();
+        statusPointsText.text = statusPoints.ToString();
     }
     
     public void ClosePopUp(GameObject popUp = null) {
@@ -62,7 +64,7 @@ public class ProgressionManager : MonoBehaviour
 
     public void SpendMoney(int amount)
     {
-        money -= amount;
+        money = Mathf.Max(0, money - amount);
         moneyText.text = money.ToString();
     }
 
