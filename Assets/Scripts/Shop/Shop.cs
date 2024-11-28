@@ -32,7 +32,7 @@ public class Shop : MonoBehaviour
         {
             tabs[i].SetActive(i == tab);
             if (tabs[i].activeSelf) { 
-                tabs[i].GetComponent<ShopItemSlots>().Reload();
+                StartCoroutine(tabs[i].GetComponent<ShopItemSlots>().Reload());
             }
         }
 
@@ -63,19 +63,5 @@ public class Shop : MonoBehaviour
             SwitchTab(currentTab);
         }
         Debug.Log(SelectedItem);
-    }
-
-    void Awake ()
-    {
-        for (int i = 0; i < tabs.Count; i++) 
-        {
-            tabs[i].GetComponent<ShopItemSlots>().Reload();
-        }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        gameObject.SetActive(false);
     }
 }

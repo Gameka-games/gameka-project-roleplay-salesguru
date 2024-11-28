@@ -21,13 +21,14 @@ public class ShopItemSlots : MonoBehaviour
 
     void Start() 
     {
-        Reload(true);
+        StartCoroutine(Reload(true));
     }
     
-    public void Reload(bool reset = false)
+    public IEnumerator Reload(bool reset = false)
     {
         for (int i = 0; i < shopItems.Count; i++)
         {
+            yield return null;
             if (transform.childCount > i)
             {
                 if (reset) {
