@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using NUnit.Framework;
 using UnityEngine;
 
 public class Shop : MonoBehaviour
@@ -25,6 +26,7 @@ public class Shop : MonoBehaviour
     public void SwitchTab(int tab = -1) 
     {
         if (tab == -1) tab = currentTab;
+        selectedItem = -1;
 
         for (int i = 0; i < tabs.Count; i++) 
         {
@@ -36,6 +38,11 @@ public class Shop : MonoBehaviour
 
         currentTab = tab;
         Debug.Log("Selected tab: " + currentTab);
+    }
+    
+    public void ResumeTab() 
+    {
+       SwitchTab(currentTab);
     }
     
     public void SelectItem(int index = -1) 
@@ -60,17 +67,15 @@ public class Shop : MonoBehaviour
 
     void Awake ()
     {
+        for (int i = 0; i < tabs.Count; i++) 
+        {
+            tabs[i].GetComponent<ShopItemSlots>().Reload();
+        }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        SwitchTab(currentTab);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        gameObject.SetActive(false);
     }
 }

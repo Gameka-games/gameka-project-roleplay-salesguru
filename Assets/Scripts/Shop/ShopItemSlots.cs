@@ -16,14 +16,14 @@ public class ShopItemSlots : MonoBehaviour
 
     void Awake() 
     {
-       shop = GetComponentInParent<Transform>().GetComponentInParent<Shop>();
+        shop = GetComponentInParent<Transform>().GetComponentInParent<Shop>();
     }
 
     void Start() 
     {
-       Reload(true);
+        Reload(true);
     }
-
+    
     public void Reload(bool reset = false)
     {
         for (int i = 0; i < shopItems.Count; i++)
