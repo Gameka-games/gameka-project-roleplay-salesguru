@@ -12,7 +12,9 @@ public class ProgressionManager : MonoBehaviour
     
     public bool PoppedUp {
         get {
-            return popUpPanelNotEnoughStatusPoints.activeSelf || popUpPanelShop.activeSelf;
+            return popUpPanelNotEnoughStatusPoints.activeSelf || 
+                   popUpPanelShop.activeSelf ||
+                   popUpPanelWin.activeSelf;
         }
     }
 
@@ -20,6 +22,9 @@ public class ProgressionManager : MonoBehaviour
     [SerializeField] private Text statusPointsText;
     [SerializeField] private GameObject popUpPanelNotEnoughStatusPoints;
     [SerializeField] private GameObject popUpPanelShop;
+    [SerializeField] private GameObject popUpPanelWin;
+    
+    private bool gameOver = false;
 
     public int Tier
     {
@@ -42,6 +47,8 @@ public class ProgressionManager : MonoBehaviour
     private void Start()
     {
         popUpPanelNotEnoughStatusPoints.SetActive(false); 
+        popUpPanelShop.SetActive(false);
+        popUpPanelWin.SetActive(false);
         moneyText.text = money.ToString();
         statusPointsText.text = statusPoints.ToString();
     }
@@ -72,6 +79,16 @@ public class ProgressionManager : MonoBehaviour
     {
         statusPoints += amount;
         statusPointsText.text = statusPoints.ToString();
+        
+        if (!gameOver) 
+        {
+            gameOver = statusPoints >= 100;
+            if (gameOver)  {
+                popUpPanelNotEnoughStatusPoints.SetActive(false);
+                popUpPanelShop.SetActive(false);
+                popUpPanelWin.SetActive(true);
+            }
+        }
     }
 
     public void Reset()
@@ -80,6 +97,13 @@ public class ProgressionManager : MonoBehaviour
         statusPoints = 0;
         moneyText.text = money.ToString();
         statusPointsText.text = statusPoints.ToString();
+    }
+    
+    public void Restart() 
+    {
+        Reset();
+        Destroy(instance);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
 
