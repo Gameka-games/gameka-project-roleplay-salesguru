@@ -51,14 +51,14 @@ public class PlayerInterior : MonoBehaviour
         {
             // Move towards target position
             Vector3 direction = (targetPosition - transform.position).normalized;
-            rb.velocity = direction * smoothSpeed * speed;
+            rb.linearVelocity = direction * smoothSpeed * speed;
 
             // Rotate towards target rotation
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         }
         else
         {
-            rb.velocity = Vector3.zero;
+            rb.linearVelocity = Vector3.zero;
         }
     }
 

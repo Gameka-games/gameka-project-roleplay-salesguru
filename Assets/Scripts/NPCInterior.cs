@@ -47,7 +47,7 @@ public class NPCInterior : MonoBehaviour
         // Stop moving if the child gameobject Chat is active
         if (chat.gameObject.activeSelf)
         {
-            rb.velocity = Vector3.zero;
+            rb.linearVelocity = Vector3.zero;
 
             // Set the npcName and npcProfile when Chat is set active
             if (chat.gameObject.activeSelf)
@@ -99,7 +99,7 @@ public class NPCInterior : MonoBehaviour
 
         // Move towards target position
         Vector3 direction = (targetPosition - transform.position).normalized;
-        rb.velocity = Vector3.Lerp(rb.velocity, direction * smoothSpeed * speed, 0.1f);
+        rb.linearVelocity = Vector3.Lerp(rb.linearVelocity, direction * smoothSpeed * speed, 0.1f);
 
         // Rotate towards target rotation
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);

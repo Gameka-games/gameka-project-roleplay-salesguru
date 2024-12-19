@@ -50,11 +50,11 @@ public class PlayerOverworld : MonoBehaviour
         // Move towards target position
         if (moveDirection != Vector3.zero)
         {
-            rb.velocity = moveDirection * speed;
+            rb.linearVelocity = moveDirection * speed;
         }
         else
         {
-            rb.velocity = Vector3.zero;
+            rb.linearVelocity = Vector3.zero;
         }
 
         // Smoothly rotate rigidbody to face moving direction

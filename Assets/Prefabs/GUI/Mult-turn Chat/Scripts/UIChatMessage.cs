@@ -3,9 +3,11 @@ using UnityEngine;
 using UnityEngine.UI;
 
 using Uralstech.UGemini;
-using Uralstech.UGemini.Chat;
 using Uralstech.UGemini.Models;
-using Uralstech.UGemini.Schema;
+using Uralstech.UGemini.Models.Content;
+using Uralstech.UGemini.Models.Generation;
+using Uralstech.UGemini.Models.Generation.Chat;
+using Uralstech.UGemini.Models.Generation.Schema;
 
 public class UIChatMessage : MonoBehaviour
 {
