@@ -102,6 +102,11 @@ public class NPCInterior : MonoBehaviour
         rb.linearVelocity = Vector3.Lerp(rb.linearVelocity, direction * smoothSpeed * speed, 0.1f);
 
         // Rotate towards target rotation
+        float angle = Quaternion.Angle(transform.rotation, targetRotation);
+        if (angle > 0.001f)
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime / angle);
+        }
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
 
