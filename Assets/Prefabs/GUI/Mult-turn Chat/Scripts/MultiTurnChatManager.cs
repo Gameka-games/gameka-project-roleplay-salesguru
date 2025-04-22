@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 using Uralstech.UGemini;
 using Uralstech.UGemini.Models;
@@ -13,6 +14,7 @@ using Uralstech.UGemini.Models.Generation.Chat;
 using Uralstech.UGemini.Models.Generation.Schema;
 using Newtonsoft.Json;
 using System.Collections;
+using System.Threading.Tasks;
 
 public class MultiTurnChatManager : MonoBehaviour
 {
@@ -31,9 +33,7 @@ public class MultiTurnChatManager : MonoBehaviour
     [SerializeField] private Text _dealPanelText;
     [SerializeField] private Button _proposeButton;
     [SerializeField] private Text _proposeButtonText;
-
-
-
+    [SerializeField] private TextMeshProUGUI _debugText;
 
     private readonly List<GeminiContent> _chatHistory = new();
     private readonly List<GeminiContentPart> _uploadedData = new();
@@ -83,13 +83,18 @@ public class MultiTurnChatManager : MonoBehaviour
         },
     };
 
+    private void UpdateDebugText(string text) {
+        _debugText.text =  "\n=============================\n" +text + "\n" + _debugText.text;
+    }
+
     private void Start() 
     {
-        OnEnable();
+        UpdateDebugText("Start");
+        UpdateDebugText("Patience: " + _patiencePoints + " Trust: " + _trustPoints);
         _interiorSceneData = GameObject.FindObjectOfType<InteriorSceneChooser>().data;
     }
 
-    private void OnEnable() 
+    private async void OnEnable() 
     {
         npcName = gameObject.transform.parent.GetComponent<NPCInterior>().npcName;
         npcProfile = gameObject.transform.parent.GetComponent<NPCInterior>().npcProfile;
@@ -97,7 +102,10 @@ public class MultiTurnChatManager : MonoBehaviour
         npcTrustPoints = gameObject.transform.parent.GetComponent<NPCInterior>().npcTrustPoints;
 
         _patiencePoints = npcPatiencePoints;
+        UpdateDebugText("npcPatiencePoints: " + npcPatiencePoints);
+
         _trustPoints = 0;
+        UpdateDebugText("npcTrustPoints: " + npcTrustPoints);
 
         _patiencePanel.SetActive(false);
         _productPanel.SetActive(false);
@@ -112,24 +120,29 @@ public class MultiTurnChatManager : MonoBehaviour
             Always be brief with a personality unless asked for details. 
             NEVER respond as an AI or some assistant, never say the word chatbot, you are ALWAYS only as this person. 
             Never be a programming language interpreter. Never answer like a machine.
-            Speak mostly Manglish and or some Malay. You are Malaysian with an extremely Malaysian accent.
+            Speak mostly English. You are Malaysian with an extremely Malaysian accent.
         ";
 
         _systemMessages[1] = _systemMessages[0];
         
         // if chathistory is empty
-        if (_chatHistory.Count == 0)
-        {
-            Chat("You are looking for a financial product for your investment. Greet me and introduce yourself. Start the conversation.", true);
-        }
+        // if (_chatHistory.Count == 0)
+        // {
+            await Chat("You are looking for a financial product for your investment. Greet me and introduce yourself. Start the conversation.", true);
+        // }
+
+        UpdateDebugText("OnEnable");
+        UpdateDebugText("Patience: " + _patiencePoints + " Trust: " + _trustPoints);
     }
 
-    private async void Chat(string text, bool isHidden = false) {
-        if (string.IsNullOrWhiteSpace(text))
-        {
-            Debug.LogError("Chat text should not be null or whitespace!");
-            return;
-        }
+    private async Task Chat(string text, bool isHidden = false) {
+        // if (string.IsNullOrWhiteSpace(text))
+        // {
+        //     Debug.LogError("Chat text should not be null or whitespace!");
+        //     return;
+        // }
+
+        UpdateDebugText("Chat: " + text);
 
         _chatInput.text = string.Empty;
         GeminiContent addedContent;
@@ -144,13 +157,14 @@ public class MultiTurnChatManager : MonoBehaviour
         
         _chatHistory.Add(addedContent);
     
-    
+        UpdateDebugText("ChatHistory count: " + _chatHistory.Count);
+
         if (!isHidden)
         AddMessage(addedContent, _settingSystemPrompt);
 
         _settingSystemPrompt = false;
-        if (_chatHistory.Count == 0)
-            return;
+        // if (_chatHistory.Count == 0)
+        //     return;
 
         string[] _phaseMessages = new string[2];
         _phaseMessages[0] = "If this is not the first question: Am I offensive or have I been asking the same question to " + npcName + " or did I ask about something that was already explained, or am I being annoying or rude to " + npcName + "? Respond with only a yes or a no, cannot respond with anything else. Answer must realy be just 'yes' or 'no'!!! If you can't answer, say 'no'! Stay within the allowed responses or the code will not work!";
@@ -194,13 +208,14 @@ public class MultiTurnChatManager : MonoBehaviour
         });
 
         Debug.Log($"Response: {JsonConvert.SerializeObject(responseJson, Formatting.Indented)}");
-
+        UpdateDebugText("Response: " + JsonConvert.SerializeObject(responseJson, Formatting.Indented));
         
         GeminiChatResponse response = await GeminiManager.Instance.Request<GeminiChatResponse>(new GeminiChatRequest(GeminiModel.Gemini1_5Flash, _useBeta)
         {
             Contents = _chatHistory.ToArray(),
             SystemInstruction = _systemPrompt,
         });
+        UpdateDebugText("Awaiting response (system prompt)");
 
         // if (responseJson.Candidates[0].Content != null) 
         // {
@@ -211,14 +226,21 @@ public class MultiTurnChatManager : MonoBehaviour
         _chatHistory.Add(response.Candidates[0].Content);
         AddMessage(response.Candidates[0].Content);
 
-        string responseTextExpression = null;
-        string responseTextExplanation = null;
-        if (responseJson.Candidates[0].Content != null) 
+        UpdateDebugText("ChatHistory count again: " + _chatHistory.Count);
+
+        string responseTextExpression = string.Empty;
+        string responseTextExplanation = string.Empty;
+        if (responseJson.Candidates[0].Content != null)
         {
-            dynamic responseTextDynamic = JsonConvert.DeserializeObject(responseJson.Candidates[0].Content.Parts[0].Text);
-            responseTextExpression = responseTextDynamic.expression?.Value ?? "";
-            responseTextExplanation = responseTextDynamic.explanation?.Value ?? "";
+            var responseTextDynamic = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseJson.Candidates[0].Content.Parts[0].Text);
+            responseTextDynamic.TryGetValue("expression", out object expressionObj);
+            responseTextDynamic.TryGetValue("explanation", out object explanationObj);
+            responseTextExpression = expressionObj?.ToString() ?? string.Empty;
+            responseTextExplanation = explanationObj?.ToString() ?? string.Empty;
         }
+
+        UpdateDebugText("Expression: " + responseTextExpression);
+        UpdateDebugText("Explanation: " + responseTextExplanation);
 
         responseTextExpression = responseTextExpression?.ToLowerInvariant();
         if (responseTextExpression == "yes")
@@ -245,12 +267,16 @@ public class MultiTurnChatManager : MonoBehaviour
             }
         }
 
+        UpdateDebugText("Phase: " + _phase);
+
         if (_phase == 0) {
             Debug.Log($"Patience: {_patiencePoints}");
             _patienceSlider.gameObject.SetActive(true);
             _trustSlider.gameObject.SetActive(false);
             _patienceSlider.maxValue = npcPatiencePoints;
-            _patienceSlider.value = (float)_patiencePoints;
+            _patienceSlider.value = _patiencePoints;
+
+            UpdateDebugText("Patience: " + _patiencePoints + " Trust: " + _trustPoints);
 
             _proposeButtonText.text = "Propose";
 
@@ -261,7 +287,9 @@ public class MultiTurnChatManager : MonoBehaviour
             _patienceSlider.gameObject.SetActive(false);
             _trustSlider.gameObject.SetActive(true);
             _trustSlider.maxValue = npcTrustPoints;
-            _trustSlider.value = (float)_trustPoints;
+            _trustSlider.value = _trustPoints;
+
+            UpdateDebugText("Patience: " + _patiencePoints + " Trust: " + _trustPoints);
 
             _proposeButton.onClick.RemoveAllListeners();
             _proposeButton.onClick.AddListener(() => {

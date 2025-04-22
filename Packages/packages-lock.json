@@ -15,7 +15,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.22",
+      "version": "2.0.23",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -92,23 +92,23 @@
       }
     },
     "com.uralstech.ucloud.operations": {
-      "version": "1.1.5",
+      "version": "1.1.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.uralstech.utils.singleton": "1.1.1",
+        "com.uralstech.utils.singleton": "1.2.1",
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.modules.unitywebrequest": "1.0.0"
       },
       "url": "https://package.openupm.com"
     },
     "com.uralstech.ugemini": {
-      "version": "2.3.0-preview.5",
+      "version": "2.3.0-preview.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.uralstech.utils.singleton": "1.1.1",
-        "com.uralstech.ucloud.operations": "1.1.5",
+        "com.uralstech.utils.singleton": "1.2.1",
+        "com.uralstech.ucloud.operations": "1.1.6",
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0"
@@ -116,14 +116,14 @@
       "url": "https://package.openupm.com"
     },
     "com.uralstech.utils.singleton": {
-      "version": "1.1.1",
+      "version": "1.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
     "com.utilities.async": {
-      "version": "2.2.1",
+      "version": "2.2.2",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -134,22 +134,23 @@
       "url": "https://package.openupm.com"
     },
     "com.utilities.audio": {
-      "version": "2.0.2",
+      "version": "2.2.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
+        "com.unity.modules.androidjni": "1.0.0",
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.unitywebrequestaudio": "1.0.0",
-        "com.utilities.async": "2.2.1"
+        "com.utilities.async": "2.2.2"
       },
       "url": "https://package.openupm.com"
     },
     "com.utilities.encoder.wav": {
-      "version": "2.0.2",
+      "version": "2.2.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.utilities.audio": "2.0.2"
+        "com.utilities.audio": "2.2.3"
       },
       "url": "https://package.openupm.com"
     },
