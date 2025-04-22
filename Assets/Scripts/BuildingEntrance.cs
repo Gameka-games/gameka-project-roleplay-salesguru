@@ -46,14 +46,13 @@ public class BuildingEntrance : MonoBehaviour
 
     private void TryLoadTargetScene()
     {
-        if (ProgressionManager.instance.statusPoints < 
-            ProgressionManager.instance.buildingStatusPointsCostPerTier * (tier - 1)) {
-            ProgressionManager.instance.OpenPopUp();
-            return;
-        }
-
-        if (IsRaycastHit(out RaycastHit hit) && hit.transform.gameObject == gameObject)
-        {
+        if (IsRaycastHit(out RaycastHit hit) && hit.transform.gameObject == gameObject) {
+            if (ProgressionManager.instance.statusPoints < 
+                ProgressionManager.instance.buildingStatusPointsCostPerTier * (tier - 1)) {
+                ProgressionManager.instance.OpenPopUp();
+                return;
+            }
+            
             LoadTargetScene();
         }
     }
